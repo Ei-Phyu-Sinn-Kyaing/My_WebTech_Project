@@ -1,0 +1,162 @@
+
+    body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: radial-gradient(circle at top, #111633, #0a0e27 70%);
+    color: white;
+}
+
+/* Stars */
+.stars-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Nav */
+
+/* Oracle Layout */
+.oracle-page {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 3rem;
+    padding: 4rem;
+    align-items: start;
+}
+
+/* User Info Card */
+.user-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.3);
+    width: 200px;
+    position: relative;
+    top: -50px;
+    padding: 1rem;
+    border-radius: 8px;
+    backdrop-filter: blur(6px);
+}
+
+.user-card span {
+    color: #dcdcdc;
+}
+
+/* Card Area */
+.card-area {
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-left: -350px;
+    padding: 0px;
+}
+
+/* circle select button */
+.circle-btn {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    /* transition: 0.3s; */
+     /* to make animation smooth */
+    transition: transform 0.6s ease-in-out;  
+   
+}
+
+.circle-btn:hover {
+    box-shadow: 0 0 20px white;
+}
+
+.rotate{
+    transform: rotate(360deg);
+}
+
+
+
+/* card Container */
+.card-Container {
+    display: flex;
+    justify-content: center;
+    gap: -20px;
+    margin-bottom: 2rem;
+}
+
+.tarot-placeholder {
+    width: 80px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin-left: -10px;
+    transform: rotate(-10deg);
+    transition: transform 0.3s ease;
+    background: rgba(255,255,255,0.03);
+}
+
+.tarot-placeholder:hover {
+    box-shadow: 0 0 10px rgba(255,255,255,0.8);
+   transform: rotate(-5deg) translateY(-10px);
+}
+
+
+
+.tarot-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* keeps nice proportions */
+    border-radius: 12px; /* optional mystical softness */
+}
+
+.tarot-placeholder.selected{
+    transform: translateY(-20px)
+    rotate(-1deg) !important;
+    border-color: gold;
+    box-shadow: 0 0 20px gold;
+}
+
+/* main button */
+.primary-btn {
+    background: linear-gradient(135deg, white, #e6e6e6);
+    color: #0a0e27;
+    padding: 1rem 2.5rem;
+    border: none;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(255,255,255,0.4);
+}
+
+.primary-btn:hover {
+    box-shadow: 0 0 30px rgba(255,255,255,0.8);
+}
+
+
+
+/*  Footer */
+/* footer {
+    margin-top: 4rem;
+    padding: 3rem;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    background: rgba(10,14,39,0.9);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.github-box {
+    width: 80px;
+    height: 60px;
+    border: 1px solid white;
+    margin: 1rem auto;
+}
+
+copyright {
+    text-align: center;
+    margin-top: 2rem;
+    color: #ccc;
+} */

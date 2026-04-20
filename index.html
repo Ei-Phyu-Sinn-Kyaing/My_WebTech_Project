@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celestial Tarot Oracle</title>
+
+ <!-- External CSS -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+<div class="stars" id="stars"></div>
+
+<!-- navbar section -->
+ <header>
+    <div id="navbar"></div>
+</header>
+
+<main>
+<section class="upper-container">
+    <h1>Discover Your Cosmic Destiny</h1>
+    <button class="cta-main" onclick="location.href='oracle.html'">Start Your Reading</button>
+</section>
+
+
+<!-- CATEGORY GRID -->
+<section class="category-container">
+<div class="categories">
+
+    <div class="category">
+        <a href="oracle.html?category=love">
+        <img src="img/tarot_img1.jpg">
+        <button>Love</button>
+        </a>
+    </div>
+
+    <div class="category">
+        <a href="oracle.html?category=career">
+        <img src="img/tarot_img2.jpg">
+        <button>Career</button>
+        </a>
+    </div>
+
+    <div class="category">
+        <a href="oracle.html?category=financial">
+        <img src="img/tarot_img1.jpg">
+        <button>Financial</button>
+        </a>
+    </div>
+
+    <div class="category">
+        <a href="oracle.html?category=wellbeing">
+        <img src="img/tarot_img2.jpg">
+        <button>Wellbeing</button>
+        </a>
+    </div>
+
+</div>
+</section>
+
+<!-- JOURNEY -->
+<section class="journey-container">
+<h2>Your Journey Guide</h2>
+
+<div class="step">
+<div class="step-number">1</div>
+<div>Center your energy and focus your question.</div>
+</div>
+
+<div class="step">
+<div class="step-number">2</div>
+<div>Select the spread aligned to your intention.</div>
+</div>
+
+<div class="step">
+<div class="step-number">3</div>
+<div>Receive cosmic guidance from the cards.</div>
+</div>
+
+<div class="step">
+<div class="step-number">4</div>
+<div>Reflect and integrate insights into your path.</div>
+</div>
+
+</section>
+
+</main>
+
+<!-- footer section -->
+<div id="footer"></div>
+
+<script src="js/navfooter.js"></script>
+
+<script>
+/* STAR GENERATOR (optimized) */
+const starContainer = document.getElementById("stars");
+
+function createStars(count=120){
+    starContainer.innerHTML="";
+    for(let i=0;i<count;i++){
+        const s=document.createElement("div");
+        s.className="star";
+        s.style.left=Math.random()*100+"%";
+        s.style.top=Math.random()*100+"%";
+        s.style.animationDelay=Math.random()*3+"s";
+        starContainer.appendChild(s);
+    }
+}
+
+createStars();
+window.addEventListener("resize",()=>createStars());
+</script>
+
+</body>
+</html>

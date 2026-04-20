@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celestial Tarot — Synthesis</title>
+<link rel="stylesheet" href="css/synthesis.css">
+</head>
+
+<body>
+
+<main>
+<div class="stars-container"></div>
+
+<!--Navbar-->
+<div id="navbar"></div>
+
+<!-- Synthesis Section -->
+ <section class="synthesis-section">
+
+    <div id="card-results-container"></div>
+
+    <div class="final-message">
+        <h1>Synthesized Reading</h1>
+        <p id="final-synthesis-text">
+            Aligning your destiny with the stars...
+        </p>
+    </div>
+
+</section>
+
+
+
+<div class="action-buttons">
+    <button class="primary-btn" onclick="location.href='index.html'">Return Home</button>
+    <button class="primary-btn" onclick="location.href='oracle.html'">Start New Reading</button>
+    <button class="primary-btn" onclick="saveReading()">Save Reading</button>
+</div>
+
+</main>
+
+<!-- Footer -->
+<div id="footer"></div>
+
+<script src="js/navfooter.js"></script>
+<script src="js/synthesize_logic.js"></script>
+<script src="js/save_reading_logic.js"></script>
+
+</body>
+</html>

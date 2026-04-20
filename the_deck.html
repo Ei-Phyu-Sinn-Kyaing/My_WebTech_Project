@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celestial Tarot — Oracle</title>
+<link rel="stylesheet" href="css/deck.css">
+
+</head>
+
+<body>
+
+<main>
+<!-- Stars Background -->
+<div class="stars-container"></div>
+
+<!-- Navigation -->
+<div id="navbar"></div>
+
+
+<!-- Main Oracle Section -->
+<section class="oracle-page">
+
+    <!-- User Info Card -->
+    <div class="user-card">
+        <p><span>Name :</span><span id="displayName">Loading...</span></p>
+        <p><span>Zodiac :</span><span id="displayZodiac">Loading...</span></p>
+        <p><span>Category :</span><span id="displayCategory">Loading...</span></p>
+    </div>
+
+    <!-- Card Selection Area -->
+    <div class="card-area">
+        <h3>Select 3 Cards</h3>
+
+        <button class="circle-btn" id="shufflebutton">Shuffle</button>
+
+        <div class="card-Container" id="cardContainer">
+            <!-- <div class="tarot-placeholder"><img src="img/tarot_img1.jpg" alt="Tarot card" /></div>
+            <div class="tarot-placeholder"><img src="img/tarot_img1.jpg" alt="Tarot card" /></div>
+            <div class="tarot-placeholder"><img src="img/tarot_img1.jpg" alt="Tarot card" /></div> -->
+        </div>
+
+        <button class="primary-btn" onclick="location.href='synthesis.html'">Synthesize Reading</button>
+    </div>
+
+</section>
+
+</main>
+<!-- Footer -->
+<div id="footer"></div>
+
+<script src="js/navfooter.js"></script>
+
+<script src="js/shuffle_logic.js"></script>
+<script src="js/display.js"></script>
+<script src="js/reading_logic.js"></script>
+
+</body>
+</html>
+
+
+
+
+<!-- <script>
+    const button = document.getElementById('shufflebutton');
+    
+    let tarotDeck = []; // JSON ကလာမယ့် data ကို သိမ်းဖို့ variable
+
+// ၁။ အစပိုင်းမှာ JSON data ကို အရင် Fetch လုပ်ထားမယ်
+fetch('cards.json')
+    .then(response => response.json())
+    .then(data => {
+        tarotDeck = data;
+        console.log("Deck Loaded and Ready!");
+    });
+
+// ၂။ Button နှိပ်တဲ့အခါ Animation ရော Shuffle ရော လုပ်မယ်
+    button.addEventListener('click', function() {
+    // Animation အတွက် class ထည့်မယ်
+    button.classList.toggle('rotate');
+
+    // Shuffle Algorithm ကို ခေါ်မယ်
+    if (tarotDeck.length > 0) {
+        const shuffledResult = shuffleTarotDeck(tarotDeck);
+        
+        // အလုပ်လုပ်မလုပ် Console မှာ စစ်ကြည့်မယ်
+        console.log("Button Clicked - New Shuffled Order:", shuffledResult.map(c => c.name));
+        
+        // ဒီနေရာမှာ နောက်ပိုင်းကျရင် UI ကို update လုပ်မယ့် function ထည့်လို့ရတယ်
+        // updateUI(shuffledResult); 
+    }
+});
+</script> -->
+

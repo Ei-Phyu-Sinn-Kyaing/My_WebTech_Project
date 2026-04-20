@@ -1,0 +1,2290 @@
+[
+  {
+    "id": 0,
+    "name": "The Fool",
+    "image": "img/the_fool.jpg",
+    "upright_keywords": ["Innocence", "New Beginnings", "Free Spirit", "Leap of Faith"],
+    "reversed_keywords": ["Recklessness", "Risk-taking", "Inconsideration", "Stupidity"],
+    "full_description": "The Fool stands at the edge of a cliff, gazing toward the sky, oblivious to the precipice beneath his feet. He represents the purest form of potential—the moment before a journey begins when anything is possible. This card is an invitation to embrace your inner child, to trust the universe implicitly, and to take that leap of faith even if you cannot see where you will land. It is the archetype of the wanderer, the dreamer, and the soul unburdened by the weight of the past or the fear of the future. In a reading, it suggests that you are at the start of a profound spiritual or life cycle where personal growth is inevitable if you remain open to the unknown.",
+    "upright_short_meaning": "A fresh start and new adventures are on the horizon. Trust the universe.",
+    "reversed_short_meaning": "Be cautious of acting impulsively or without thinking through the consequences.",
+    "meanings": {
+      "love": {
+        "upright": "A new romantic adventure is coming. Be open to spontaneous and unconventional connections.",
+        "reversed": "Be careful of impulsive decisions in love or falling for someone without seeing the red flags."
+      },
+      "career": {
+        "upright": "A fresh start in your professional life. A new job or business opportunity is opening up.",
+        "reversed": "Double-check the details before jumping into a new venture; you might be lacking the necessary experience."
+      },
+      "financial": {
+        "upright": "Unexpected financial opportunities may arise. Stay optimistic but stay grounded.",
+        "reversed": "Avoid risky investments or overspending on whims that offer no long-term security."
+      },
+      "wellbeing": {
+        "upright": "Energy levels are high. It's an excellent time to start a new health or fitness routine.",
+        "reversed": "Watch out for minor accidents caused by a lack of focus or general carelessness."
+      }
+    }
+  },
+
+  {
+    "id": 1,
+    "name": "The Magician",
+    "image": "img/the_magician.jpg",
+    "upright_keywords": ["Manifestation", "Resourcefulness", "Power", "Inspired Action"],
+    "reversed_keywords": ["Manipulation", "Poor Planning", "Untapped Talents", "Trickery"],
+    "full_description": "The Magician is the bridge between the world of spirit and the world of humanity. With one hand pointing to the heavens and the other to the earth, he represents the phrase 'as above, so below.' This card is a powerful omen of manifestation, signaling that you have all the tools—intellect, emotion, and physical resources—to turn your visions into reality. It is about the mastery of willpower and the alignment of your desires with the divine. When The Magician appears, the universe is providing you with a green light to act. You are the architect of your own destiny, and the energy around you is ripe for creation and success.",
+    "upright_short_meaning": "You have everything you need to succeed. It's time to take action and manifest your goals.",
+    "reversed_short_meaning": "You might be feeling blocked or using your influence for the wrong reasons. Beware of illusions.",
+    "meanings": {
+      "love": {
+        "upright": "You have the charm and magnetic power to attract the love you desire. A very positive time for romance.",
+        "reversed": "Be honest in your communication; someone may be using manipulation rather than true emotion."
+      },
+      "career": {
+        "upright": "A great time to launch a project. You have the skills required and the drive to succeed.",
+        "reversed": "You might be lacking the focus needed, or you are wasting your talents on the wrong path."
+      },
+      "financial": {
+        "upright": "Financial manifestation is strong. Your creative efforts and hard work will pay off.",
+        "reversed": "Be careful of deceptive schemes, 'get rich quick' ideas, or hidden financial risks."
+      },
+      "wellbeing": {
+        "upright": "Mental clarity and physical vitality are strong. Focus on holistic and intentional healing.",
+        "reversed": "You might be experiencing stress due to feeling out of control or misusing your energy."
+      }
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "The High Priestess",
+    "image": "img/the_high_priestess.jpg",
+    "upright_keywords": ["Intuition", "Sacred Knowledge", "Subconscious Mind", "Mystery"],
+    "reversed_keywords": ["Secrets", "Disconnected from Intuition", "Withdrawal", "Silence"],
+    "full_description": "The High Priestess sits at the threshold of the conscious and subconscious mind. She is the guardian of secrets and the silent observer of the soul's mysteries. Unlike The Magician who acts, The High Priestess waits and listens. She represents the divine feminine and the wisdom that comes from stillness and introspection. This card suggests that the answers you seek are not found in the external world, but within your own intuition and dreams. It is a time for patience, for looking past the surface of things, and for trusting the 'gut feelings' that defy logic. She is the whisper in the dark that guides you toward your highest truth.",
+    "upright_short_meaning": "Listen to your inner voice and trust your instincts. The answers are within you.",
+    "reversed_short_meaning": "You are ignoring your intuition or there are hidden secrets you aren't seeing yet.",
+    "meanings": {
+      "love": {
+        "upright": "A deep, soulful, and perhaps psychic connection is possible. Trust your feelings about a partner.",
+        "reversed": "Hidden secrets or repressed emotions might be causing distance in your relationship."
+      },
+      "career": {
+        "upright": "Wait for the right moment. Not everything is as it seems; look for hidden information.",
+        "reversed": "Information is being withheld from you at work. Avoid making major decisions right now."
+      },
+      "financial": {
+        "upright": "Keep your financial plans private for now. Trust your intuition regarding investments.",
+        "reversed": "Hidden costs or fine print might cause issues later. Do your research thoroughly."
+      },
+      "wellbeing": {
+        "upright": "Listen to what your body is telling you. Intuitive healing and meditation are key.",
+        "reversed": "Ignoring symptoms or mental fatigue. You need to stop, rest, and reconnect with yourself."
+      }
+    }
+  },
+
+  {
+    "id": 3,
+    "name": "The Empress",
+    "image": "img/the_empress.jpg",
+    "upright_keywords": ["Abundance", "Nurturing", "Fertility", "Nature"],
+    "reversed_keywords": ["Creative Block", "Dependence", "Suffocation", "Emptiness"],
+    "full_description": "The Empress is the Great Mother, the embodiment of the Earth itself and all the abundance it provides. She sits on a throne surrounded by lush nature, representing the birth of ideas, beauty, and life. This card is a sign of immense creativity and the nurturing power required to bring projects or relationships to fruition. She encourages you to connect with your senses—to appreciate art, good food, and the beauty of the natural world. The Empress reminds you that you are worthy of luxury and comfort. Whether it's a physical birth or the birth of a new creative venture, her presence promises growth, harmony, and material stability.",
+    "upright_short_meaning": "A time of growth, abundance, and creativity. Nurture yourself and your ideas.",
+    "reversed_short_meaning": "You may be struggling with a creative block or neglecting your own needs for others.",
+    "meanings": {
+      "love": {
+        "upright": "A period of deep romance and nurturing love. Could signal a stable, long-term commitment.",
+        "reversed": "Possessiveness or lack of self-love may be straining your romantic connections."
+      },
+      "career": {
+        "upright": "Your creative projects will thrive. A nurturing environment at work leads to success.",
+        "reversed": "Work may feel uninspiring or you are feeling overwhelmed by a lack of progress."
+      },
+      "financial": {
+        "upright": "Financial security and abundance are flowing toward you. A good time for growth.",
+        "reversed": "Be careful of overspending on luxuries to fill an emotional void."
+      },
+      "wellbeing": {
+        "upright": "Vitality is high. A great time for self-care, spa treatments, or grounding in nature.",
+        "reversed": "Low energy or feeling disconnected from your body. Focus on nourishing yourself."
+      }
+    }
+  },
+
+  {
+    "id": 4,
+    "name": "The Emperor",
+    "image": "img/the_emperor.jpg",
+    "upright_keywords": ["Authority", "Structure", "Stability", "Father-figure"],
+    "reversed_keywords": ["Tyranny", "Rigidity", "Lack of Discipline", "Powerlessness"],
+    "full_description": "The Emperor is the archetype of the Divine Masculine—the ruler, the protector, and the provider. He sits on a stone throne decorated with rams' heads, symbolizing leadership and determination. This card represents the need for structure, logic, and order in your life. Where The Empress is about the flow of nature, The Emperor is about the establishment of law and boundaries. He calls you to step into your power, to take charge of your circumstances, and to lead with a firm but fair hand. It is a message that success will come through discipline, strategy, and a solid foundation rather than through emotion or chaos.",
+    "upright_short_meaning": "Establish order and take control. Logic and discipline will lead you to success.",
+    "reversed_short_meaning": "Avoid being overly controlling or rigid. A lack of structure may lead to failure.",
+    "meanings": {
+      "love": {
+        "upright": "A stable, structured, and protective relationship. Logic plays a part in your love life.",
+        "reversed": "Power struggles or an overbearing partner may be causing tension in the bond."
+      },
+      "career": {
+        "upright": "Promotion or a position of authority. Your leadership skills are being recognized.",
+        "reversed": "A difficult boss or a lack of career direction is making things feel chaotic."
+      },
+      "financial": {
+        "upright": "Solid financial planning and discipline. Your wealth is stable and growing.",
+        "reversed": "Poor money management or a lack of control over your spending habits."
+      },
+      "wellbeing": {
+        "upright": "A disciplined health routine will bring results. Strength and resilience are key.",
+        "reversed": "Over-exerting yourself or ignoring a structured health plan. Don't be too hard on yourself."
+      }
+    }
+  },
+
+  {
+    "id": 5,
+    "name": "The Hierophant",
+    "image": "img/the_hierophant.jpg",
+    "upright_keywords": ["Tradition", "Conformity", "Education", "Spiritual Wisdom"],
+    "reversed_keywords": ["Rebellion", "Originality", "New Methods", "Unorthodoxy"],
+    "full_description": "The Hierophant serves as the guardian of tradition and the interpreter of sacred knowledge. He represents established systems, whether they be religious, educational, or social. This card suggests that you may find guidance and wisdom by sticking to proven methods or seeking advice from a mentor or institution. It is about the shared values of a community and the importance of ceremony and structure in spiritual growth. While The High Priestess explores the inner world, The Hierophant teaches the outer, formal paths to knowledge. It is a call to learn the rules before you decide to break them and to honor the heritage that came before you.",
+    "upright_short_meaning": "Seek guidance from traditional sources or mentors. Honor established systems.",
+    "reversed_short_meaning": "Time to break the rules and forge your own path. Challenge the status quo.",
+    "meanings": {
+      "love": {
+        "upright": "A traditional relationship or marriage. Shared values and beliefs are important.",
+        "reversed": "A relationship that defies social norms or a disagreement over core values."
+      },
+      "career": {
+        "upright": "Success within a large organization or school. Follow the established protocols.",
+        "reversed": "Feeling restricted by bureaucracy; you may want to start your own unconventional business."
+      },
+      "financial": {
+        "upright": "Stick to traditional, low-risk investments. Save money through proven methods.",
+        "reversed": "Taking a financial risk or investing in something unconventional and new."
+      },
+      "wellbeing": {
+        "upright": "Traditional medicine and routine check-ups are advised. Stick to a proven diet.",
+        "reversed": "Exploring alternative healing methods or breaking away from a standard health routine."
+      }
+    }
+  },
+
+  {
+    "id": 6,
+    "name": "The Lovers",
+    "image": "img/the_lovers.jpg",
+    "upright_keywords": ["Love", "Harmony", "Relationships", "Choices"],
+    "reversed_keywords": ["Disharmony", "Imbalance", "Misalignment", "Poor Choices"],
+    "full_description": "The Lovers represent the union of dualities—masculine and feminine, conscious and subconscious, heart and mind. While often associated with romantic love, this card is fundamentally about choice and alignment. It signifies a crossroads where you must decide what truly matters to you and what your core values are. The angel Raphael hovers above the couple, suggesting a divine blessing on a union or a decision made with integrity. This card asks you to act from a place of love and harmony rather than fear. It is about finding wholeness through another person or through the integration of different aspects of your own self.",
+    "upright_short_meaning": "Harmony in relationships and important choices. Align with your true values.",
+    "reversed_short_meaning": "Inner conflict or a lack of harmony in a partnership. Re-evaluate your choices.",
+    "meanings": {
+      "love": {
+        "upright": "A beautiful, balanced partnership. Deep connection and mutual attraction.",
+        "reversed": "A misalignment of values or a relationship that is out of balance. Communication is failing."
+      },
+      "career": {
+        "upright": "A successful business partnership or a choice between two career paths you enjoy.",
+        "reversed": "Conflict at work or a difficult decision that may lead to a loss of harmony in the office."
+      },
+      "financial": {
+        "upright": "A decision regarding money that requires balance. Possible joint financial venture.",
+        "reversed": "Irresponsible spending or a financial choice made for the wrong emotional reasons."
+      },
+      "wellbeing": {
+        "upright": "Finding balance between mental and physical health. Harmony in your body.",
+        "reversed": "Physical imbalance or emotional stress impacting your health. Seek harmony within."
+      }
+    }
+  },
+
+  {
+    "id": 7,
+    "name": "The Chariot",
+    "image": "img/the_chariot.jpg",
+    "upright_keywords": ["Victory", "Determination", "Willpower", "Control"],
+    "reversed_keywords": ["Lack of Control", "Aggression", "Directionless", "Hostility"],
+    "full_description": "The Chariot is a symbol of triumph through sheer willpower and discipline. The figure in the chariot does not use reins; instead, he controls the two opposing sphinxes with his mind and his wand. This signifies that victory comes not from brute force, but from the mastery of conflicting internal emotions and external obstacles. It is a card of movement and fast-paced energy. When The Chariot appears, it is a call to maintain your focus, stay determined, and steer your life with confidence. You are being encouraged to overcome challenges by asserting your ego and staying true to your destination, regardless of the distractions along the way.",
+    "upright_short_meaning": "Success is within reach if you maintain focus and self-discipline. Keep moving forward.",
+    "reversed_short_meaning": "You may feel like you’ve lost control of a situation. Re-evaluate your direction.",
+    "meanings": {
+      "love": {
+        "upright": "A time to take charge of your love life. It may indicate a whirlwind romance or overcoming relationship hurdles together.",
+        "reversed": "An obsession with control might be damaging your relationship. Slow down and communicate."
+      },
+      "career": {
+        "upright": "High ambition and drive will lead to a major breakthrough. You are in the driver's seat of your career.",
+        "reversed": "You might be pushing too hard or lack the necessary plan to reach your professional goals."
+      },
+      "financial": {
+        "upright": "Fast financial progress is possible. A good time to overcome debts or financial obstacles.",
+        "reversed": "Impulsive spending or rushing into a large purchase without thinking it through."
+      },
+      "wellbeing": {
+        "upright": "You have the motivation to conquer health issues. Physical strength and stamina are high.",
+        "reversed": "Burnout from pushing yourself too hard. You need to find a balance between effort and rest."
+      }
+    }
+  },
+
+  {
+    "id": 8,
+    "name": "Strength",
+    "image": "img/strength.jpg",
+    "upright_keywords": ["Courage", "Persuasion", "Influence", "Compassion"],
+    "reversed_keywords": ["Self-Doubt", "Weakness", "Insecurity", "Raw Emotion"],
+    "full_description": "Strength is not represented by a warrior in armor, but by a woman calmly taming a powerful lion. This card emphasizes that true power lies in 'soft' control—patience, love, and quiet fortitude. It is the ability to face life's fiercest challenges with a calm heart and an iron will. Strength suggests that you have the inner resilience to endure any hardship without losing your kindness. It is about mastering your animal instincts and choosing grace over aggression. When this card appears, it reminds you that you are much stronger than you give yourself credit for, and that your persistence will eventually quiet the roars of doubt within you.",
+    "upright_short_meaning": "Face your fears with courage and compassion. Inner strength is your greatest asset.",
+    "reversed_short_meaning": "You may be feeling vulnerable or lacking the confidence to stand up for yourself.",
+    "meanings": {
+      "love": {
+        "upright": "A relationship built on mutual respect and emotional maturity. Compassion will heal any rift.",
+        "reversed": "Insecurity or emotional outbursts may be causing friction. Work on your self-esteem first."
+      },
+      "career": {
+        "upright": "Your quiet confidence is earning you respect. You can influence others through persuasion rather than force.",
+        "reversed": "You might be doubting your abilities at work. Don't let imposter syndrome hold you back."
+      },
+      "financial": {
+        "upright": "Controlled spending and financial resilience. You have the discipline to reach your savings goals.",
+        "reversed": "Compulsive financial decisions driven by fear or a lack of self-control."
+      },
+      "wellbeing": {
+        "upright": "Vitality is returning. A focus on mental and physical endurance will bring long-term health.",
+        "reversed": "Physical or emotional exhaustion. You need to nurture your spirit to regain your strength."
+      }
+    }
+  },
+
+  {
+    "id": 9,
+    "name": "The Hermit",
+    "image": "img/the_hermit.jpg",
+    "upright_keywords": ["Soul-searching", "Introspection", "Guidance", "Solitude"],
+    "reversed_keywords": ["Isolation", "Loneliness", "Withdrawal", "Misanthropy"],
+    "full_description": "The Hermit stands alone on a mountain peak, holding a lantern that contains a six-pointed star. He represents the path of the seeker—someone who turns away from the noise of the material world to find the truth within. This card is an invitation to take a step back and enter a period of introspection. It is not a time for social action, but for spiritual reflection. The Hermit knows that the wisdom you seek cannot be taught by others; it must be discovered through silence and solitude. He is the light in the darkness, showing you that by knowing yourself, you will eventually find the way forward in the outer world.",
+    "upright_short_meaning": "Take time for self-reflection. The answers you seek are found in the stillness.",
+    "reversed_short_meaning": "You may be isolating yourself too much or avoiding the truth about a situation.",
+    "meanings": {
+      "love": {
+        "upright": "A period of reflection about what you truly want in a partner. Taking a break from dating to heal.",
+        "reversed": "Loneliness in a relationship or being too emotionally withdrawn from your partner."
+      },
+      "career": {
+        "upright": "Evaluating your career path. You may need to seek advice from a mentor or take a sabbatical.",
+        "reversed": "Feeling disconnected from your work or ignoring valuable professional advice."
+      },
+      "financial": {
+        "upright": "A time to be cautious and wise with money. Material wealth is not your priority right now.",
+        "reversed": "Missing financial details because you're too focused on the wrong things. Re-engage with your budget."
+      },
+      "wellbeing": {
+        "upright": "Rest and meditation are essential. Your soul needs as much care as your body.",
+        "reversed": "Neglecting your mental health through excessive isolation or overthinking."
+      }
+    }
+  },
+
+  {
+    "id": 10,
+    "name": "Wheel of Fortune",
+    "image": "img/wheel_of_fortune.jpg",
+    "upright_keywords": ["Good Luck", "Karma", "Life Cycles", "Destiny"],
+    "reversed_keywords": ["Bad Luck", "Resistance to Change", "Breaking Cycles"],
+    "full_description": "The Wheel of Fortune reminds us that life is in a constant state of flux. Nothing stays the same forever—the only constant is change. This card represents the cycles of the universe and the hand of fate. When the wheel turns in your favor, you experience breakthroughs and sudden strokes of luck. However, it also serves as a reminder to stay humble during the highs, as the wheel will inevitably turn again. It is a highly karmic card, suggesting that what you have sown, you shall now reap. It encourages you to lean into the changes rather than fighting them, trusting that the universe has a grand design for your evolution.",
+    "upright_short_meaning": "A turning point is coming. Trust the timing of your life and embrace the change.",
+    "reversed_short_meaning": "You are struggling against inevitable changes. Let go of what you cannot control.",
+    "meanings": {
+      "love": {
+        "upright": "A fated meeting or a positive shift in your relationship. Luck is on your side.",
+        "reversed": "External factors are disrupting your love life. It feels like bad timing for romance."
+      },
+      "career": {
+        "upright": "A sudden promotion or a new opportunity. A lucky break in your professional journey.",
+        "reversed": "Unexpected setbacks or delays in your career. This cycle will pass; stay patient."
+      },
+      "financial": {
+        "upright": "Financial luck is improving. An unexpected gain or a positive turn in your investments.",
+        "reversed": "Financial instability or a sudden expense. Be careful with your resources during this dip."
+      },
+      "wellbeing": {
+        "upright": "A positive change in health. Your energy is aligning with the natural cycles of the earth.",
+        "reversed": "Temporary health setbacks. Don't fight the need for rest; adapt to your body's rhythm."
+      }
+    }
+  },
+
+  {
+    "id": 11,
+    "name": "Justice",
+    "image": "img/justice.jpg",
+    "upright_keywords": ["Fairness", "Truth", "Law", "Cause and Effect"],
+    "reversed_keywords": ["Unfairness", "Dishonesty", "Lack of Accountability"],
+    "full_description": "Justice sits before a purple veil, holding a sword in one hand and scales in the other. She represents the objective truth and the law of karma—every action has a consequence. This card is about balance and accountability. It suggests that a situation will be resolved fairly and that the truth will ultimately come to light. Justice is not interested in emotions or excuses; she looks only at the facts. If you have been wronged, this card promises vindication. If you have done wrong, it calls for you to take responsibility. It is a reminder to act with integrity and to ensure that your life is in equilibrium.",
+    "upright_short_meaning": "Truth will prevail. Be honest and take responsibility for your actions.",
+    "reversed_short_meaning": "Injustice or a refusal to see the truth. You may be avoiding consequences.",
+    "meanings": {
+      "love": {
+        "upright": "A relationship that is fair and balanced. If you are single, you will attract what you give out.",
+        "reversed": "Unfair treatment in love or a lack of balance between partners. Someone is being dishonest."
+      },
+      "career": {
+        "upright": "Contracts, legal matters, or disputes will be settled in a fair way. Hard work is rewarded.",
+        "reversed": "Unfair criticism at work or a lack of accountability for a mistake. Watch out for legal snags."
+      },
+      "financial": {
+        "upright": "Legal financial matters are resolved. A balanced budget leads to peace of mind.",
+        "reversed": "Unfair financial dealings or a warning to be more honest about your spending habits."
+      },
+      "wellbeing": {
+        "upright": "Restoring balance to your health. Your body is reacting directly to your lifestyle choices.",
+        "reversed": "An imbalance in your life is affecting your health. You need to address the root cause."
+      }
+    }
+  },
+
+  {
+    "id": 12,
+    "name": "The Hanged Man",
+    "image": "img/the_hanged_man.jpg",
+    "upright_keywords": ["Pause", "Surrender", "New Perspective", "Sacrifice"],
+    "reversed_keywords": ["Stalling", "Resistance", "Apathy", "Indecision"],
+    "full_description": "The Hanged Man hangs upside down from a T-shaped tree, but his expression is peaceful, and a halo shines around his head. He represents the paradox of finding power through surrender. Sometimes, the only way to move forward is to stop completely. This card suggests a voluntary pause—a time to look at the world from a different angle. It often requires a sacrifice of something old to gain a new spiritual insight. It is not a card of suffering, but of suspended animation, where you wait for the right moment to act. The Hanged Man teaches us that by letting go of our need to control, we actually gain the clarity we need to succeed.",
+    "upright_short_meaning": "Pause and look at things from a new perspective. Surrender to the present moment.",
+    "reversed_short_meaning": "You are resisting a necessary pause or feeling stuck in a stalemate. Stop stalling.",
+    "meanings": {
+      "love": {
+        "upright": "Taking a step back to see your relationship clearly. Patience is required right now.",
+        "reversed": "Feeling stuck in a stagnant relationship. You might be making unnecessary sacrifices."
+      },
+      "career": {
+        "upright": "A temporary delay in plans. Use this time to brainstorm and refine your strategy.",
+        "reversed": "Procrastination or feeling like your career is at a dead end. You're waiting without a purpose."
+      },
+      "financial": {
+        "upright": "A period of financial waiting. Avoid making major moves; just observe and plan.",
+        "reversed": "Wasting resources on a situation that isn't moving. A sacrifice that doesn't pay off."
+      },
+      "wellbeing": {
+        "upright": "A time for rest and recovery. Viewing your health challenges from a new angle.",
+        "reversed": "Ignoring the need for a break. Your body is forcing you to slow down, but you are resisting."
+      }
+    }
+  },
+
+  {
+    "id": 13,
+    "name": "Death",
+    "image": "img/death.jpg",
+    "upright_keywords": ["Endings", "Change", "Transformation", "Transitions"],
+    "reversed_keywords": ["Resistance to Change", "Stagnation", "Decay", "Personal Purge"],
+    "full_description": "Death is perhaps the most misunderstood card in the Tarot. It rarely represents physical death; instead, it signals the end of a major phase or aspect of your life that is no longer serving you. A skeletal knight rides a white horse, symbolizing that death comes to everyone, regardless of rank. This card is about the necessity of endings to make room for new beginnings. It is the 'winter' of the soul—a period where you must let go of the old self to be reborn. When Death appears, it is a powerful message to stop resisting the inevitable and to embrace the transformation that is taking place. Only by clearing away the dead wood can new growth emerge.",
+    "upright_short_meaning": "A major phase of your life is ending. Embrace the change and prepare for a rebirth.",
+    "reversed_short_meaning": "You are clinging to the past and resisting a necessary transition. Let go to move forward.",
+    "meanings": {
+      "love": {
+        "upright": "A significant shift in a relationship or the end of a partnership that has run its course.",
+        "reversed": "Holding onto a dead relationship out of fear or failing to change old habits that hurt your bond."
+      },
+      "career": {
+        "upright": "A career transition, leaving a job, or the conclusion of a major project. A fresh start awaits.",
+        "reversed": "Staying in a stagnant job because you fear the unknown. You are delaying the inevitable."
+      },
+      "financial": {
+        "upright": "A change in your financial status. You may need to let go of old spending habits to survive.",
+        "reversed": "Financial loss due to an inability to adapt to new circumstances. Stop the drain."
+      },
+      "wellbeing": {
+        "upright": "A transformation in your health. Shedding old, unhealthy patterns for a new lifestyle.",
+        "reversed": "Refusing to acknowledge a health issue or staying stuck in a cycle of poor recovery."
+      }
+    }
+  },
+
+  {
+    "id": 14,
+    "name": "Temperance",
+    "image": "img/temperance.jpg",
+    "upright_keywords": ["Balance", "Moderation", "Patience", "Purpose"],
+    "reversed_keywords": ["Imbalance", "Excess", "Lack of Vision", "Hastiness"],
+    "full_description": "Temperance depicts an angel pouring liquid between two golden cups, representing the alchemy of life. This card is about finding the 'middle way' and practicing extreme patience. It suggests that you are learning to bring balance to your emotions and your external circumstances. Temperance is the calm after the storm of Death; it is the integration of opposites into a harmonious whole. It calls for moderation in all things—avoiding extremes and staying grounded. When this card appears, it is a sign that you are on the right path to spiritual and emotional health, provided you stay calm and act with purpose rather than impulse.",
+    "upright_short_meaning": "Find balance and harmony in your life. Practice patience and moderation in all things.",
+    "reversed_short_meaning": "You are living in extremes. Re-evaluate your choices and find your center again.",
+    "meanings": {
+      "love": {
+        "upright": "A harmonious, balanced relationship built on mutual understanding and calm communication.",
+        "reversed": "Conflict caused by a lack of balance. One partner may be giving too much or acting erratically."
+      },
+      "career": {
+        "upright": "Stability at work. You are successfully balancing different tasks and maintaining a steady pace.",
+        "reversed": "Work-life imbalance or rushing through projects without quality control. Slow down."
+      },
+      "financial": {
+        "upright": "A balanced budget and careful money management. Financial peace through moderation.",
+        "reversed": "Imbalance in spending. You might be using 'retail therapy' to solve emotional issues."
+      },
+      "wellbeing": {
+        "upright": "Good health through a balanced diet and lifestyle. Your energy is in equilibrium.",
+        "reversed": "Physical issues caused by excess—whether it's overworking, overeating, or lack of sleep."
+      }
+    }
+  },
+
+  {
+    "id": 15,
+    "name": "The Devil",
+    "image": "img/the_devil.jpg",
+    "upright_keywords": ["Shadow Self", "Attachment", "Addiction", "Restriction"],
+    "reversed_keywords": ["Releasing Control", "Detachment", "Breaking Free", "Restoration"],
+    "full_description": "The Devil represents the darker side of the human experience—the chains we forge ourselves through addiction, materialism, and negative thought patterns. He sits above two figures who are chained to his pedestal, yet if you look closely, the chains are loose. They could leave at any time, but they choose to stay. This card is a mirror to your shadow self, showing you where you are enslaved by your own desires or fears. It is about the illusion of being trapped. The Devil asks you to identify the 'vices' or toxic cycles that are holding you back and to realize that you hold the key to your own liberation.",
+    "upright_short_meaning": "You are feeling trapped by your own habits or attachments. Break the chains of the ego.",
+    "reversed_short_meaning": "You are beginning to see the truth and are ready to break free from toxic cycles.",
+    "meanings": {
+      "love": {
+        "upright": "An intense, perhaps obsessive or toxic attraction. Codependency is a major theme here.",
+        "reversed": "Breaking free from a toxic relationship or realizing that a bond was based on lust rather than love."
+      },
+      "career": {
+        "upright": "Feeling trapped in a job you hate or being overly focused on status and money at any cost.",
+        "reversed": "Regaining control over your professional life and letting go of a job that was soul-crushing."
+      },
+      "financial": {
+        "upright": "Debt, overspending, or being 'owned' by your material possessions. Financial slavery.",
+        "reversed": "Paying off debts and realizing that money doesn't define your worth. Freedom from greed."
+      },
+      "wellbeing": {
+        "upright": "Issues with addiction or unhealthy physical habits. You are neglecting your spiritual health.",
+        "reversed": "Recovering from a bad habit or addiction. Choosing health over temporary pleasure."
+      }
+    }
+  },
+
+  {
+    "id": 16,
+    "name": "The Tower",
+    "image": "img/the_tower.jpg",
+    "upright_keywords": ["Sudden Change", "Upheaval", "Chaos", "Revelation"],
+    "reversed_keywords": ["Delaying Disaster", "Fear of Change", "Avoiding Ruin"],
+    "full_description": "The Tower is a card of sudden, shocking change. Lightening strikes a tall tower, crumbling its foundations and sending its inhabitants falling. This represents the destruction of structures built on false pretenses or weak foundations. While it feels terrifying, The Tower is actually a blessing in disguise—it clears away the lies and illusions that were holding you back. It is a 'forced' awakening. When The Tower appears, expect the unexpected. A truth will be revealed, a system will break, or a situation will collapse. It is the universe's way of saying that you cannot build a healthy future on a broken past.",
+    "upright_short_meaning": "A sudden upheaval is coming. Let the old structures fall so you can build something true.",
+    "reversed_short_meaning": "You are avoiding a necessary crisis. The collapse is coming; don't fight it.",
+    "meanings": {
+      "love": {
+        "upright": "A sudden breakup or a shocking revelation about a partner. The relationship's foundation is tested.",
+        "reversed": "A relationship that is falling apart slowly. You are trying to avoid the inevitable split."
+      },
+      "career": {
+        "upright": "Sudden job loss, a failed project, or a massive shift in company structure. Expect chaos.",
+        "reversed": "Narrowly avoiding a disaster at work, but the underlying issues are still present."
+      },
+      "financial": {
+        "upright": "A financial shock or a sudden loss of income. A warning to prepare for the worst.",
+        "reversed": "Financial instability that you are trying to hide. A temporary reprieve from bankruptcy."
+      },
+      "wellbeing": {
+        "upright": "A sudden illness or injury that forces you to change your life. A wake-up call for your health.",
+        "reversed": "Ignoring symptoms of a brewing health crisis. You are avoiding a necessary medical visit."
+      }
+    }
+  },
+
+  {
+    "id": 17,
+    "name": "The Star",
+    "image": "img/the_star.jpg",
+    "upright_keywords": ["Hope", "Faith", "Purpose", "Renewal"],
+    "reversed_keywords": ["Lack of Faith", "Despair", "Discouragement", "Disconnection"],
+    "full_description": "After the chaos of The Tower, The Star arrives as a beacon of hope and healing. A woman kneels by a pool, pouring water back into the earth and the water, symbolizing a continuous flow of inspiration and spiritual renewal. This card represents a period of calm and clarity after a time of struggle. It is a reminder that you are protected by the universe and that your soul is being restored. The Star doesn't offer practical solutions; it offers the faith and vision needed to keep going. It is a sign that you are entering a time of peace, where your inner light will shine brighter than ever before.",
+    "upright_short_meaning": "Hope and healing are here. Trust your path and keep your faith in the future.",
+    "reversed_short_meaning": "You are feeling hopeless or disconnected from your purpose. Seek the light within.",
+    "meanings": {
+      "love": {
+        "upright": "A time of healing in your love life. If you are single, a soulful connection is on the horizon.",
+        "reversed": "Feeling discouraged about love. You may have lost faith in finding the right partner."
+      },
+      "career": {
+        "upright": "Inspiration is returning to your work. Your creative projects are blessed with success.",
+        "reversed": "A lack of motivation or a feeling that your career goals are out of reach. Stay inspired."
+      },
+      "financial": {
+        "upright": "Financial hope is restored. You are moving toward a time of stability and abundance.",
+        "reversed": "Pessimism regarding money. You feel like you'll never reach your financial goals."
+      },
+      "wellbeing": {
+        "upright": "Deep emotional and physical healing. Your energy is being replenished by the universe.",
+        "reversed": "Mental fatigue or a lack of spiritual connection. You need to reconnect with your 'why'."
+      }
+    }
+  },
+
+  {
+    "id": 18,
+    "name": "The Moon",
+    "image": "img/the_moon.jpg",
+    "upright_keywords": ["Illusion", "Fear", "Anxiety", "Intuition"],
+    "reversed_keywords": ["Release of Fear", "Clarity", "Truth Revealed", "Confusion"],
+    "full_description": "The Moon represents the realm of shadows, dreams, and the subconscious. It is a card of mystery where things are not as they seem. Under the moonlight, familiar paths look strange, and hidden fears emerge from the water. This card suggests that you may be experiencing confusion or anxiety, perhaps because you are dealing with illusions or half-truths. It is a call to trust your intuition over your logic, as the 'dark' part of your mind knows things your conscious mind does not. The Moon warns you to be careful of deception and to wait until the sun rises before making major decisions.",
+    "upright_short_meaning": "Things are not what they seem. Trust your intuition to guide you through the darkness.",
+    "reversed_short_meaning": "The fog is lifting. Truths are being revealed and your fears are subsiding.",
+    "meanings": {
+      "love": {
+        "upright": "Uncertainty or hidden secrets in a relationship. One partner may be hiding their true feelings.",
+        "reversed": "A period of confusion in love is ending. Misunderstandings are finally cleared up."
+      },
+      "career": {
+        "upright": "A lack of clarity in your career path. Beware of office politics or hidden agendas.",
+        "reversed": "Seeing the truth about a work situation. A confusing project finally becomes clear."
+      },
+      "financial": {
+        "upright": "Hidden risks in investments. Be careful of financial deals that sound too good to be true.",
+        "reversed": "Discovering a financial error or seeing through a deceptive money scheme."
+      },
+      "wellbeing": {
+        "upright": "Mental health struggles or vivid, confusing dreams. Your subconscious is trying to speak.",
+        "reversed": "Recovering from anxiety or mental fog. A return to clarity and emotional stability."
+      }
+    }
+  },
+
+  {
+    "id": 19,
+    "name": "The Sun",
+    "image": "img/the_sun.jpg",
+    "upright_keywords": ["Positivity", "Success", "Vitality", "Joy"],
+    "reversed_keywords": ["Lack of Enthusiasm", "Vagueness", "Sadness", "Unrealistic Expectations"],
+    "full_description": "The Sun is the most positive card in the Tarot deck. A large, bright sun shines over a child riding a white horse, symbolizing the pure joy and innocence of the human spirit. This card represents a time of absolute clarity, success, and abundance. Everything is coming into the light, and the obstacles that once seemed insurmountable have vanished. The Sun brings vitality and warmth to every area of your life—relationships, health, and career. It is a reminder that you are radiant and capable of achieving greatness. When this card appears, it is a sign that you are being blessed with the energy to manifest your highest potential and celebrate your achievements.",
+    "upright_short_meaning": "Success and happiness are yours. Everything is becoming clear and bright.",
+    "reversed_short_meaning": "You are struggling to see the bright side. Reconnect with your inner child and joy.",
+    "meanings": {
+      "love": {
+        "upright": "A period of great joy, passion, and transparency in love. A very happy partnership.",
+        "reversed": "Small clouds are blocking your happiness. You may be taking your partner for granted."
+      },
+      "career": {
+        "upright": "Excellence and recognition at work. You are shining in your field and reaching your goals.",
+        "reversed": "Success is delayed or you are feeling uninspired. You need to regain your confidence."
+      },
+      "financial": {
+        "upright": "Financial abundance and stability. Your investments and hard work are bearing fruit.",
+        "reversed": "Temporary financial worries that are not as bad as they seem. Stay optimistic."
+      },
+      "wellbeing": {
+        "upright": "Radiant health and high energy. You are feeling physically and mentally vibrant.",
+        "reversed": "A slight dip in energy or health. You need more sunlight, literally and metaphorically."
+      }
+    }
+  },
+
+  {
+    "id": 20,
+    "name": "Judgement",
+    "image": "img/judgement.jpg",
+    "upright_keywords": ["Awakening", "Rebirth", "Absolution", "Calling"],
+    "reversed_keywords": ["Self-Doubt", "Refusal of Self-Examination", "Stagnation"],
+    "full_description": "Judgement depicts the Archangel Gabriel blowing a trumpet, calling souls to rise from their graves. This is not a card of punishment, but of awakening and transformation. It represents a 'reckoning' where you look back at your past actions with honesty and clarity. You are being called to a higher purpose—to shed the old skin and embrace a new way of being. This card suggests that a major life decision is required, one that will lead to a spiritual rebirth. It is about forgiveness, both for yourself and others, and the realization that you have a second chance to create the life you truly desire. The 'call' is loud; you cannot ignore it anymore.",
+    "upright_short_meaning": "A spiritual awakening or a major life decision. It’s time to answer your higher calling.",
+    "reversed_short_meaning": "You are ignoring a call for change. Stop doubting yourself and take the next step.",
+    "meanings": {
+      "love": {
+        "upright": "A turning point in a relationship. A time for honest conversation and mutual growth.",
+        "reversed": "Avoiding a necessary decision in love. You are letting past mistakes haunt your present."
+      },
+      "career": {
+        "upright": "Your hard work is being evaluated. A promotion or a total career shift based on your true passion.",
+        "reversed": "Feeling judged or stuck at work. You are refusing to learn from your past professional errors."
+      },
+      "financial": {
+        "upright": "Reviewing your financial habits. A time to clear old debts and start fresh with a better plan.",
+        "reversed": "Financial stagnation because you are repeating the same mistakes over and over."
+      },
+      "wellbeing": {
+        "upright": "A recovery from long-term illness or a total transformation of your lifestyle and health.",
+        "reversed": "Ignoring your body's signals for change. You need to stop making excuses for poor habits."
+      }
+    }
+  },
+
+  {
+    "id": 21,
+    "name": "The World",
+    "image": "img/the_world.jpg",
+    "upright_keywords": ["Completion", "Integration", "Accomplishment", "Travel"],
+    "reversed_keywords": ["Lack of Closure", "Shortcuts", "Incompletion"],
+    "full_description": "The World is the final card of the Major Arcana, representing the end of a long and difficult journey. A figure dances inside a laurel wreath, symbolizing victory and the successful integration of all life lessons. You have reached a state of wholeness and completion. This card marks a time where you are in perfect harmony with the universe. You have achieved your goals, and you are ready to enjoy the fruits of your labor. The World also suggests travel—literally or metaphorically—as your horizons have expanded beyond what you once thought possible. It is the 'Master' card, showing that you have completed one cycle and are ready to begin the next on a much higher level.",
+    "upright_short_meaning": "Success, completion, and wholeness. You have achieved your goal and the world is yours.",
+    "reversed_short_meaning": "You are near the end but haven't quite finished. Don't take shortcuts; seek closure.",
+    "meanings": {
+      "love": {
+        "upright": "A relationship reaching a state of fulfillment. Marriage or a deep sense of shared purpose.",
+        "reversed": "A lack of closure from a past relationship or feeling that something is missing in your bond."
+      },
+      "career": {
+        "upright": "Achieving your ultimate career goal. Recognition on a global or wide-reaching scale.",
+        "reversed": "A project is almost done but needs a final push. You are feeling unfulfilled despite success."
+      },
+      "financial": {
+        "upright": "Total financial security and the successful completion of a long-term investment goal.",
+        "reversed": "Financial goals are within reach but not yet secured. Don't stop working hard now."
+      },
+      "wellbeing": {
+        "upright": "Peak physical and mental health. A feeling of being 'whole' and in tune with your body.",
+        "reversed": "A sense of incompletion in your health journey. You need to finish what you started (like a detox)."
+      }
+    }
+  },
+
+  {
+    "id": 22,
+    "name": "Ace of Cups",
+    "image": "img/ace_of_cups.jpg",
+    "upright_keywords": ["Love", "New Feelings", "Spirituality", "Intuition"],
+    "reversed_keywords": ["Self-Love", "Repressed Emotions", "Emptiness"],
+    "full_description": "The Ace of Cups shows a hand emerging from the clouds holding a cup that overflows with five streams of water. It represents the vessel of your soul, overflowing with spiritual and emotional abundance. This card is a beautiful omen of new beginnings in the realm of the heart. It suggests that a new wellspring of love, creativity, or compassion is opening up for you. It is the purest state of emotion, free from the baggage of the past. When this card appears, it invites you to open your heart to the universe, to trust your intuition, and to allow yourself to feel deeply without fear.",
+    "upright_short_meaning": "A new wave of love or emotional fulfillment is coming. Open your heart.",
+    "reversed_short_meaning": "You may be feeling emotionally drained. Focus on self-love and healing within.",
+    "meanings": {
+      "love": {
+        "upright": "A new romance or a deep emotional connection. Your heart is ready to give and receive love.",
+        "reversed": "Blocked emotions or a feeling of being unloved. You need to nurture yourself first."
+      },
+      "career": {
+        "upright": "A creative project that brings you joy. You are finding emotional satisfaction in your work.",
+        "reversed": "Feeling uninspired or emotionally disconnected from your job. Your creativity is blocked."
+      },
+      "financial": {
+        "upright": "Good news regarding finances, often linked to creative ventures or emotional support.",
+        "reversed": "An emotional decision regarding money that may lead to disappointment. Stay objective."
+      },
+      "wellbeing": {
+        "upright": "Emotional balance and spiritual peace. Your vitality is linked to your inner happiness.",
+        "reversed": "Suppressed feelings are affecting your health. It's time for an emotional release."
+      }
+    }
+  },
+
+  {
+    "id": 23,
+    "name": "Two of Cups",
+    "image": "img/two_of_cups.jpg",
+    "upright_keywords": ["Unified Love", "Partnership", "Mutual Attraction", "Connection"],
+    "reversed_keywords": ["Self-Love", "Breakups", "Disharmony", "Distrust"],
+    "full_description": "The Two of Cups depicts a pair of lovers exchanging cups in a symbolic ceremony. Above them is the Caduceus of Hermes and a lion's head, signifying that this union is balanced, powerful, and blessed by a higher energy. This card represents the beauty of a dual connection—where two souls come together in perfect harmony. It is about mutual respect and the 'alchemy' that happens when two people align their values and emotions. Whether in romance or business, this card signals a healthy, balanced partnership where both parties feel seen, heard, and valued.",
+    "upright_short_meaning": "A harmonious partnership is forming. Connection and mutual respect are key.",
+    "reversed_short_meaning": "A lack of balance or harmony in a relationship. Communication is breaking down.",
+    "meanings": {
+      "love": {
+        "upright": "Deep romantic attraction and a balanced relationship. A perfect match.",
+        "reversed": "Argument, misunderstanding, or a temporary split. The balance of the union is lost."
+      },
+      "career": {
+        "upright": "A successful business partnership or a great rapport with a colleague.",
+        "reversed": "Conflict at work or a partnership that is no longer mutually beneficial."
+      },
+      "financial": {
+        "upright": "Financial stability through a joint venture or a fair agreement.",
+        "reversed": "Financial disagreements or a contract that is not in your favor."
+      },
+      "wellbeing": {
+        "upright": "Good health through emotional support. Your relationships are helping you heal.",
+        "reversed": "Stress from a difficult relationship is impacting your physical health."
+      }
+    }
+  },
+
+  {
+    "id": 24,
+    "name": "Three of Cups",
+    "image": "img/three_of_cups.jpg",
+    "upright_keywords": ["Celebration", "Friendship", "Creativity", "Community"],
+    "reversed_keywords": ["Overindulgence", "Gossip", "Isolation", "Third-Party"],
+    "full_description": "In the Three of Cups, three women raise their glasses in a toast, surrounded by a bountiful harvest. This card is the ultimate symbol of community, sisterhood, and shared joy. It suggests a time to celebrate your achievements with the people who support you most. It is about the 'circles' of life—friends, family, and collaborators who make the journey worthwhile. The energy is light, festive, and full of gratitude. This card reminds you that you don't have to do it all alone; there is strength and healing in numbers and in the simple act of coming together to celebrate life's beauty.",
+    "upright_short_meaning": "Time to celebrate with friends and family. Joy is found in your community.",
+    "reversed_short_meaning": "You may be feeling left out or overindulging in social activities. Find your focus.",
+    "meanings": {
+      "love": {
+        "upright": "A happy social event or a blossoming romance within your social circle.",
+        "reversed": "A third party may be causing issues, or you are prioritizing friends over your partner."
+      },
+      "career": {
+        "upright": "Success in a team project. A supportive and creative work environment.",
+        "reversed": "Office politics or a lack of teamwork is preventing a project from succeeding."
+      },
+      "financial": {
+        "upright": "Spending money on celebrations and group activities. Financial sharing.",
+        "reversed": "Overspending on social life or group ventures that don't pay off."
+      },
+      "wellbeing": {
+        "upright": "Emotional health is boosted by social connection. A time of vitality.",
+        "reversed": "Health issues caused by too much partying or neglect of your routine."
+      }
+    }
+  },
+
+  {
+    "id": 25,
+    "name": "Four of Cups",
+    "image": "img/four_of_cups.jpg",
+    "upright_keywords": ["Apathy", "Contemplation", "Disconnectedness", "Boredom"],
+    "reversed_keywords": ["Clarity", "Awareness", "Acceptance", "Choosing Joy"],
+    "full_description": "The Four of Cups shows a young man sitting under a tree, his arms crossed in a defensive and bored posture. He is so focused on the three cups before him—perhaps symbols of past disappointments—that he fails to notice a fourth cup being offered by a hand in the sky. This card represents emotional stagnation and apathy. It suggests that you are feeling uninspired or 'stuck' in your current circumstances, refusing to see the new opportunities the universe is providing. It is a call to look within and ask why you are withdrawing. Are you truly dissatisfied, or are you just refusing to be grateful for what is being offered?",
+    "upright_short_meaning": "Don't miss out on new opportunities because you're focused on the past.",
+    "reversed_short_meaning": "You are coming out of a period of stagnation. You're ready to engage with life again.",
+    "meanings": {
+      "love": {
+        "upright": "Feeling bored or uninspired in love. You may be ignoring a new romantic offer.",
+        "reversed": "A new interest in dating or a renewed spark in your current relationship."
+      },
+      "career": {
+        "upright": "Feeling unfulfilled at work. You are ignoring new projects or paths for growth.",
+        "reversed": "A shift in perspective that allows you to see the value in your current job."
+      },
+      "financial": {
+        "upright": "Ignoring financial advice or opportunities because you are feeling pessimistic.",
+        "reversed": "Taking a proactive approach to your finances after a period of neglect."
+      },
+      "wellbeing": {
+        "upright": "Low energy and mental fatigue. You are feeling disconnected from your body.",
+        "reversed": "Energy is returning. You are taking steps to improve your mental health."
+      }
+    }
+  },
+
+  {
+    "id": 26,
+    "name": "Five of Cups",
+    "image": "img/five_of_cups.jpg",
+    "upright_keywords": ["Loss", "Grief", "Disappointment", "Regret"],
+    "reversed_keywords": ["Moving On", "Forgiveness", "Acceptance", "Hope"],
+    "full_description": "The Five of Cups is a card of mourning. A figure in a black cloak looks down at three spilled cups, devastated by the loss. However, behind them stand two cups that are still full. The figure is so consumed by regret and sadness that they cannot see the potential that remains. This card is a profound lesson on perspective. It acknowledges that grief and disappointment are real, but it warns against staying in that state for too long. It asks you to turn around and see what is still standing. The bridge in the background leads to a safe castle, suggesting that while the loss is heavy, you are not trapped; you can still cross over to a brighter future.",
+    "upright_short_meaning": "Focus on what you still have, not just on what you've lost. Healing takes time.",
+    "reversed_short_meaning": "You are starting to heal and see the positive side of things again. Let go of regret.",
+    "meanings": {
+      "love": {
+        "upright": "Heartbreak or a focus on past relationship failures. You are struggling to let go.",
+        "reversed": "Forgiving an ex or moving past a difficult phase in your relationship."
+      },
+      "career": {
+        "upright": "A setback at work or a failed project. You are feeling discouraged and defeated.",
+        "reversed": "Learning from a professional failure and preparing to try again with a new plan."
+      },
+      "financial": {
+        "upright": "Financial loss or a bad investment. You are dwelling on the money you lost.",
+        "reversed": "Financial recovery is beginning. You are finding new ways to rebuild your wealth."
+      },
+      "wellbeing": {
+        "upright": "Emotional distress affecting your vitality. You may be suffering from deep sadness.",
+        "reversed": "Emotional healing. You are finally allowing yourself to move past the pain."
+      }
+    }
+  },
+
+  {
+    "id": 27,
+    "name": "Six of Cups",
+    "image": "img/six_of_cups.jpg",
+    "upright_keywords": ["Nostalgia", "Childhood", "Innocence", "Revisiting"],
+    "reversed_keywords": ["Living in the Past", "Forgiving the Past", "Moving Forward"],
+    "full_description": "The Six of Cups transports us to a place of nostalgia and childhood memories. Two children in a garden exchange a cup filled with flowers, symbolizing the purity of giving and receiving without hidden agendas. This card represents a return to a simpler time. It may suggest that someone from your past is returning, or that you need to reconnect with your 'inner child' to find the joy you've lost. It is a gentle, sentimental card that honors the roots from which you grew. While it is beautiful to remember, it also serves as a reminder to take that same innocence and kindness into your present-day adult life.",
+    "upright_short_meaning": "A happy connection to the past. Embrace your inner child and simple joys.",
+    "reversed_short_meaning": "You are too focused on 'the good old days.' It's time to live in the present.",
+    "meanings": {
+      "love": {
+        "upright": "An old flame may return, or you are experiencing a very pure, sweet kind of love.",
+        "reversed": "Issues from childhood are affecting your current relationship. Time to outgrow them."
+      },
+      "career": {
+        "upright": "Returning to an old job or using a skill you learned long ago. A harmonious workplace.",
+        "reversed": "Feeling stuck in an outdated career path. You need to innovate and look forward."
+      },
+      "financial": {
+        "upright": "Inheritance, gifts from family, or financial support from someone in your past.",
+        "reversed": "Struggling to manage money because of old, childish spending habits."
+      },
+      "wellbeing": {
+        "upright": "Revisiting a health routine that worked for you in the past. Feeling youthful.",
+        "reversed": "Focusing on past traumas. You need to release the past to heal your present body."
+      }
+    }
+  },
+
+  {
+    "id": 28,
+    "name": "Seven of Cups",
+    "image": "img/seven_of_cups.jpg",
+    "upright_keywords": ["Choices", "Illusion", "Fantasy", "Wishful Thinking"],
+    "reversed_keywords": ["Decision", "Clarity", "Reality", "Overwhelmed"],
+    "full_description": "The Seven of Cups shows a figure standing before seven clouds, each holding a cup filled with different visions—riches, snakes, jewels, and monsters. This is the card of many choices, but not all of them are real. It represents the confusion that comes with having too many options or being lost in a world of 'what ifs.' It warns that while dreaming is important, you cannot stay in the clouds forever. Some of these cups offer true fulfillment, while others are mere illusions that will lead to disappointment. It is a call to ground yourself, filter out the noise of your fantasies, and make a decision based on reality and your core values.",
+    "upright_short_meaning": "You have many options, but choose carefully. Not all that glitters is gold.",
+    "reversed_short_meaning": "The fog is lifting. You are finally ready to make a firm choice and face reality.",
+    "meanings": {
+      "love": {
+        "upright": "Many romantic options or being in love with an idealized version of someone.",
+        "reversed": "Seeing a partner for who they truly are. Choosing commitment over fantasy."
+      },
+      "career": {
+        "upright": "Too many projects or career paths to choose from. You are feeling overwhelmed.",
+        "reversed": "Narrowing down your goals and choosing the most realistic path to success."
+      },
+      "financial": {
+        "upright": "Risky financial 'dreams' or scams. Be careful of get-rich-quick schemes.",
+        "reversed": "Making a solid, realistic financial plan and avoiding tempting but empty investments."
+      },
+      "wellbeing": {
+        "upright": "Confusion about health choices or ignoring physical reality for a fantasy.",
+        "reversed": "Gaining clarity on your health needs. Choosing a practical diet or routine."
+      }
+    }
+  },
+
+  {
+    "id": 29,
+    "name": "Eight of Cups",
+    "image": "img/eight_of_cups.jpg",
+    "upright_keywords": ["Abandonment", "Walking Away", "Disillusionment", "Seeking"],
+    "reversed_keywords": ["Staying", "Fear of Change", "Hopelessness", "Drifting"],
+    "full_description": "The Eight of Cups depicts a figure walking away from eight stacked cups, heading toward a dark mountain under a crescent moon. Despite the emotional investment represented by the cups, the figure realizes that they are no longer enough. This card is about the brave decision to leave something behind—even if it's comfortable—because it no longer serves your soul's growth. It is a card of seeking something deeper and more meaningful. It marks a turning point where you choose to stop trying to fix what is broken and instead walk toward the unknown in search of your true purpose. It is a quiet, somber, but necessary journey of the spirit.",
+    "upright_short_meaning": "It's time to walk away from what no longer serves you. Seek a deeper meaning.",
+    "reversed_short_meaning": "You are afraid to leave a situation that is making you unhappy. Don't be stuck.",
+    "meanings": {
+      "love": {
+        "upright": "Leaving a relationship that is no longer fulfilling. Choosing your own peace.",
+        "reversed": "Staying in a dead-end relationship because you fear being alone or changing."
+      },
+      "career": {
+        "upright": "Quitting a job or project that no longer inspires you. Seeking a new vocation.",
+        "reversed": "Staying in a soul-crushing job because of financial security or fear of the unknown."
+      },
+      "financial": {
+        "upright": "Walking away from an investment that is failing. Choosing to cut your losses.",
+        "reversed": "Pouring more money into a situation that is already dead. Refusing to let go."
+      },
+      "wellbeing": {
+        "upright": "A period of solitude to heal. Walking away from toxic habits or environments.",
+        "reversed": "Ignoring the need for a lifestyle change. You are drifting without a health goal."
+      }
+    }
+  },
+
+  {
+    "id": 30,
+    "name": "Nine of Cups",
+    "image": "img/nine_of_cups.jpg",
+    "upright_keywords": ["Satisfaction", "Comfort", "Wishes", "Gratitude"],
+    "reversed_keywords": ["Greed", "Self-Indulgence", "Unrealistic Expectations", "Dissatisfaction"],
+    "full_description": "Commonly known as the 'Wish Card,' the Nine of Cups shows a man sitting contentedly with nine cups arranged behind him. His arms are crossed in satisfaction, representing that he has achieved everything he desired. This card is about emotional and material fulfillment. It suggests that your hard work and positive intentions have paid off, and you are now in a position to enjoy the rewards. It is a card of luxury, comfort, and sensory pleasure. The Nine of Cups invites you to indulge in your success and to be grateful for the abundance in your life. It is a sign that you have reached a plateau of happiness where you feel 'complete' within yourself.",
+    "upright_short_meaning": "Your wish is coming true. Enjoy the abundance and satisfaction you've earned.",
+    "reversed_short_meaning": "You may have what you wanted, but you still feel empty. Avoid overindulgence.",
+    "meanings": {
+      "love": {
+        "upright": "A very happy and fulfilling relationship. Your romantic wishes are granted.",
+        "reversed": "Surface-level happiness. You may be in a relationship for the wrong reasons."
+      },
+      "career": {
+        "upright": "Reaching a major milestone. You are respected and successful in your field.",
+        "reversed": "Overconfidence or arrogance at work. You are ignoring areas that still need growth."
+      },
+      "financial": {
+        "upright": "Financial prosperity and the ability to enjoy luxury. A period of great comfort.",
+        "reversed": "Spending for status rather than joy. Material greed is making you feel unfulfilled."
+      },
+      "wellbeing": {
+        "upright": "Excellent health and physical vitality. You are feeling good in your own skin.",
+        "reversed": "Health issues caused by excess eating, drinking, or lack of self-discipline."
+      }
+    }
+  },
+
+  {
+    "id": 31,
+    "name": "Ten of Cups",
+    "image": "img/ten_of_cups.jpg",
+    "upright_keywords": ["Divine Love", "Bliss", "Family Harmony", "Alignment"],
+    "reversed_keywords": ["Broken Home", "Misalignment", "Domestic Conflict"],
+    "full_description": "The Ten of Cups is the ultimate card of emotional completion. A happy couple and their children stand under a rainbow made of ten golden cups. This card represents the 'happily ever after'—a state of divine love and total harmony within the home and family. It is about finding peace not just in yourself, but in your relationships with others. It suggests that you are in perfect alignment with your soul's purpose and the people around you. When this card appears, it is a blessing on your domestic life, promising that the love you give will be returned to you tenfold. It is the realization that true wealth is found in the joy of those you love.",
+    "upright_short_meaning": "Total emotional and family harmony. You are surrounded by love and peace.",
+    "reversed_short_meaning": "Conflict or tension in your family life. Something is out of alignment at home.",
+    "meanings": {
+      "love": {
+        "upright": "A deep, soulful commitment. Possibly marriage, children, or a long-term happy union.",
+        "reversed": "Disputes about family values or a feeling of being disconnected from your partner."
+      },
+      "career": {
+        "upright": "A dream job that feels like a family. You are working in a place that shares your values.",
+        "reversed": "Work-life conflict. Your career is taking too much time away from your loved ones."
+      },
+      "financial": {
+        "upright": "Financial security that benefits the whole family. Long-term stability and abundance.",
+        "reversed": "Disagreements about money within the family. Financial instability at home."
+      },
+      "wellbeing": {
+        "upright": "A sense of wholeness. Your physical health is supported by your happy home life.",
+        "reversed": "Emotional stress at home is causing physical symptoms. Seek harmony."
+      }
+    }
+  },
+
+  {
+    "id": 32,
+    "name": "Page of Cups",
+    "image": "img/page_of_cups.jpg",
+    "upright_keywords": ["Creative Beginning", "Intuition", "Messages", "Possibility"],
+    "reversed_keywords": ["Emotional Immaturity", "Creative Block", "Doubt"],
+    "full_description": "The Page of Cups shows a young man holding a golden cup, surprised to see a fish popping its head out of it. This represents the unexpected nature of inspiration and the stirrings of the subconscious. The Page is a dreamer, someone who is beginning to explore the vast ocean of their emotions. This card often brings news of a birth, a wedding, or a new creative project. It is an invitation to stay open to the 'magic' of life and to embrace your sensitive side without judgment. It suggests that a message is coming—perhaps one that touches your heart or sparks a new, imaginative idea.",
+    "upright_short_meaning": "A new creative or emotional message is coming. Stay open to surprises.",
+    "reversed_short_meaning": "You might be oversensitive or facing a creative block. Don't let doubt stop you.",
+    "meanings": {
+      "love": {
+        "upright": "A new crush, a sweet message, or an invitation to a romantic event.",
+        "reversed": "Childish behavior in love or an emotional message that causes confusion."
+      },
+      "career": {
+        "upright": "A new project that requires creativity. Trust your artistic instincts.",
+        "reversed": "Feeling uninspired at work or struggling to communicate your ideas effectively."
+      },
+      "financial": {
+        "upright": "Good financial news or an opportunity to invest in something you love.",
+        "reversed": "Unrealistic financial dreams or making money decisions based on temporary emotions."
+      },
+      "wellbeing": {
+        "upright": "Emotional healing through art or journaling. Listen to your dreams.",
+        "reversed": "Escapism or ignoring physical health because you are lost in your feelings."
+      }
+    }
+  },
+
+  {
+    "id": 33,
+    "name": "Knight of Cups",
+    "image": "img/knight_of_cups.jpg",
+    "upright_keywords": ["Romance", "Charm", "Imagination", "Proposal"],
+    "reversed_keywords": ["Moodiness", "Unrealistic", "Ghosting", "Manipulation"],
+    "full_description": "The Knight of Cups is the 'Prince Charming' of the Tarot. He sits on a white horse, moving slowly and gracefully, holding a cup as if it were a holy grail. Unlike the other knights, he is not driven by action or conflict, but by emotion and beauty. He is a messenger of romance and a visionary. When this card appears, it suggests that you are being invited to follow your heart. However, it also warns of being 'in love with love'—getting so lost in the fantasy that you lose touch with reality. He brings an energy of refinement, poetic expression, and the pursuit of a dream.",
+    "upright_short_meaning": "Follow your heart. A charming opportunity or romantic offer is approaching.",
+    "reversed_short_meaning": "Someone may be inconsistent or acting on unrealistic fantasies. Beware of 'ghosting.'",
+    "meanings": {
+      "love": {
+        "upright": "A romantic proposal or a charming new partner. True emotional connection.",
+        "reversed": "A partner who is hot and cold. Emotional manipulation or unrequited love."
+      },
+      "career": {
+        "upright": "A creative career path or a job that aligns with your passions. Diplomatic success.",
+        "reversed": "Feeling disillusioned at work. A project that looked good on paper but lacks substance."
+      },
+      "financial": {
+        "upright": "Following your intuition in money matters. A profitable and creative venture.",
+        "reversed": "Financial disappointment caused by trusting someone too charming but unreliable."
+      },
+      "wellbeing": {
+        "upright": "Finding balance through emotional expression and peace of mind.",
+        "reversed": "Mental health struggles caused by mood swings or living in a fantasy world."
+      }
+    }
+  },
+
+  {
+    "id": 34,
+    "name": "Queen of Cups",
+    "image": "img/queen_of_cups.jpg",
+    "upright_keywords": ["Compassion", "Calm", "Intuition", "Healing"],
+    "reversed_keywords": ["Emotional Insecurity", "Codependency", "Martyrdom"],
+    "full_description": "The Queen of Cups sits on a throne by the sea, gazing intensely at a closed cup. She is the embodiment of emotional intelligence and psychic ability. She feels the emotions of everyone around her and offers a safe, nurturing space for healing. This card represents a person (or an energy within you) that is deeply intuitive, empathetic, and stable. She doesn't need to speak to understand; she knows. The Queen reminds you to trust your inner voice and to treat yourself and others with profound kindness. She is the 'calm in the storm' who masters her emotions without being overwhelmed by them.",
+    "upright_short_meaning": "Trust your intuition and lead with compassion. You are emotionally secure.",
+    "reversed_short_meaning": "You may be feeling emotionally drained by others or becoming too dependent on someone.",
+    "meanings": {
+      "love": {
+        "upright": "A deep, nurturing, and soulful love. You are very in tune with your partner.",
+        "reversed": "Emotional insecurity or being too smothering. Lack of boundaries in love."
+      },
+      "career": {
+        "upright": "A career in healing, art, or counseling. You are valued for your empathy.",
+        "reversed": "Feeling overwhelmed by the emotions of coworkers. Difficulty staying professional."
+      },
+      "financial": {
+        "upright": "Using your intuition to manage money. Financial security through wisdom.",
+        "reversed": "Financial stress caused by over-giving to others or lack of self-care."
+      },
+      "wellbeing": {
+        "upright": "Excellent emotional health. You are deeply connected to your body's needs.",
+        "reversed": "Feeling emotionally unstable. You need to set boundaries to protect your energy."
+      }
+    }
+  },
+
+  {
+    "id": 35,
+    "name": "King of Cups",
+    "image": "img/king_of_cups.jpg",
+    "upright_keywords": ["Emotional Balance", "Control", "Generosity", "Wisdom"],
+    "reversed_keywords": ["Emotional Manipulation", "Volatile", "Coldness"],
+    "full_description": "The King of Cups sits on a throne that floats upon the turbulent sea, yet he remains perfectly still. He represents the mastery of the emotional world. He has the same depth as the Queen, but he adds the element of control and leadership. This King does not let his feelings carry him away; he uses them as a guide for his wisdom and authority. He is a peacemaker and a diplomat. When he appears, he suggests that you need to stay calm and balanced, even if the world around you is chaotic. He is the father figure who provides emotional security and sound, compassionate advice.",
+    "upright_short_meaning": "Master your emotions and stay balanced. Lead with wisdom and kindness.",
+    "reversed_short_meaning": "Beware of someone using their emotions to control you. Stay grounded.",
+    "meanings": {
+      "love": {
+        "upright": "A stable, mature, and deeply loving partner. Emotional security in a bond.",
+        "reversed": "A partner who is emotionally distant or uses 'the silent treatment' to control."
+      },
+      "career": {
+        "upright": "A calm and supportive boss. Success through diplomacy and emotional intelligence.",
+        "reversed": "A workplace with hidden agendas or a boss who is emotionally volatile."
+      },
+      "financial": {
+        "upright": "Wise and balanced financial decisions. You are in control of your wealth.",
+        "reversed": "Financial loss due to emotional instability or being manipulated by others."
+      },
+      "wellbeing": {
+        "upright": "Strong mental health. You have found a way to balance your heart and mind.",
+        "reversed": "Emotional exhaustion. You are suppressing your feelings until they explode."
+      }
+    }
+  },
+
+  {
+    "id": 36,
+    "name": "Ace of Swords",
+    "image": "img/ace_of_swords.jpg",
+    "upright_keywords": ["Clarity", "Breakthrough", "Intellect", "Truth"],
+    "reversed_keywords": ["Confusion", "Chaos", "Miscommunication", "Lack of Ideas"],
+    "full_description": "The Ace of Swords shows a hand emerging from a cloud, gripping a double-edged sword that pierces a golden crown. This card is the ultimate symbol of mental power and the 'Aha!' moment of clarity. It represents a breakthrough where the fog of confusion is suddenly sliced through by the truth. While the Swords suit is often associated with struggle, the Ace is purely about the power of the mind and the sword of justice. It suggests that you have the intellectual strength to cut away what is unnecessary and see the core of a situation. It is a 'green light' for new ideas and logical decisions.",
+    "upright_short_meaning": "A breakthrough in thinking. The truth is becoming clear. Take decisive action.",
+    "reversed_short_meaning": "Your thinking is clouded. Avoid making major decisions until you have more clarity.",
+    "meanings": {
+      "love": {
+        "upright": "An honest conversation that clears the air. A new intellectual connection.",
+        "reversed": "Misunderstandings or harsh words. You are not seeing the truth in your relationship."
+      },
+      "career": {
+        "upright": "A brilliant new idea or a successful communication project. Success through logic.",
+        "reversed": "A project is stalled due to a lack of clear goals or confusing instructions."
+      },
+      "financial": {
+        "upright": "A clear financial plan. You have the facts you need to make a good investment.",
+        "reversed": "Confusing financial details. Don't sign anything until you understand the fine print."
+      },
+      "wellbeing": {
+        "upright": "Mental clarity leads to better health choices. A successful medical diagnosis.",
+        "reversed": "Mental stress and confusion. Your thoughts are making you feel physically ill."
+      }
+    }
+  },
+
+  {
+    "id": 37,
+    "name": "Two of Swords",
+    "image": "img/two_of_swords.jpg",
+    "upright_keywords": ["Indecision", "Stalemate", "Blocked Emotions", "Truce"],
+    "reversed_keywords": ["Indecision", "Confusion", "Information Overload"],
+    "full_description": "The Two of Swords shows a blindfolded woman sitting with two heavy swords crossed over her chest. She is at a stalemate, unable or unwilling to make a choice. The blindfold suggests that she is ignoring the facts or trying to decide using only her mind, while ignoring her heart. This card represents a difficult crossroads where you feel stuck between two equally challenging options. It often appears when you are trying to avoid a painful truth or a necessary conflict. The message of this card is that you cannot stay in this position forever; eventually, you must take off the blindfold and face the reality of your choice.",
+    "upright_short_meaning": "You are at a crossroads. Stop avoiding the choice and face the situation.",
+    "reversed_short_meaning": "The stalemate is breaking, but you may feel overwhelmed by the information coming in.",
+    "meanings": {
+      "love": {
+        "upright": "Avoiding a difficult conversation in your relationship. A temporary emotional block.",
+        "reversed": "The truth is coming out, but it may cause conflict. No more hiding from feelings."
+      },
+      "career": {
+        "upright": "Being stuck between two jobs or projects. You are refusing to pick a side.",
+        "reversed": "A difficult decision at work is finally made, though it may be stressful."
+      },
+      "financial": {
+        "upright": "Avoiding looking at your bank account or ignoring financial problems. Stalemate.",
+        "reversed": "Realizing the truth about your finances and being forced to take action."
+      },
+      "wellbeing": {
+        "upright": "Ignoring physical symptoms. Your mind and body are at a standstill.",
+        "reversed": "Emotional release. You are finally addressing the stress you were suppressing."
+      }
+    }
+  },
+
+  {
+    "id": 38,
+    "name": "Three of Swords",
+    "image": "img/three_of_swords.jpg",
+    "upright_keywords": ["Heartbreak", "Sorrow", "Grief", "Separation"],
+    "reversed_keywords": ["Healing", "Forgiveness", "Releasing Pain"],
+    "full_description": "The Three of Swords is one of the most painful cards in the deck, showing a heart pierced by three swords against a backdrop of rain and clouds. It represents the sharp pain of heartbreak, betrayal, or a sudden loss. Unlike the Five of Cups, which is a slow mourning, this card is the 'sting' of the event itself. It is the realization that something has ended or that trust has been broken. However, it is a necessary card; the swords represent the mental clarity that comes after the pain. Sometimes, the heart must be broken to let the light in. It is a reminder that pain is a part of the human experience and that you must feel it to heal it.",
+    "upright_short_meaning": "Emotional pain or a difficult truth. Allow yourself to feel the grief to heal.",
+    "reversed_short_meaning": "The worst is over. You are beginning to heal and forgive the past.",
+    "meanings": {
+      "love": {
+        "upright": "Heartbreak, betrayal, or a painful breakup. A period of deep emotional sorrow.",
+        "reversed": "Recovering from a breakup or forgiving a partner. The heart is starting to mend."
+      },
+      "career": {
+        "upright": "A loss at work, a failed partnership, or receiving harsh criticism. Professional hurt.",
+        "reversed": "Moving past a career disappointment. You are finding peace after a difficult time."
+      },
+      "financial": {
+        "upright": "A sudden financial loss or a disagreement over money that causes pain.",
+        "reversed": "Financial recovery after a loss. You are learning to let go of the stress."
+      },
+      "wellbeing": {
+        "upright": "Physical or emotional heartache. Stress is impacting your physical heart.",
+        "reversed": "Healing and recovery. You are releasing the emotional trauma that hurt your body."
+      }
+    }
+  },
+
+  {
+    "id": 39,
+    "name": "Four of Swords",
+    "image": "img/four_of_swords.jpg",
+    "upright_keywords": ["Rest", "Recovery", "Meditation", "Contemplation"],
+    "reversed_keywords": ["Restlessness", "Burnout", "Lack of Rest"],
+    "full_description": "The Four of Swords shows a knight lying on a tomb in a church, his hands in prayer. Three swords hang above him, and one lies beneath him. This card is a call for a strategic retreat. After the pain of the Three of Swords, you need a period of quiet and rest to recover your strength. This is not a card of permanent ending, but a temporary 'time out.' It suggests that your mind is overloaded and you need to step away from the noise to find your center. It is an invitation to meditate, sleep, and allow your body and soul to heal in the silence before you return to the battle of life.",
+    "upright_short_meaning": "Take a break. You need rest and mental quiet to recover your strength.",
+    "reversed_short_meaning": "You are pushing yourself too hard. Beware of burnout and exhaustion.",
+    "meanings": {
+      "love": {
+        "upright": "Taking a break from dating or a 'pause' in a relationship to reflect.",
+        "reversed": "Returning to the dating scene too soon or being restless in a relationship."
+      },
+      "career": {
+        "upright": "A sabbatical or a vacation. You need to step away from work stress.",
+        "reversed": "Working through exhaustion. You are not taking the break your mind needs."
+      },
+      "financial": {
+        "upright": "A period of financial stability where you don't need to make any moves.",
+        "reversed": "Restless spending or feeling anxious about money even when things are quiet."
+      },
+      "wellbeing": {
+        "upright": "Deep rest and recuperation. Meditation is highly recommended right now.",
+        "reversed": "Insomnia or burnout. Your body is demanding the rest you are refusing."
+      }
+    }
+  },
+
+  {
+    "id": 40,
+    "name": "Five of Swords",
+    "image": "img/five_of_swords.jpg",
+    "upright_keywords": ["Conflict", "Winning at all Costs", "Defeat", "Betrayal"],
+    "reversed_keywords": ["Resentment", "Moving on from Conflict", "Reconciliation"],
+    "full_description": "The Five of Swords shows a man holding three swords with a smug expression, while two others walk away in defeat. This card represents a hollow victory. You may have 'won' the argument or the battle, but at what cost? This card warns of the consequences of acting purely from ego. It suggests that there is a conflict where someone is being unfair or manipulative. If you are the winner, you may find yourself alone. If you are the loser, you may feel betrayed. It is a reminder that some battles aren't worth winning if they destroy your relationships or your integrity. It calls for you to pick your battles wisely.",
+    "upright_short_meaning": "A conflict where there are no true winners. Beware of a hollow victory.",
+    "reversed_short_meaning": "The conflict is ending, but resentment may remain. Try to find a way to move on.",
+    "meanings": {
+      "love": {
+        "upright": "An argument where words are used as weapons. A lack of respect in communication.",
+        "reversed": "Reconciliation after a fight, but the hurt feelings still need to be addressed."
+      },
+      "career": {
+        "upright": "Office politics or a cutthroat environment. Someone is playing dirty to get ahead.",
+        "reversed": "Leaving a toxic work environment or deciding to stop engaging in office gossip."
+      },
+      "financial": {
+        "upright": "Unfair financial dealings. Someone may be trying to take advantage of you.",
+        "reversed": "Recovering from a financial dispute. You are choosing peace over being 'right'."
+      },
+      "wellbeing": {
+        "upright": "Stress caused by constant conflict. Your competitive nature is hurting your health.",
+        "reversed": "Choosing to let go of anger. Your physical health improves as you find peace."
+      }
+    }
+  },
+
+  {
+    "id": 41,
+    "name": "Six of Swords",
+    "image": "img/six_of_swords.jpg",
+    "upright_keywords": ["Transition", "Moving On", "Departure", "Relief"],
+    "reversed_keywords": ["Emotional Baggage", "Stuck in the Past", "Resistance"],
+    "full_description": "The Six of Swords shows a figure rowing a boat across a calm body of water, carrying two passengers. Six swords are stuck into the boat, but they do not weigh it down. This card is about a necessary transition. You are moving away from a turbulent past toward a calmer, more stable future. It is not a happy, celebratory move—it is often a somber departure made because you have no other choice. However, the water ahead is smooth, suggesting that relief is on the horizon. It is a card of hope, reminding you that even if the journey is quiet and a bit sad, you are moving toward a better place.",
+    "upright_short_meaning": "You are moving toward calmer waters. Leave the past behind and seek peace.",
+    "reversed_short_meaning": "You are struggling to let go of the past. Emotional baggage is slowing you down.",
+    "meanings": {
+      "love": {
+        "upright": "Moving on after a difficult relationship or a couple traveling together to heal.",
+        "reversed": "Unresolved issues from the past are following you into your new relationship."
+      },
+      "career": {
+        "upright": "Leaving a stressful job for a more peaceful environment. A smooth transition.",
+        "reversed": "Feeling stuck in a career you want to leave, but you're afraid to make the move."
+      },
+      "financial": {
+        "upright": "Financial relief after a struggle. Moving toward a more stable money situation.",
+        "reversed": "Financial problems are still following you. You are not yet in 'calmer waters'."
+      },
+      "wellbeing": {
+        "upright": "Recovery after an illness. A peaceful state of mind is helping you heal.",
+        "reversed": "Slow recovery because you are mentally stuck in your pain or trauma."
+      }
+    }
+  },
+
+  {
+    "id": 42,
+    "name": "Seven of Swords",
+    "image": "img/seven_of_swords.jpg",
+    "upright_keywords": ["Deception", "Strategy", "Sneakiness", "Independence"],
+    "reversed_keywords": ["Confession", "Coming Clean", "Caught Out", "Regret"],
+    "full_description": "The Seven of Swords depicts a man slipping away from a military camp with five swords in his arms, looking back at the two he left behind. This is the card of the 'lone wolf' and tactical deception. It suggests that you may be trying to get away with something or using a shortcut to achieve your goals. While it can represent clever strategy and independence, it often warns of dishonesty—either you are being deceptive, or someone is being sneaky with you. It is a reminder that while you might succeed in the short term by avoiding confrontation, the 'swords' you leave behind may eventually come back to haunt you.",
+    "upright_short_meaning": "Work smart and keep your plans to yourself, but beware of acting dishonestly.",
+    "reversed_short_meaning": "The truth is coming to light. It’s time to come clean and face the consequences.",
+    "meanings": {
+      "love": {
+        "upright": "Secrets or lack of trust in a relationship. Someone may not be telling the whole truth.",
+        "reversed": "A partner confesses a secret or a period of dishonesty in love finally ends."
+      },
+      "career": {
+        "upright": "Office politics or someone taking credit for your work. Be careful who you trust.",
+        "reversed": "An unfair workplace practice is exposed. Honesty becomes the best policy again."
+      },
+      "financial": {
+        "upright": "Be cautious of shady deals or theft. Keep your financial documents secure.",
+        "reversed": "Recovering stolen property or realizing you were being misled in a money matter."
+      },
+      "wellbeing": {
+        "upright": "Ignoring health symptoms or trying to find a 'quick fix' that doesn't work.",
+        "reversed": "Acknowledging the truth about your health and seeking real, honest treatment."
+      }
+    }
+  },
+
+  {
+    "id": 43,
+    "name": "Eight of Swords",
+    "image": "img/eight_of_swords.jpg",
+    "upright_keywords": ["Imprisonment", "Entrapment", "Victim Mentality", "Blindfold"],
+    "reversed_keywords": ["Release", "Freedom", "New Perspective", "Empowerment"],
+    "full_description": "The Eight of Swords shows a woman bound and blindfolded, surrounded by eight swords. She appears trapped, yet if you look closely, the swords don't completely block her path and her feet are free. This card represents a self-imposed prison. You feel restricted by your circumstances, but the 'chains' are actually your own thoughts and fears. You are a victim only of your own perspective. It suggests a time of feeling powerless or stuck in a 'no-win' situation, but it is a call to take off the blindfold and realize that you have the power to walk away whenever you choose to change your mindset.",
+    "upright_short_meaning": "You feel trapped, but the exit is right in front of you. Change your thoughts to be free.",
+    "reversed_short_meaning": "You are finally seeing a way out. The mental fog is lifting and you are regaining control.",
+    "meanings": {
+      "love": {
+        "upright": "Feeling trapped in a relationship or paralyzed by the fear of being alone.",
+        "reversed": "Breaking free from a restrictive partnership or letting go of limiting beliefs about love."
+      },
+      "career": {
+        "upright": "Feeling stuck in a job or powerless to change your career. A lack of vision.",
+        "reversed": "Realizing you have other career options. Taking the first step toward a new path."
+      },
+      "financial": {
+        "upright": "Feeling overwhelmed by debt or financial restrictions. A 'stuck' money situation.",
+        "reversed": "Finding a solution to financial problems. Realizing that you can improve your budget."
+      },
+      "wellbeing": {
+        "upright": "Anxiety and stress making you feel physically paralyzed or trapped in a cycle.",
+        "reversed": "Mental health improvement. Releasing the fears that were impacting your body."
+      }
+    }
+  },
+
+  {
+    "id": 44,
+    "name": "Nine of Swords",
+    "image": "img/nine_of_swords.jpg",
+    "upright_keywords": ["Anxiety", "Nightmares", "Worry", "Anguish"],
+    "reversed_keywords": ["Hope", "Release of Stress", "Facing Fears", "Recovery"],
+    "full_description": "The Nine of Swords is often called the 'nightmare card.' It shows a figure sitting up in bed with their head in their hands, nine swords hanging on the wall behind them. This card represents the dark night of the soul—extreme anxiety, guilt, and overthinking. The pain here is mental rather than physical; your worries are magnifying the reality of the situation. It suggests that you are losing sleep over things that may not even happen. However, because the swords hang *behind* the figure, it reminds us that our fears are often based on the past or shadows, and the light of day will soon reveal that things aren't as bad as they seem.",
+    "upright_short_meaning": "Anxiety is overwhelming you. Don't let your thoughts create a reality that isn't there.",
+    "reversed_short_meaning": "The nightmare is ending. You are finding ways to cope and the light is returning.",
+    "meanings": {
+      "love": {
+        "upright": "Deep worry about your relationship or being haunted by past romantic traumas.",
+        "reversed": "Realizing your fears about your partner were exaggerated. Emotional healing."
+      },
+      "career": {
+        "upright": "Extreme work stress. You are terrified of failure or making a mistake.",
+        "reversed": "Stress at work is subsiding. You are gaining a more balanced perspective on your job."
+      },
+      "financial": {
+        "upright": "Constant worry about money that leads to panic. Financial anxiety is peaking.",
+        "reversed": "Finding a way to manage your financial fears. The situation is looking more manageable."
+      },
+      "wellbeing": {
+        "upright": "Insomnia, depression, or severe mental stress. You need to reach out for support.",
+        "reversed": "Better sleep and mental health. You are finally letting go of the heavy thoughts."
+      }
+    }
+  },
+
+  {
+    "id": 45,
+    "name": "Ten of Swords",
+    "image": "img/ten_of_swords.jpg",
+    "upright_keywords": ["Betrayal", "Hitting Rock Bottom", "Endings", "Victimhood"],
+    "reversed_keywords": ["Recovery", "Resurrection", "Inevitable End", "Lessons"],
+    "full_description": "The Ten of Swords is a dramatic card, showing a man lying face down with ten swords in his back. While it looks gruesome, it represents the absolute end of a painful situation. You have hit rock bottom, and the only way left to go is up. The worst has already happened. The sun is beginning to rise in the distance, signaling that the darkness is over. This card is about finality—a betrayal or a failure that is now complete. It asks you to accept the defeat so you can finally begin the process of healing. The cycle is finished; do not try to revive what is already dead.",
+    "upright_short_meaning": "The worst is over. Accept the ending and wait for the new dawn to begin.",
+    "reversed_short_meaning": "You are slowly picking yourself up. A lingering pain remains, but the healing has started.",
+    "meanings": {
+      "love": {
+        "upright": "A painful, final breakup or a deep betrayal that ends a relationship for good.",
+        "reversed": "Surviving a relationship crisis. You are starting to recover after a total collapse."
+      },
+      "career": {
+        "upright": "The end of a job or a project failing completely. You feel stabbed in the back by colleagues.",
+        "reversed": "Recovering from a career disaster. You are ready to start over with a clean slate."
+      },
+      "financial": {
+        "upright": "Financial ruin or hitting the absolute bottom of your budget. A total loss.",
+        "reversed": "Avoiding total bankruptcy or starting to rebuild after a massive financial blow."
+      },
+      "wellbeing": {
+        "upright": "Total exhaustion or a health crisis that forces you to stop. You cannot go on like this.",
+        "reversed": "Recovering from a severe illness or mental breakdown. Your strength is returning."
+      }
+    }
+  },
+
+  {
+    "id": 46,
+    "name": "Page of Swords",
+    "image": "img/page_of_swords.jpg",
+    "upright_keywords": ["Curiosity", "Mental Energy", "Communication", "Alertness"],
+    "reversed_keywords": ["All Talk No Action", "Gossip", "Deception", "Hasty"],
+    "full_description": "The Page of Swords stands on a windy hill, sword held high, looking alert and ready for anything. He represents the restless energy of the mind—curiosity, new ideas, and a sharp tongue. This Page is a messenger of truth and a seeker of information. He may be young or inexperienced, but his intellect is sharp. He encourages you to be inquisitive and to speak your mind, but he also warns against being too blunt or acting before you have all the facts. He is the energy of 'mental growth,' where you are learning to use your logic to navigate the world.",
+    "upright_short_meaning": "Be curious and stay alert. New ideas and information are coming your way.",
+    "reversed_short_meaning": "Beware of gossip or being too critical. You may be acting without thinking.",
+    "meanings": {
+      "love": {
+        "upright": "Intellectual attraction or a flurry of messages. A time of honest communication.",
+        "reversed": "Mind games, petty arguments, or using words to hurt a partner. Lack of depth."
+      },
+      "career": {
+        "upright": "A new project requiring research or communication skills. Being a quick learner.",
+        "reversed": "A lack of focus at work or being involved in office rumors. Be careful what you say."
+      },
+      "financial": {
+        "upright": "Researching new ways to make money. A clever idea for a side hustle.",
+        "reversed": "Financial confusion or falling for a scheme because you didn't check the facts."
+      },
+      "wellbeing": {
+        "upright": "Mental alertness and a focus on cognitive health. Seeking new health information.",
+        "reversed": "Mental fatigue or 'overthinking' yourself into a headache. Need for a quiet mind."
+      }
+    }
+  },
+
+  {
+    "id": 47,
+    "name": "Knight of Swords",
+    "image": "img/knight_of_swords.jpg",
+    "upright_keywords": ["Ambitious", "Action-oriented", "Direct", "Quick-witted"],
+    "reversed_keywords": ["Aggressive", "Restless", "Impulsive", "Burnout"],
+    "full_description": "The Knight of Swords charges forward on his horse, sword drawn, moving with incredible speed. He is the embodiment of pure mental force and ambition. When he wants something, he goes for it immediately, using his logic and sharp intellect to clear any obstacles. He is brave and direct, but he often forgets to consider the emotional consequences of his actions. This card suggests a time of fast-paced change where you must act quickly and decisively. It is an energy of 'taking the bull by the horns,' but it carries a warning: don't let your speed turn into recklessness.",
+    "upright_short_meaning": "Charge forward with your ideas. Be direct and decisive to achieve your goals.",
+    "reversed_short_meaning": "You are rushing headlong into a situation without a plan. Slow down before you crash.",
+    "meanings": {
+      "love": {
+        "upright": "A sudden romantic pursuit or an intense intellectual connection. Very direct energy.",
+        "reversed": "Aggressive communication or a partner who is being cold and overly logical."
+      },
+      "career": {
+        "upright": "Making a bold move at work. Fast progress and overcoming professional challenges.",
+        "reversed": "Conflict with coworkers due to a know-it-all attitude. Reckless business moves."
+      },
+      "financial": {
+        "upright": "Quick financial gains through decisive action. A successful, fast-paced investment.",
+        "reversed": "Losing money because you rushed into a deal without doing your homework."
+      },
+      "wellbeing": {
+        "upright": "High mental energy and physical speed. A fast recovery from an illness.",
+        "reversed": "Burnout or injuries caused by rushing. Your mind is racing too fast for your body."
+      }
+    }
+  },
+
+  {
+    "id": 48,
+    "name": "Queen of Swords",
+    "image": "img/queen_of_swords.jpg",
+    "upright_keywords": ["Independent", "Unbiased", "Clear Communication", "Direct"],
+    "reversed_keywords": ["Cold-hearted", "Cruel", "Bitter", "Overly Critical"],
+    "full_description": "The Queen of Swords sits on a high throne, her hand extended as if to welcome the truth, while her other hand holds a sword upright. She represents the mastery of the intellect over emotion. She is often someone who has been through hardship and has emerged with a sharp mind and clear boundaries. She values honesty above all else and has no patience for games or illusions. This card encourages you to use your logic and to speak your truth with clarity and authority. She is the 'truth-teller' who sees through the BS and makes decisions based on facts and justice.",
+    "upright_short_meaning": "Use your intellect and stay objective. Speak your truth with confidence and clarity.",
+    "reversed_short_meaning": "You may be coming across as too cold or critical. Don't let bitterness cloud your heart.",
+    "meanings": {
+      "love": {
+        "upright": "A relationship based on intellectual respect and honesty. Needing space and boundaries.",
+        "reversed": "Being overly critical of a partner or using harsh words that create a cold distance."
+      },
+      "career": {
+        "upright": "Success through clear communication and professional boundaries. A strong female mentor.",
+        "reversed": "A difficult boss or a toxic work environment where people use intellect to harm others."
+      },
+      "financial": {
+        "upright": "Smart, independent money management. Making financial decisions based on logic.",
+        "reversed": "Poor financial advice or being too 'smart' for your own good, leading to a loss."
+      },
+      "wellbeing": {
+        "upright": "Mental clarity regarding health. Making objective decisions about your body.",
+        "reversed": "Repressed emotions leading to physical tension. A 'cold' or disconnected feeling."
+      }
+    }
+  },
+
+  {
+    "id": 49,
+    "name": "King of Swords",
+    "image": "img/king_of_swords.jpg",
+    "upright_keywords": ["Authority", "Logical", "Truth", "Intellectual Power"],
+    "reversed_keywords": ["Manipulative", "Tyrannical", "Abusive", "Cold"],
+    "full_description": "The King of Swords is the ultimate authority in the realm of the mind. He sits forward on his throne, holding his sword ready to judge with total objectivity. He represents the highest level of logic, ethics, and mental discipline. This King does not let his emotions sway his decisions; he relies on the law, the facts, and the truth. When he appears, he suggests that you need to be the 'expert' in your own life. Use your power of reason to solve your problems and lead others with integrity. He is a card of professional success, legal victory, and the power of a disciplined mind.",
+    "upright_short_meaning": "Master your thoughts and lead with logic. The truth and facts will set you free.",
+    "reversed_short_meaning": "A misuse of power or intellect. Someone is being manipulative or overly controlling.",
+    "meanings": {
+      "love": {
+        "upright": "A mature relationship built on shared values and truth. An intellectually stimulating partner.",
+        "reversed": "An emotionally cold or controlling partner who uses logic to win every argument."
+      },
+      "career": {
+        "upright": "Success in law, academia, or a high-level management role. Being seen as an expert.",
+        "reversed": "Abuse of authority at work. A boss who is a 'dictator' or uses intelligence to intimidate."
+      },
+      "financial": {
+        "upright": "Disciplined and strategic financial planning. Wealth built through smart decisions.",
+        "reversed": "Losing money through a legal dispute or being tricked by someone more 'clever' than you."
+      },
+      "wellbeing": {
+        "upright": "Strong mental discipline helping physical health. A clear and focused mind.",
+        "reversed": "Mental stress or 'over-intellectualizing' a health problem instead of feeling it."
+      }
+    }
+  },
+
+  {
+    "id": 50,
+    "name": "Ace of Wands",
+    "image": "img/ace_of_wands.jpg",
+    "upright_keywords": ["Inspiration", "New Opportunity", "Growth", "Potential"],
+    "reversed_keywords": ["Emerging Idea", "Lack of Direction", "Distractions"],
+    "full_description": "The Ace of Wands shows a hand emerging from a cloud, gripping a flowering wand that still has leaves growing from it. This represents the raw, primal energy of fire and the spark of a new idea. It is the 'lightbulb moment' where you feel a sudden surge of inspiration and passion. Unlike the Ace of Swords (logic) or Ace of Cups (emotion), this is about action and creative power. It suggests that a new project or career path is opening up, and it’s filled with potential. It is a green light to follow your gut and start something that truly excites you.",
+    "upright_short_meaning": "A burst of creative energy. Start that new project you've been dreaming about.",
+    "reversed_short_meaning": "You have an idea but aren't ready to act. Clear your distractions first.",
+    "meanings": {
+      "love": {
+        "upright": "A new, passionate attraction. An exciting spark in your romantic life.",
+        "reversed": "A brief spark that fades quickly. Lack of passion or physical energy."
+      },
+      "career": {
+        "upright": "A new job offer or a breakthrough idea at work. A time for high ambition.",
+        "reversed": "Feeling uninspired or stuck in a job that lacks a creative outlet."
+      },
+      "financial": {
+        "upright": "Financial growth through a new venture. A lucky break in money matters.",
+        "reversed": "A risky financial move. Don't rush into spending based on an impulse."
+      },
+      "wellbeing": {
+        "upright": "High vitality and physical energy. A great time to start a new fitness habit.",
+        "reversed": "Low energy or a creative burnout. You need to find your spark again."
+      }
+    }
+  },
+
+  {
+    "id": 51,
+    "name": "Two of Wands",
+    "image": "img/two_of_wands.jpg",
+    "upright_keywords": ["Planning", "Decision Making", "Discovery", "Future"],
+    "reversed_keywords": ["Fear of the Unknown", "Lack of Planning", "Playing it Safe"],
+    "full_description": "A man stands on a balcony, holding a small globe in one hand and looking out over the sea. He has achieved initial success, but he is now planning his next big move. The Two of Wands is about the transition from a 'spark' to a 'plan.' You have the world in your hands, but you must decide where to sail next. It involves leaving your comfort zone to explore bigger horizons. This card encourages you to stay ambitious and to use your vision to map out the long-term future. It is a moment of quiet confidence before the journey begins.",
+    "upright_short_meaning": "You've had initial success. Now, plan your next move and think big.",
+    "reversed_short_meaning": "Fear of taking the next step. You're staying in your comfort zone too long.",
+    "meanings": {
+      "love": {
+        "upright": "Discussing the future with a partner. Planning a journey or a life move together.",
+        "reversed": "Uncertainty about where a relationship is going. Fear of commitment."
+      },
+      "career": {
+        "upright": "Broadening your professional horizons. Planning a career expansion or travel.",
+        "reversed": "Lack of a clear career goal. You are drifting without a professional map."
+      },
+      "financial": {
+        "upright": "Long-term financial planning. Looking for bigger investment opportunities.",
+        "reversed": "Fear of making a financial move. You're holding onto money too tightly."
+      },
+      "wellbeing": {
+        "upright": "Mental clarity regarding health goals. Looking forward to a healthier future.",
+        "reversed": "Neglecting health because you're too focused on worldly ambitions."
+      }
+    }
+  },
+
+  {
+    "id": 52,
+    "name": "Three of Wands",
+    "image": "img/three_of_wands.jpg",
+    "upright_keywords": ["Expansion", "Foresight", "Overseas", "Progress"],
+    "reversed_keywords": ["Delays", "Lack of Progress", "Frustration"],
+    "full_description": "In the Three of Wands, the man has moved from his balcony to the edge of a cliff, watching his ships sail into the distance. His plans are now in motion, and he is waiting for his 'ships to come in.' This card represents expansion and the rewards of foresight. You have put in the work, and now you are seeing the first signs of success. It often signifies global opportunities, travel, or moving beyond your local environment. It is a card of confidence and the knowledge that your efforts are starting to pay off in a big way.",
+    "upright_short_meaning": "Your efforts are paying off. Success is on the horizon; stay patient and focused.",
+    "reversed_short_meaning": "Expect delays in your plans. Your 'ships' might be held up by obstacles.",
+    "meanings": {
+      "love": {
+        "upright": "A relationship that is expanding or moving to a new level. Long-distance love.",
+        "reversed": "Frustration in love. Plans for a future together are being delayed."
+      },
+      "career": {
+        "upright": "Expanding your business or career globally. Promotion and visible progress.",
+        "reversed": "A project is moving slower than expected. Lack of professional growth."
+      },
+      "financial": {
+        "upright": "Income from overseas or diversified sources. Financial expansion.",
+        "reversed": "Hidden costs or delays in receiving expected payments. Financial frustration."
+      },
+      "wellbeing": {
+        "upright": "Steady physical progress. You are reaching your health milestones.",
+        "reversed": "Feeling stagnant. Your health goals are taking longer than expected to reach."
+      }
+    }
+  },
+
+  {
+    "id": 53,
+    "name": "Four of Wands",
+    "image": "img/four_of_wands.jpg",
+    "upright_keywords": ["Celebration", "Home", "Harmony", "Relaxation"],
+    "reversed_keywords": ["Lack of Support", "Home Tension", "Transition"],
+    "full_description": "The Four of Wands shows a couple dancing under a canopy of flowers and wands, with a large castle in the background. It is a card of celebration, homecoming, and community joy. It represents reaching a safe harbor after a period of hard work. This card is often associated with weddings, housewarmings, or reaching a major milestone in a project. It brings an energy of peace and stability. When this card appears, it tells you that it's okay to take a breath and celebrate your success with the people you love. The foundation is solid, and the atmosphere is filled with harmony.",
+    "upright_short_meaning": "A time for celebration and joy. Your hard work has created a solid foundation.",
+    "reversed_short_meaning": "Small tensions at home or a delayed celebration. The joy is there, but slightly muted.",
+    "meanings": {
+      "love": {
+        "upright": "A happy home life, engagement, or marriage. Deep harmony in a relationship.",
+        "reversed": "Unrest in the family or a party that doesn't go as planned. Minor domestic issues."
+      },
+      "career": {
+        "upright": "Successfully finishing a project. A harmonious and supportive workplace.",
+        "reversed": "Lack of teamwork or recognition at work. The environment feels unstable."
+      },
+      "financial": {
+        "upright": "Financial security that allows for celebrations. Buying a new home.",
+        "reversed": "Overspending on a party or home renovation. Temporary money stress."
+      },
+      "wellbeing": {
+        "upright": "Excellent vitality. Your physical health is supported by emotional peace.",
+        "reversed": "Feeling out of sync. You need to bring more harmony into your daily routine."
+      }
+    }
+  },
+
+  {
+    "id": 54,
+    "name": "Five of Wands",
+    "image": "img/five_of_wands.jpg",
+    "upright_keywords": ["Competition", "Conflict", "Rivalry", "Disagreement"],
+    "reversed_keywords": ["Avoidance of Conflict", "Resolution", "Burnout"],
+    "full_description": "The Five of Wands shows five men fighting or competing with their wands. They aren't trying to hurt each other, but they are clearly in disagreement, each trying to make their voice heard. This card represents the healthy (and sometimes annoying) friction of competition. It suggests a time of struggle, brainstorming sessions that get heated, or a crowded marketplace where you have to fight for attention. It is a reminder that diversity of opinion can lead to growth, even if it feels chaotic right now. You are being challenged to prove your worth and stay focused in the middle of the noise.",
+    "upright_short_meaning": "Expect competition or minor conflicts. Stay focused and hold your ground.",
+    "reversed_short_meaning": "A conflict is ending or you are avoiding a necessary fight. Release the tension.",
+    "meanings": {
+      "love": {
+        "upright": "Petty arguments or competition for someone's attention. A lack of harmony.",
+        "reversed": "Coming to an agreement after a series of fights. Peace returns to the bond."
+      },
+      "career": {
+        "upright": "A competitive work environment. Rivalry with colleagues or a crowded market.",
+        "reversed": "Moving away from a competitive job. Resolution of a workplace dispute."
+      },
+      "financial": {
+        "upright": "Financial competition or erratic spending. A struggle to keep up with others.",
+        "reversed": "Resolution of a financial disagreement. A more stable money period begins."
+      },
+      "wellbeing": {
+        "upright": "Internal conflict or high stress. Your body is feeling the tension of competition.",
+        "reversed": "Releasing physical tension. Finding a way to calm your mind and body."
+      }
+    }
+  },
+
+  {
+    "id": 55,
+    "name": "Six of Wands",
+    "image": "img/six_of_wands.jpg",
+    "upright_keywords": ["Victory", "Success", "Public Recognition", "Confidence"],
+    "reversed_keywords": ["Fall from Grace", "Ego", "Lack of Recognition"],
+    "full_description": "The Six of Wands shows a man riding a white horse through a cheering crowd, a laurel wreath tied to his wand. This is the card of victory and public acclaim. You have overcome the chaos of the Five of Wands and emerged a winner. It suggests that your hard work is finally being noticed by others, and you are receiving the praise you deserve. This card brings a surge of self-confidence and pride. However, it also serves as a subtle reminder to stay humble; while it's great to be celebrated, the 'horse' of success must be steered with care to avoid falling from grace.",
+    "upright_short_meaning": "Success is public and visible. You are being recognized for your achievements.",
+    "reversed_short_meaning": "A private victory or feeling like you're not getting the credit you deserve.",
+    "meanings": {
+      "love": {
+        "upright": "A relationship that is admired by others. Sharing a major success with your partner.",
+        "reversed": "Feeling insecure or like your partner doesn't appreciate your wins. Ego clashes."
+      },
+      "career": {
+        "upright": "Promotion, winning an award, or a successful project launch. You are the star.",
+        "reversed": "Being overlooked for a promotion. A project that didn't get the expected applause."
+      },
+      "financial": {
+        "upright": "Financial rewards follow success. A good time for your investments.",
+        "reversed": "A financial loss that impacts your pride. Overspending to look successful."
+      },
+      "wellbeing": {
+        "upright": "Physical vitality and recovery. You are feeling strong and confident.",
+        "reversed": "A blow to your confidence affecting your health. Feeling 'defeated' physically."
+      }
+    }
+  },
+
+  {
+    "id": 56,
+    "name": "Seven of Wands",
+    "image": "img/seven_of_wands.jpg",
+    "upright_keywords": ["Defense", "Perseverance", "Challenge", "Protection"],
+    "reversed_keywords": ["Giving Up", "Overwhelmed", "Indecision"],
+    "full_description": "The Seven of Wands shows a man on a hill, defending himself against six wands being thrust at him from below. He is wearing two different shoes, suggesting he was caught by surprise, but he holds the high ground. This card is about defending your position and staying true to your values when others challenge you. You have achieved success, but now you have to fight to keep it. It represents the courage to say 'no' and the strength to stand alone if necessary. It is a reminder that while the pressure is high, you have the advantage of the high ground—don't back down.",
+    "upright_short_meaning": "Stand your ground and defend your beliefs. You have the advantage, don't give up.",
+    "reversed_short_meaning": "You feel overwhelmed by the pressure. You might be ready to quit. Regain your footing.",
+    "meanings": {
+      "love": {
+        "upright": "Defending your relationship from outside interference or standing up for yourself.",
+        "reversed": "Giving in to pressure from others regarding your love life. Lack of boundaries."
+      },
+      "career": {
+        "upright": "Protecting your ideas or position at work. Handling intense competition with courage.",
+        "reversed": "Feeling burned out by work demands. You are losing your competitive edge."
+      },
+      "financial": {
+        "upright": "Defending your assets and making sure your investments are secure. Vigilance.",
+        "reversed": "Financial vulnerability. You're failing to protect your savings from drains."
+      },
+      "wellbeing": {
+        "upright": "Fighting off an illness or maintaining health boundaries. Strong immune system.",
+        "reversed": "Weakening resilience. You are letting stress overwhelm your physical health."
+      }
+    }
+  },
+
+  {
+    "id": 57,
+    "name": "Eight of Wands",
+    "image": "img/eight_of_wands.jpg",
+    "upright_keywords": ["Speed", "Action", "Movement", "Quick Communication"],
+    "reversed_keywords": ["Delays", "Chaotic Movement", "Impulsive"],
+    "full_description": "The Eight of Wands shows eight wands flying through the air at great speed, about to land. This card represents momentum and fast-paced change. The wait is over; everything is moving forward at once. It often signifies rapid communication, travel, or a project that is reaching its conclusion very quickly. There is no time to overthink—you must act on your instincts. When this card appears, expect a flurry of emails, messages, or news. It is a very positive card for those who have been waiting for things to happen, as it suggests the 'dam' has broken and progress is inevitable.",
+    "upright_short_meaning": "Everything is moving fast! Expect quick results and lots of communication.",
+    "reversed_short_meaning": "Sudden delays or things moving too fast to control. Slow down and check the details.",
+    "meanings": {
+      "love": {
+        "upright": "A whirlwind romance or a sudden message from a love interest. Fast progress.",
+        "reversed": "A relationship moving too fast, leading to chaos. A message is delayed."
+      },
+      "career": {
+        "upright": "A project is moving quickly toward completion. Fast-paced business travel.",
+        "reversed": "Work delays or a project that is out of control. Miscommunication at work."
+      },
+      "financial": {
+        "upright": "Rapid financial growth or a quick return on an investment. Fast transactions.",
+        "reversed": "Financial delays. A payment you were expecting is held up unexpectedly."
+      },
+      "wellbeing": {
+        "upright": "Fast recovery and high energy. Your body is responding quickly to treatment.",
+        "reversed": "Rushing through health routines. Potential for accidents due to haste."
+      }
+    }
+  },
+
+  {
+    "id": 58,
+    "name": "Nine of Wands",
+    "image": "img/nine_of_wands.jpg",
+    "upright_keywords": ["Resilience", "Grit", "Last Stand", "Persistence"],
+    "reversed_keywords": ["Exhaustion", "Defensive", "Paranoia", "Giving Up"],
+    "full_description": "The Nine of Wands shows a man with a bandage on his head, leaning on a wand while eight others stand behind him like a wall. He is weary and battle-worn, but he is still standing. This card is the ultimate symbol of resilience and grit. You are near the end of a long struggle, and while you are tired, you have the strength to finish the race. It suggests that you should be on guard but not fearful. You have learned from your past 'wounds' and they have made you stronger. It is a call to summon your last bit of energy to push through the final obstacle.",
+    "upright_short_meaning": "You're tired, but you're almost there. Keep going; your persistence will pay off.",
+    "reversed_short_meaning": "Extreme exhaustion. You are being too defensive and it's draining your energy.",
+    "meanings": {
+      "love": {
+        "upright": "Being cautious in love due to past heartbreaks. Still standing despite the pain.",
+        "reversed": "Letting past wounds make you paranoid in your current relationship. Total burnout."
+      },
+      "career": {
+        "upright": "Facing a final hurdle at work. You are tired but determined to finish the project.",
+        "reversed": "Work-related stress has reached its limit. You are unable to keep defending your work."
+      },
+      "financial": {
+        "upright": "Protecting your savings after a financial struggle. Being cautious with money.",
+        "reversed": "Financial exhaustion. You've been fighting a money battle too long and are losing steam."
+      },
+      "wellbeing": {
+        "upright": "Physical resilience. You are pushing through a period of low energy with sheer will.",
+        "reversed": "Chronic fatigue or a weakened immune system. Your body needs a break, not a fight."
+      }
+    }
+  },
+
+  {
+    "id": 59,
+    "name": "Ten of Wands",
+    "image": "img/ten_of_wands.jpg",
+    "upright_keywords": ["Burden", "Responsibility", "Hard Work", "Stress"],
+    "reversed_keywords": ["Relief", "Offloading", "Collapse", "Burnout"],
+    "full_description": "The Ten of Wands shows a man carrying ten heavy wands toward a town in the distance. He is hunched over, struggling under the weight, unable to see the path ahead. This card represents the dark side of ambition—taking on too much responsibility until it becomes a burden. You have achieved your goal, but now you are overwhelmed by the work required to maintain it. It is a sign that you are near a breaking point. While the 'town' (the goal) is in sight, you need to ask yourself if you can delegate or drop some of these wands before they crush you.",
+    "upright_short_meaning": "You're carrying too much. It's time to delegate or let go of unnecessary burdens.",
+    "reversed_short_meaning": "Relief from a heavy burden. You're either dropping the load or it's crushing you.",
+    "meanings": {
+      "love": {
+        "upright": "A relationship that feels like hard work. Carrying all the emotional weight alone.",
+        "reversed": "Sharing the load with a partner or finally walking away from a heavy relationship."
+      },
+      "career": {
+        "upright": "Overworked and stressed. You've taken on too many projects and it's showing.",
+        "reversed": "Learning to delegate at work or suffering a burnout that forces you to stop."
+      },
+      "financial": {
+        "upright": "Heavy financial responsibilities (debts, bills) that are weighing you down.",
+        "reversed": "Finally paying off a major debt or realizing that your money stress is unsustainable."
+      },
+      "wellbeing": {
+        "upright": "Physical strain, back pain, or stress-related illness. You are carrying too much.",
+        "reversed": "Recovery through rest. You are finally letting go of the stress that hurt your body."
+      }
+    }
+  },
+
+  {
+    "id": 60,
+    "name": "Page of Wands",
+    "image": "img/page_of_wands.jpg",
+    "upright_keywords": ["Inspiration", "Discovery", "Enthusiasm", "Free Spirit"],
+    "reversed_keywords": ["Lack of Ideas", "Procrastination", "Pessimism"],
+    "full_description": "The Page of Wands stands in a desert, dressed in clothes decorated with salamanders (symbols of fire), looking at a sprouting wand. He is a messenger of excitement and discovery. This Page doesn't have a plan yet—he just has passion and curiosity. He represents the stage where you are excited to try something new, even if you don't know where it will lead. He encourages you to embrace your adventurous spirit and say 'yes' to new experiences. He is the spark of creativity that hasn't been dimmed by the realities of life yet.",
+    "upright_short_meaning": "A new spark of inspiration. Be bold and follow your curiosity today.",
+    "reversed_short_meaning": "You're having trouble getting started. Don't let procrastination kill your enthusiasm.",
+    "meanings": {
+      "love": {
+        "upright": "A fun, flirtatious new connection. Someone exciting and adventurous enters your life.",
+        "reversed": "A relationship that lacks a spark or a partner who is being immature and unreliable."
+      },
+      "career": {
+        "upright": "A new project or job offer that excites you. A chance to show your creativity.",
+        "reversed": "Feeling bored and uninspired at work. A lack of growth or new ideas."
+      },
+      "financial": {
+        "upright": "A small but exciting financial gain. A new idea for making money.",
+        "reversed": "A financial idea that doesn't pan out. Small money disappointments due to lack of focus."
+      },
+      "wellbeing": {
+        "upright": "High energy and excitement for a new health routine. Feeling youthful.",
+        "reversed": "Low physical energy. You need to find a way to get excited about health again."
+      }
+    }
+  },
+
+  {
+    "id": 61,
+    "name": "Knight of Wands",
+    "image": "img/knight_of_wands.jpg",
+    "upright_keywords": ["Action", "Adventure", "Fearless", "Impulsive"],
+    "reversed_keywords": ["Aggressive", "Restless", "Hasty", "Frustrated"],
+    "full_description": "The Knight of Wands charges forward on his horse, his cloak decorated with fire salamanders. He is all action, no talk. He is the most energetic of the knights, representing someone who is fearless and ready to conquer the world. However, his weakness is impulsivity—he often jumps into things without thinking. This card suggests a time of high energy, travel, and bold moves. It is an invitation to be daring and to pursue your passions with everything you've got. Just be careful not to start a 'fire' you can't put out.",
+    "upright_short_meaning": "Go for it! Move fast and be bold, but watch out for being too impulsive.",
+    "reversed_short_meaning": "You're rushing into something recklessly. Stop and think before you act.",
+    "meanings": {
+      "love": {
+        "upright": "A passionate, fast-moving romance. An adventurous partner who swept you off your feet.",
+        "reversed": "A relationship that is too volatile or a partner who is hot-headed and impulsive."
+      },
+      "career": {
+        "upright": "Taking a bold risk at work. Fast-paced progress and exciting business trips.",
+        "reversed": "Unfinished projects and career frustration. You are rushing without a clear goal."
+      },
+      "financial": {
+        "upright": "Taking a gamble on a financial opportunity. High-risk, high-reward energy.",
+        "reversed": "Losing money because of impulsive spending or a reckless investment."
+      },
+      "wellbeing": {
+        "upright": "Strong physical energy and an adventurous approach to health. Pushing your limits.",
+        "reversed": "Injuries caused by haste. Burnout from trying to do too much too fast."
+      }
+    }
+  },
+
+  {
+    "id": 62,
+    "name": "Queen of Wands",
+    "image": "img/queen_of_wands.jpg",
+    "upright_keywords": ["Confidence", "Social", "Courageous", "Determined"],
+    "reversed_keywords": ["Demanding", "Self-Centered", "Jealous", "Insecure"],
+    "full_description": "The Queen of Wands sits on a throne decorated with lions and sunflowers, a black cat at her feet. She is the 'social butterfly' of the Tarot—confident, warm, and highly charismatic. She is a natural leader who rules with both a kind heart and a strong will. This card represents a person who is capable of managing many things at once while staying positive and radiant. She encourages you to be bold, to trust your own power, and to express your creativity openly. She is a reminder that you can be both powerful and popular at the same time.",
+    "upright_short_meaning": "Be bold, confident, and social. Your charisma is your greatest power right now.",
+    "reversed_short_meaning": "You might be feeling insecure or acting too pushy. Check your ego.",
+    "meanings": {
+      "love": {
+        "upright": "A warm, confident, and independent partner. A relationship full of life and joy.",
+        "reversed": "Jealousy or insecurity in a relationship. Someone is being too demanding."
+      },
+      "career": {
+        "upright": "Being a charismatic leader at work. Managing projects with confidence and grace.",
+        "reversed": "A difficult female boss or feeling like you've lost your professional spark."
+      },
+      "financial": {
+        "upright": "Confident and successful money management. Spending on things that bring joy.",
+        "reversed": "Overspending to impress others. Financial insecurity hidden behind a brave face."
+      },
+      "wellbeing": {
+        "upright": "Radiant health and high self-esteem. Your body is responding to your positive mind.",
+        "reversed": "Low energy caused by self-doubt. You need to nurture your confidence to feel better."
+      }
+    }
+  },
+
+  {
+    "id": 63,
+    "name": "King of Wands",
+    "image": "img/king_of_wands.jpg",
+    "upright_keywords": ["Visionary", "Natural Leader", "Entrepreneur", "Honor"],
+    "reversed_keywords": ["Impulsive", "Overbearing", "Ruthless", "High Expectations"],
+    "full_description": "The King of Wands sits on his throne, holding a flowering wand, with salamanders biting their tails (representing eternity). He is the ultimate visionary and leader. He doesn't just have ideas; he has the power to manifest them in the real world. He is an entrepreneur at heart, bold and unafraid of risks. This card suggests that you have the authority and the vision to lead a major project or life change. He rules with honor and expects the best from everyone. He is a reminder that a true leader inspires others through their own passionate action.",
+    "upright_short_meaning": "Lead with vision and passion. You have the power to manifest your biggest dreams.",
+    "reversed_short_meaning": "Don't be a dictator. Your high expectations might be crushing those around you.",
+    "meanings": {
+      "love": {
+        "upright": "A strong, passionate, and protective partner. A relationship built on mutual respect.",
+        "reversed": "An overbearing or controlling partner. High demands that are hard to meet."
+      },
+      "career": {
+        "upright": "Success in a leadership or executive role. Starting a successful business.",
+        "reversed": "Being a ruthless boss or making impulsive business decisions that backfire."
+      },
+      "financial": {
+        "upright": "Successful investments and long-term financial security through bold action.",
+        "reversed": "Financial loss due to arrogance or ignoring professional advice. Reckless moves."
+      },
+      "wellbeing": {
+        "upright": "Superior vitality and a strong constitution. You lead a very active life.",
+        "reversed": "Stress-related issues caused by high pressure and an inability to rest."
+      }
+    }
+  },
+
+  {
+    "id": 64,
+    "name": "Ace of Pentacles",
+    "image": "img/ace_of_pentacles.jpg",
+    "upright_keywords": ["Abundance", "Financial Opportunity", "Manifestation", "Prosperity"],
+    "reversed_keywords": ["Lost Opportunity", "Lack of Planning", "Greed", "Financial Instability"],
+    "full_description": "The Ace of Pentacles shows a divine hand emerging from the clouds, holding a large golden coin. Below is a lush garden with a path leading to a mountain. This represents the seed of material success. It is a gift from the universe in the form of a new job, a business opportunity, or a financial windfall. Unlike the other Aces, this is the most 'solid' and grounded. It suggests that if you plant this seed and nurture it with hard work, it will grow into something stable and lasting. It is a sign of prosperity and the manifestation of your goals into the physical world.",
+    "upright_short_meaning": "A new financial or career opportunity is manifesting. A solid start to wealth.",
+    "reversed_short_meaning": "A missed opportunity or a risky investment. Be careful with your spending right now.",
+    "meanings": {
+      "love": {
+        "upright": "A stable and secure relationship. Finding a partner who shares your long-term goals.",
+        "reversed": "Financial stress impacting your love life. A relationship that feels unstable or shallow."
+      },
+      "career": {
+        "upright": "A promotion, a new job offer, or a successful business launch. Professional growth.",
+        "reversed": "Job insecurity or a business deal that falls through. Lack of professional direction."
+      },
+      "financial": {
+        "upright": "Financial abundance. A great time to invest or start a savings plan.",
+        "reversed": "Unexpected expenses or poor financial planning. Money is slipping through your fingers."
+      },
+      "wellbeing": {
+        "upright": "Physical health is improving. A great time to start a new diet or exercise regime.",
+        "reversed": "Neglecting your body. You need to focus on the basics of health—sleep and nutrition."
+      }
+    }
+  },
+
+  {
+    "id": 65,
+    "name": "Two of Pentacles",
+    "image": "img/two_of_pentacles.jpg",
+    "upright_keywords": ["Balance", "Multitasking", "Adaptability", "Prioritization"],
+    "reversed_keywords": ["Imbalance", "Disorganization", "Overwhelmed", "Financial Mess"],
+    "full_description": "A young man dances while juggling two large coins, which are connected by an infinity symbol. In the background, ships toss on a stormy sea. This card is about finding balance in the midst of change. Life is a constant juggling act of work, family, finances, and health. The Two of Pentacles reminds you to stay flexible and adaptable. You have the ability to handle multiple responsibilities, but only if you manage your time and energy wisely. It is a card of movement, reminding us that balance isn't a static state, but an active process of adjustment.",
+    "upright_short_meaning": "You are juggling many things. Stay flexible and prioritize what truly matters.",
+    "reversed_short_meaning": "You are taking on too much and losing your balance. Get organized before you drop a coin.",
+    "meanings": {
+      "love": {
+        "upright": "Making time for your partner despite a busy schedule. Balancing love and work.",
+        "reversed": "Neglecting your relationship because of work or money stress. Total imbalance."
+      },
+      "career": {
+        "upright": "Managing multiple projects or two jobs at once. Adapting to new work demands.",
+        "reversed": "Feeling overwhelmed by your workload. Mismanagement of professional tasks."
+      },
+      "financial": {
+        "upright": "Juggling bills and income. Balancing your budget carefully to stay afloat.",
+        "reversed": "Financial chaos. You are spending more than you earn and losing control."
+      },
+      "wellbeing": {
+        "upright": "Finding a balance between physical activity and rest. Moderate health habits.",
+        "reversed": "Extreme health habits—either over-exercising or total neglect. Find the middle ground."
+      }
+    }
+  },
+
+  {
+    "id": 66,
+    "name": "Three of Pentacles",
+    "image": "img/three_of_pentacles.jpg",
+    "upright_keywords": ["Teamwork", "Collaboration", "Learning", "Craftsmanship"],
+    "reversed_keywords": ["Lack of Teamwork", "Poor Quality", "Conflict at Work", "No Growth"],
+    "full_description": "A young stonemason is working on a cathedral, while a priest and a nobleman hold the plans and observe. This card is about the power of collaboration and professional skill. It suggests that while you have the talent, you need the input and support of others to complete a great work. It represents the building stages of a project where everyone contributes their expertise. It is a very positive card for career growth, suggesting that your skills are being recognized and that you are working toward a masterwork through discipline and cooperation.",
+    "upright_short_meaning": "Success through teamwork and skill. Your hard work is being recognized by experts.",
+    "reversed_short_meaning": "Conflict with coworkers or poor quality work. You need to improve your skills.",
+    "meanings": {
+      "love": {
+        "upright": "Building a solid foundation for a relationship. Working together on shared goals.",
+        "reversed": "A lack of growth in love. You and your partner are not on the same page."
+      },
+      "career": {
+        "upright": "Professional recognition. Excelling in a team project or gaining new certifications.",
+        "reversed": "Lack of motivation or unprofessional behavior. Not meeting the required standards."
+      },
+      "financial": {
+        "upright": "Financial gains through professional expertise. Investing in your education or craft.",
+        "reversed": "Losing money due to poor workmanship or lack of professional advice."
+      },
+      "wellbeing": {
+        "upright": "Steady improvement in health through a disciplined routine and expert advice.",
+        "reversed": "Ignoring professional medical advice. A lack of consistency in your health habits."
+      }
+    }
+  },
+
+  {
+    "id": 67,
+    "name": "Four of Pentacles",
+    "image": "img/four_of_pentacles.jpg",
+    "upright_keywords": ["Conservation", "Security", "Frugality", "Control"],
+    "reversed_keywords": ["Greed", "Possessiveness", "Risk-taking", "Letting Go"],
+    "full_description": "A man sits on a stool, clutching one coin to his chest, two under his feet, and one on his head. He is holding on tightly to what he has, fearing loss. This card represents the need for security and control over the material world. In a positive sense, it is about being frugal and saving for the future. In a negative sense, it warns of being too attached to money or status to the point of becoming rigid or stingy. It suggests that while you are financially secure, you may be blocking the 'flow' of abundance by refusing to take risks or share with others.",
+    "upright_short_meaning": "You are focused on security and saving. Don't let your fear of loss make you rigid.",
+    "reversed_short_meaning": "You are ready to take a risk or spend some money. Release your need for total control.",
+    "meanings": {
+      "love": {
+        "upright": "Being protective of a relationship. A need for stability and commitment.",
+        "reversed": "Possessiveness or jealousy. Smothering your partner by holding on too tight."
+      },
+      "career": {
+        "upright": "A stable, secure job. You are focused on maintaining your position and salary.",
+        "reversed": "A career risk that may or may not pay off. Leaving a secure job for something new."
+      },
+      "financial": {
+        "upright": "Conserving your wealth. Building a solid savings account through frugality.",
+        "reversed": "Reckless spending or a major financial loss after being too cautious."
+      },
+      "wellbeing": {
+        "upright": "Stable health through careful habits. Holding onto energy by resting.",
+        "reversed": "A sudden change in health routine. Releasing physical or emotional tension."
+      }
+    }
+  },
+
+  {
+    "id": 68,
+    "name": "Five of Pentacles",
+    "image": "img/five_of_pentacles.jpg",
+    "upright_keywords": ["Financial Loss", "Hardship", "Isolation", "Poverty"],
+    "reversed_keywords": ["Recovery", "Financial Improvement", "Help is Near", "Hope"],
+    "full_description": "Two shivering people walk past a glowing stained-glass window in the snow. They are in distress, but they fail to see the light of the church, which offers shelter and help. This card is about hardship and the 'poverty' mindset. It can represent literal financial loss, but it also signifies feeling isolated or spiritually empty. The message is that help is available, but you are too focused on your pain to see it. It is a reminder that even in your darkest times, you are not alone, and there is a 'window' of opportunity if you are willing to look up and ask for support.",
+    "upright_short_meaning": "You are going through a tough time. Don't be afraid to ask for help; it's there.",
+    "reversed_short_meaning": "The hardship is ending. You are finding your way back to stability and hope.",
+    "meanings": {
+      "love": {
+        "upright": "Feeling rejected or neglected in love. Going through a 'cold' patch with a partner.",
+        "reversed": "Healing after a period of relationship hardship. Reconnecting with your partner."
+      },
+      "career": {
+        "upright": "Job loss, financial struggle at work, or feeling like an outsider in your company.",
+        "reversed": "Finding a new job or recovering from a professional setback. Stability returns."
+      },
+      "financial": {
+        "upright": "Significant financial loss or struggle. A period of being 'broke' or overwhelmed by debt.",
+        "reversed": "Financial recovery. Paying off debts and starting to rebuild your savings."
+      },
+      "wellbeing": {
+        "upright": "Poor health due to stress or neglect. Feeling physically drained and weak.",
+        "reversed": "Improving health. You are finally finding the right treatment or lifestyle change."
+      }
+    }
+  },
+
+  {
+    "id": 69,
+    "name": "Six of Pentacles",
+    "image": "img/six_of_pentacles.jpg",
+    "upright_keywords": ["Generosity", "Charity", "Giving and Receiving", "Sharing"],
+    "reversed_keywords": ["Selfishness", "Debt", "Power Struggles", "Strings Attached"],
+    "full_description": "A wealthy man in fine robes gives coins to two beggars while holding a scale in his other hand. This card is about the balance of wealth and the flow of giving. It represents generosity—either you are in a position to give, or you are receiving the help you need. The scale suggests that the giving is fair and balanced. It is a reminder that we are all part of a cycle; today you may be the giver, and tomorrow you may be the receiver. It encourages a spirit of charity and the understanding that true wealth is shared.",
+    "upright_short_meaning": "You are in a position to give or receive help. Share your abundance fairly.",
+    "reversed_short_meaning": "Beware of unfairness or 'charity' with strings attached. Watch your debts.",
+    "meanings": {
+      "love": {
+        "upright": "A balanced relationship where both partners give and receive equally. Support.",
+        "reversed": "One partner is doing all the giving. A power imbalance that leads to resentment."
+      },
+      "career": {
+        "upright": "A fair boss, receiving a bonus, or getting the mentorship you need. Collaboration.",
+        "reversed": "Unfair treatment at work. Someone is abusing their power or withholding help."
+      },
+      "financial": {
+        "upright": "Financial gifts or loans. A period of stable flow between income and expenses.",
+        "reversed": "Financial imbalance. Being in debt or being taken advantage of by others."
+      },
+      "wellbeing": {
+        "upright": "Healing through the help of others. Your health is supported by a good community.",
+        "reversed": "Neglecting your health because you are too busy taking care of everyone else."
+      }
+    }
+  },
+
+  {
+    "id": 70,
+    "name": "Seven of Pentacles",
+    "image": "img/seven_of_pentacles.jpg",
+    "upright_keywords": ["Patience", "Investment", "Sustainable Results", "Long-term View"],
+    "reversed_keywords": ["Lack of Vision", "Limited Success", "Frustration", "Impatience"],
+    "full_description": "A gardener leans on his shovel, looking at a bush filled with seven pentacles. He has worked hard, and now he is pausing to evaluate his progress. This card is about the long game. You have planted the seeds and put in the effort; now you must wait for the harvest. It is a card of patience and evaluation. It asks: Is this project worth the continued effort? Is the harvest going to be what I expected? It reminds us that significant results take time and that sometimes the most productive thing you can do is wait and plan for the future.",
+    "upright_short_meaning": "Your hard work will pay off, but you must be patient. Evaluate your progress.",
+    "reversed_short_meaning": "You are frustrated by slow progress. Don't give up; just refine your strategy.",
+    "meanings": {
+      "love": {
+        "upright": "Investing time and energy in a long-term relationship. Waiting for it to bloom.",
+        "reversed": "Frustration in love. Feeling like your efforts in a relationship are not being rewarded."
+      },
+      "career": {
+        "upright": "A long-term project that is slowly coming to fruition. Evaluation of career goals.",
+        "reversed": "Feeling stuck in a dead-end job. A lack of professional growth despite hard work."
+      },
+      "financial": {
+        "upright": "Long-term investments. Seeing the first signs of profit from your savings.",
+        "reversed": "Poor financial planning. Impatience leading to a bad investment choice."
+      },
+      "wellbeing": {
+        "upright": "Slow but steady health progress. Staying committed to a long-term routine.",
+        "reversed": "Lack of results from a health routine. You might be tempted to quit too soon."
+      }
+    }
+  },
+
+  {
+    "id": 71,
+    "name": "Eight of Pentacles",
+    "image": "img/eight_of_pentacles.jpg",
+    "upright_keywords": ["Apprenticeship", "Diligence", "Skill Development", "Craftsmanship"],
+    "reversed_keywords": ["Lack of Focus", "Perfectionism", "Misdirected Activity", "Boredom"],
+    "full_description": "An artist is carefully carving a pentacle, with seven others already finished and hanging on the wall. He is completely focused on his work, striving for perfection. This card is about mastery through repetition and hard work. It suggests a time of intense focus on a specific task or skill. You are an apprentice turning into a master. It is a card of diligence and attention to detail. It encourages you to keep working, keep practicing, and stay focused on the process rather than just the final goal. Success comes through the quality of your effort.",
+    "upright_short_meaning": "Focus on your craft. Your dedication and hard work are leading to mastery.",
+    "reversed_short_meaning": "You are losing focus or becoming a perfectionist. Don't get bogged down in details.",
+    "meanings": {
+      "love": {
+        "upright": "Working hard on a relationship. Paying attention to the small details of love.",
+        "reversed": "Neglecting a relationship because of work. Boredom or lack of effort in love."
+      },
+      "career": {
+        "upright": "Learning a new skill or excelling in your current job through hard work and focus.",
+        "reversed": "Lack of ambition or poor quality work. Feeling uninspired by your daily tasks."
+      },
+      "financial": {
+        "upright": "Increasing your income through skill and hard work. A stable financial growth.",
+        "reversed": "Spending money on things that don't last. Financial focus is missing."
+      },
+      "wellbeing": {
+        "upright": "Disciplined focus on health. Following a specific diet or exercise plan with care.",
+        "reversed": "Neglecting your health routine. You have lost the discipline you once had."
+      }
+    }
+  },
+
+  {
+    "id": 72,
+    "name": "Nine of Pentacles",
+    "image": "img/nine_of_pentacles.jpg",
+    "upright_keywords": ["Abundance", "Luxury", "Self-Sufficiency", "Financial Independence"],
+    "reversed_keywords": ["Overspending", "Financial Dependence", "Isolation", "Superficiality"],
+    "full_description": "A woman stands in a lush vineyard, dressed in elegant robes, with a hooded falcon on her hand. She is surrounded by abundance and looks completely at peace. This card represents the height of self-sufficiency and independence. You have worked hard, and now you are enjoying the luxury and security you've earned on your own. It is a card of refinement, beauty, and the ability to be comfortable in your own company. You don't need anyone else to make you feel complete; you have built your own 'garden' of success and you are the queen of it.",
+    "upright_short_meaning": "You are independent and successful. Enjoy the luxury and peace you've earned.",
+    "reversed_short_meaning": "You are relying too much on others for your security. Watch your spending habits.",
+    "meanings": {
+      "love": {
+        "upright": "Being happy and independent in a relationship. A partner who respects your space.",
+        "reversed": "Feeling lonely despite financial success. A relationship built on money, not love."
+      },
+      "career": {
+        "upright": "Reaching a high level of success and independence. Working for yourself or as an expert.",
+        "reversed": "Losing your professional independence. A project that costs more than it's worth."
+      },
+      "financial": {
+        "upright": "Financial independence and the ability to enjoy luxury. Wealth and security.",
+        "reversed": "Living beyond your means. Financial insecurity hidden by a wealthy appearance."
+      },
+      "wellbeing": {
+        "upright": "Excellent health and vitality. You are taking great care of your body and mind.",
+        "reversed": "Over-indulgence in luxury (food, drink) that is starting to affect your health."
+      }
+    }
+  },
+
+  {
+    "id": 73,
+    "name": "Ten of Pentacles",
+    "image": "img/ten_of_pentacles.jpg",
+    "upright_keywords": ["Legacy", "Inheritance", "Family", "Long-term Wealth"],
+    "reversed_keywords": ["Financial Loss", "Family Conflict", "Short-term View", "Instability"],
+    "full_description": "An old man sits in a courtyard surrounded by his family and dogs, with ten pentacles arranged over the scene in the shape of a tree. This card represents the ultimate goal of the Pentacles—a lasting legacy and total financial security. It is about wealth that spans generations, family traditions, and a deep sense of belonging. You have achieved more than just personal success; you have built something that will last. It is a card of completion and the realization that true wealth is found in the connection between the past, present, and future.",
+    "upright_short_meaning": "Total financial and family security. You are building a legacy for the future.",
+    "reversed_short_meaning": "Family disputes over money or a loss of inheritance. Financial instability at home.",
+    "meanings": {
+      "love": {
+        "upright": "A long-term, stable relationship that feels like family. Marriage and shared wealth.",
+        "reversed": "Conflict with family over your relationship. Financial instability in a bond."
+      },
+      "career": {
+        "upright": "Retiring with a solid pension or reaching the peak of your career in a family business.",
+        "reversed": "A business failure that affects your family. Lack of professional stability."
+      },
+      "financial": {
+        "upright": "Significant wealth, inheritance, or successful long-term investments. Prosperity.",
+        "reversed": "Financial loss through family issues or poor long-term planning. Debt."
+      },
+      "wellbeing": {
+        "upright": "Strong health supported by a stable home life and ancestral strength. Vitality.",
+        "reversed": "Inherited health issues or stress from family conflict impacting your body."
+      }
+    }
+  },
+
+  {
+    "id": 74,
+    "name": "Page of Pentacles",
+    "image": "img/page_of_pentacles.jpg",
+    "upright_keywords": ["New Financial Opportunity", "Manifestation", "Learning", "Practicality"],
+    "reversed_keywords": ["Lack of Progress", "Procrastination", "Daydreaming", "Financial Loss"],
+    "full_description": "The Page of Pentacles stands in a field, holding a single coin and looking at it with intense focus. He represents the beginning of a practical venture. This Page is a student of the physical world—curious about how to make money, how to build something, and how to manifest his dreams. He is not a dreamer like the Page of Cups; he is a 'doer' who is learning the rules of reality. He brings messages of a new job, a new business idea, or a chance to learn a valuable skill. He encourages you to stay grounded and focused on the practical details of your goals.",
+    "upright_short_meaning": "A new practical opportunity is coming. Focus on learning and stay grounded.",
+    "reversed_short_meaning": "You are procrastinating or losing focus. Stop dreaming and start doing the work.",
+    "meanings": {
+      "love": {
+        "upright": "A new, grounded relationship or a message about a practical matter in love.",
+        "reversed": "Boredom in love or a partner who is being immature regarding money and stability."
+      },
+      "career": {
+        "upright": "Starting a new job or internship. Learning a skill that will lead to future success.",
+        "reversed": "Lack of progress at work. You are not putting in the effort required to succeed."
+      },
+      "financial": {
+        "upright": "A small financial gain or a good idea for making money. Starting a savings plan.",
+        "reversed": "Small money losses due to neglect. Lack of financial planning and focus."
+      },
+      "wellbeing": {
+        "upright": "Starting a new health routine with focus. Learning about your body's needs.",
+        "reversed": "Neglecting your health because you are lazy or lack the discipline to start."
+      }
+    }
+  },
+
+  {
+    "id": 75,
+    "name": "Knight of Pentacles",
+    "image": "img/knight_of_pentacles.jpg",
+    "upright_keywords": ["Hard Work", "Productivity", "Routine", "Conservatism"],
+    "reversed_keywords": ["Boredom", "Stagnation", "Perfectionism", "Laziness"],
+    "full_description": "The Knight of Pentacles sits on a heavy, black horse that is standing still. Unlike the other knights who are charging or moving, this knight is slow and methodical. He is the most reliable and hardworking knight in the deck. He represents the importance of routine, discipline, and completing every task with precision. He doesn't take risks; he follows the plan. While he may be 'boring' to some, he is the one who actually gets the job done. This card suggests a time where you need to be diligent, patient, and focused on the day-to-day work required to reach your goals.",
+    "upright_short_meaning": "Stay disciplined and stick to your routine. Reliability is your superpower right now.",
+    "reversed_short_meaning": "You are stuck in a rut or becoming a perfectionist. Break the routine and try something new.",
+    "meanings": {
+      "love": {
+        "upright": "A stable, reliable, and committed partner. A relationship that is built to last.",
+        "reversed": "Boredom in a relationship. A partner who is too rigid or focused only on work."
+      },
+      "career": {
+        "upright": "Steady progress through hard work. Being seen as the most reliable person on the team.",
+        "reversed": "Feeling stuck in a dead-end job. A lack of professional ambition and energy."
+      },
+      "financial": {
+        "upright": "Steady financial growth through careful saving and work. Very low risk.",
+        "reversed": "Financial stagnation. You are being too cautious and missing out on growth."
+      },
+      "wellbeing": {
+        "upright": "Excellent health through a consistent routine. Steady physical improvement.",
+        "reversed": "Neglecting your health routine out of boredom or laziness. Lack of physical activity."
+      }
+    }
+  },
+
+  {
+    "id": 76,
+    "name": "Queen of Pentacles",
+    "image": "img/queen_of_pentacles.jpg",
+    "upright_keywords": ["Nurturing", "Practical", "Providing", "Financial Security"],
+    "reversed_keywords": ["Work-Life Imbalance", "Smothering", "Insecure", "Selfish"],
+    "full_description": "The Queen of Pentacles sits on a throne decorated with fruit, flowers, and animals, holding a single coin in her lap. She is the 'earth mother'—practical, warm, and deeply nurturing. She is a successful businesswoman who also knows how to keep a beautiful and happy home. She represents the ability to manage the material world with grace and compassion. This card encourages you to find a balance between your work and your personal life. She is a reminder that you can be both powerful and nurturing, and that true wealth is the ability to provide for yourself and those you love.",
+    "upright_short_meaning": "Focus on nurturing your home and your work. Be practical and stay grounded.",
+    "reversed_short_meaning": "You are struggling to balance work and home. Don't let insecurity drive your actions.",
+    "meanings": {
+      "love": {
+        "upright": "A stable, nurturing, and deeply supportive love. A partner who makes you feel safe.",
+        "reversed": "Being too smothering or controlling in love. An imbalance between home and work."
+      },
+      "career": {
+        "upright": "Success in a career that involves nurturing or practical management. A supportive boss.",
+        "reversed": "Feeling overwhelmed by work demands. A lack of professional fulfillment."
+      },
+      "financial": {
+        "upright": "Financial security through smart management. The ability to enjoy your wealth.",
+        "reversed": "Financial insecurity hidden behind a brave face. Poor money management habits."
+      },
+      "wellbeing": {
+        "upright": "Radiant health through a nurturing routine. Listening to your body's needs.",
+        "reversed": "Neglecting your health because you are too busy taking care of everyone else."
+      }
+    }
+  },
+
+  {
+    "id": 77,
+    "name": "King of Pentacles",
+    "image": "img/king_of_pentacles.jpg",
+    "upright_keywords": ["Abundance", "Power", "Security", "Success"],
+    "reversed_keywords": ["Greed", "Indulgence", "Sensuality", "Control"],
+    "full_description": "The King of Pentacles sits on a throne decorated with bulls, his robes embroidered with grapes and vines. He is the ultimate master of the material world. He represents financial success, authority, and total stability. This King has built an empire through hard work and practical wisdom. He is a provider and a leader who uses his wealth to create a safe and prosperous environment for everyone. When he appears, he suggests that you have reached the peak of your material success. You are in control of your wealth and your life, and you are ready to enjoy the rewards of your labor.",
+    "upright_short_meaning": "You have reached the peak of success. Lead with authority and enjoy your abundance.",
+    "reversed_short_meaning": "Beware of greed or being too controlling. Your success shouldn't come at a cost to others.",
+    "meanings": {
+      "love": {
+        "upright": "A stable, successful, and deeply protective partner. A relationship built on solid ground.",
+        "reversed": "A partner who is too focused on money or status. Emotional distance and control."
+      },
+      "career": {
+        "upright": "Reaching the highest level in your field. Success as a CEO, manager, or business owner.",
+        "reversed": "Misuse of power at work. A boss who is a 'tyrant' or focuses only on profit."
+      },
+      "financial": {
+        "upright": "Significant wealth and financial security. Successful long-term investments and prosperity.",
+        "reversed": "Financial loss due to greed or poor management. Over-indulgence and debt."
+      },
+      "wellbeing": {
+        "upright": "Superior vitality and a strong constitution. You are taking great care of your body.",
+        "reversed": "Health issues caused by excess eating or drinking. A lack of physical discipline."
+      }
+    }
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

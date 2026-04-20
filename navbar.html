@@ -1,0 +1,50 @@
+<!-- NAV -->
+
+
+<style>
+
+    /* ========== NAVBAR ========== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background: rgba(10,14,39,0.7);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255,255,255,0.7);
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+</style>
+
+
+<nav>
+    <div class="logo" onclick="location.href='index.html'">✦ Celestial Tarot</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="oracle.html">Oracle</a></li>
+        <li><a href="saved_readings.html">Saved Readings</a></li>
+        <li><a href="tarot_library.html">Tarot Library</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>

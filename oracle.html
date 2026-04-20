@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celestial Tarot — Oracle Setup</title>
+<link rel="stylesheet" href="css/oracle.css">
+
+
+</head>
+
+<body>
+
+<main>
+<div class="stars-container"></div>
+
+<!--  Navigation -->
+<div id="navbar"></div>
+
+<!--  Form Section -->
+<section class="oracle-form-section">
+
+    <div class="oracle-form-card">
+
+        <div class="form-row">
+            <label>Name</label>
+            <input type="text" id="userName" placeholder="Mg Mg" required>
+        </div>
+
+        <div class="form-row">
+            <label>Zodiac</label>
+            <select id="userZodiac">
+                <option value="Scorpio">Scorpio</option>
+                <option value="Aries">Aries</option>
+                <option value="Taurus">Taurus</option>
+                <option value="Gemini">Gemini</option>
+                <option value="Cancer">Cancer</option>
+                <option value="Leo">Leo</option>
+                <option value="Virgo">Virgo</option>
+                <option value="Libra">Libra</option>
+                <option value="Sagittarius">Sagittarius</option>
+                <option value="Capricorn">Capricorn</option>
+                <option value="Aquarius">Aquarius</option>
+                <option value="Pisces">Pisces</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label>Category</label>
+            <select id="userCategory">
+                <option value="love">Love</option>
+                <option value="career">Career</option>
+                <option value="financial">Financial</option>
+                <option value="wellbeing">Wellbeing</option>
+            </select>
+        </div>
+
+    </div>
+
+    <button class="oracleBtn" onclick="submitOracleForm()">Reveal Your Spread</button>
+
+</section>
+
+</main>
+<!-- Footer -->
+<div id="footer"></div>
+
+<script src="js/navfooter.js"></script>
+<script src="js/oracle_form.js"></script>
+
+</body>
+</html>
