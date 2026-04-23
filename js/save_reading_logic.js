@@ -1,5 +1,6 @@
 function saveReading() {
     const userData = JSON.parse(localStorage.getItem('onboardingFormData'));
+    const moonPhase = localStorage.getItem('moonPhase');
     const selectedCards = JSON.parse(localStorage.getItem('userReading'));
     const synthesisReading = document.getElementById('final-synthesis-text').innerText;
 
@@ -11,6 +12,7 @@ function saveReading() {
     const readingToSave = {
         id: Date.now(),       //using timestamp for unique ID
         userInfo: userData,
+        moonPhase : moonPhase,
         cards: selectedCards,
         synthesizedResult: synthesisReading,
         date: new Date().toLocaleDateString() 
@@ -18,13 +20,25 @@ function saveReading() {
 
     // creating savedReadings container
     let savedReadings = JSON.parse(localStorage.getItem('allSavedReadings')) || [];
-    
     // pushing current object to the container
     savedReadings.push(readingToSave);
-
+    //store savedReadings as allSavedReadings in localStorage
     localStorage.setItem('allSavedReadings', JSON.stringify(savedReadings));
+
     alert("Reading saved successfully!");
 }
+
+// function updateSaveButton(){
+//     const saveBtn = document.querySelector('button[onclick="saveReading()"]');
+//     if(saveBtn){
+//         saveBtn.innerText = "Saved!";
+//         saveBtn.computedStyleMap.opacity = "0.5";
+//         saveBtn.computedStyleMap.cursor = "not-allowed";
+//         //close attribute for more safe
+//         saveBtn.disabled = true;
+//     }
+// }
+
 
 
 // creating table for saved reading page
@@ -89,38 +103,66 @@ function displayReadingDetail() {
             <p><span>Category :</span> ${reading.userInfo.category}</p>
         `;
 
-    // displaying selected 3 cards
-    let cardsHTML = "";
-    reading.cards.forEach((card, index) => {
-        const position = positions[index];
-        const orientation = card.isReversed ? "reversed" : "upright";
-        const meaning = card.meanings[reading.userInfo.category.toLowerCase()][orientation];
+        const moonImages ={
+        "New Moon": "img/moon-new.png",
+        "Waxing Crescent": "img/moon-waxing-crescent.png",
+        "Waxing Quarter": "img/moon-waxing-quarter.png",
+        "Waxing Gibbous": "img/moon-waxing-gibbous.png",
+        "Full Moon": "img/moon-full.png",
+        "Waning Gibbous": "img/moon-waning-gibbous.png",
+        "Waning Quarter": "img/moon-waning-quarter.png",
+        "Waning Crescent": "img/moon-waning-crescent.png",
+    };
+
+        const moonImgPath = moonImages[reading.moonPhase] || "img/moon-new.png";
+        const moonText = reading.moonPhase || "Mystical Alignment";
+
+        document.querySelector('.moon-card').innerHTML =`
+            <h4>Moon Phase</h4>
+            <div class="moon-img-wrapper">
+                <img src="${moonImgPath}" id="moonImg" alt="Moon Phase">
+            </div>
+            <p id="moonPhaseText">${moonText}</p>`;
+
+        // displaying selected 3 cards
+        let cardsHTML = "";
+        reading.cards.forEach((card, index) => {
+            const position = positions[index];
+            const orientation = card.isReversed ? "reversed" : "upright";
+            const meaning = card.meanings[reading.userInfo.category.toLowerCase()][orientation];
+            cardsHTML += `
+                <div class="reading-row">
+                    <div class="card-slot">
+                        <img src="${card.image}" class="${card.isReversed ? 'reversed' : ''}">
+                    </div>
+                    <div class="reading-text">
+                        <h3>${position}: ${card.name} (${orientation.toUpperCase()})</h3>
+                        <p>${meaning}</p>
+                    </div>
+                </div>
+            `;
+        });
+            
+        // final synthesis
         cardsHTML += `
-            <div class="reading-row">
-                <div class="card-slot">
-                    <img src="${card.image}" class="${card.isReversed ? 'reversed' : ''}">
-                </div>
-                <div class="reading-text">
-                    <h3>${position}: ${card.name} (${orientation.toUpperCase()})</h3>
-                    <p>${meaning}</p>
-                </div>
+            <div class="final-message">
+                <h1>Synthesized Reading</h1>
+                <p>${reading.synthesizedResult}</p>
             </div>
         `;
-    });
-        
-    // final synthesis
-    cardsHTML += `
-        <div class="final-message">
-            <h1>Synthesized Reading</h1>
-            <p>${reading.synthesizedResult}</p>
-        </div>
-    `;
-    detailContainer.innerHTML = cardsHTML;
-    }   
+        detailContainer.innerHTML = cardsHTML;
+        }   
 }
 
 // running relevant function on Page load 
 document.addEventListener('DOMContentLoaded', () => {
+    //save button decision on page load
+    // const isSaved = localStorage.getItem('readingSavedStatus');
+    // if (isSaved === 'true') {
+    //     updateSaveButton();
+    // }
+
+    //display functions
     displaySavedReadings();
     displayReadingDetail();
 });

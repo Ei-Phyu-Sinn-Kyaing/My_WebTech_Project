@@ -2,6 +2,7 @@
   {
     "id": 0,
     "name": "The Fool",
+    "arcana": "major",
     "image": "img/the_fool.jpg",
     "upright_keywords": ["Innocence", "New Beginnings", "Free Spirit", "Leap of Faith"],
     "reversed_keywords": ["Recklessness", "Risk-taking", "Inconsideration", "Stupidity"],
@@ -31,6 +32,7 @@
   {
     "id": 1,
     "name": "The Magician",
+    "arcana": "major",
     "image": "img/the_magician.jpg",
     "upright_keywords": ["Manifestation", "Resourcefulness", "Power", "Inspired Action"],
     "reversed_keywords": ["Manipulation", "Poor Planning", "Untapped Talents", "Trickery"],
@@ -60,6 +62,7 @@
   {
     "id": 2,
     "name": "The High Priestess",
+    "arcana": "major",
     "image": "img/the_high_priestess.jpg",
     "upright_keywords": ["Intuition", "Sacred Knowledge", "Subconscious Mind", "Mystery"],
     "reversed_keywords": ["Secrets", "Disconnected from Intuition", "Withdrawal", "Silence"],
@@ -89,6 +92,7 @@
   {
     "id": 3,
     "name": "The Empress",
+    "arcana": "major",
     "image": "img/the_empress.jpg",
     "upright_keywords": ["Abundance", "Nurturing", "Fertility", "Nature"],
     "reversed_keywords": ["Creative Block", "Dependence", "Suffocation", "Emptiness"],
@@ -118,6 +122,7 @@
   {
     "id": 4,
     "name": "The Emperor",
+    "arcana": "major",
     "image": "img/the_emperor.jpg",
     "upright_keywords": ["Authority", "Structure", "Stability", "Father-figure"],
     "reversed_keywords": ["Tyranny", "Rigidity", "Lack of Discipline", "Powerlessness"],
@@ -147,6 +152,7 @@
   {
     "id": 5,
     "name": "The Hierophant",
+    "arcana": "major",
     "image": "img/the_hierophant.jpg",
     "upright_keywords": ["Tradition", "Conformity", "Education", "Spiritual Wisdom"],
     "reversed_keywords": ["Rebellion", "Originality", "New Methods", "Unorthodoxy"],
@@ -176,6 +182,7 @@
   {
     "id": 6,
     "name": "The Lovers",
+    "arcana": "major",
     "image": "img/the_lovers.jpg",
     "upright_keywords": ["Love", "Harmony", "Relationships", "Choices"],
     "reversed_keywords": ["Disharmony", "Imbalance", "Misalignment", "Poor Choices"],
@@ -205,6 +212,7 @@
   {
     "id": 7,
     "name": "The Chariot",
+    "arcana": "major",
     "image": "img/the_chariot.jpg",
     "upright_keywords": ["Victory", "Determination", "Willpower", "Control"],
     "reversed_keywords": ["Lack of Control", "Aggression", "Directionless", "Hostility"],
@@ -234,6 +242,7 @@
   {
     "id": 8,
     "name": "Strength",
+    "arcana": "major",
     "image": "img/strength.jpg",
     "upright_keywords": ["Courage", "Persuasion", "Influence", "Compassion"],
     "reversed_keywords": ["Self-Doubt", "Weakness", "Insecurity", "Raw Emotion"],
@@ -263,6 +272,7 @@
   {
     "id": 9,
     "name": "The Hermit",
+    "arcana": "major",
     "image": "img/the_hermit.jpg",
     "upright_keywords": ["Soul-searching", "Introspection", "Guidance", "Solitude"],
     "reversed_keywords": ["Isolation", "Loneliness", "Withdrawal", "Misanthropy"],
@@ -292,6 +302,7 @@
   {
     "id": 10,
     "name": "Wheel of Fortune",
+    "arcana": "major",
     "image": "img/wheel_of_fortune.jpg",
     "upright_keywords": ["Good Luck", "Karma", "Life Cycles", "Destiny"],
     "reversed_keywords": ["Bad Luck", "Resistance to Change", "Breaking Cycles"],
@@ -321,6 +332,7 @@
   {
     "id": 11,
     "name": "Justice",
+    "arcana": "major",
     "image": "img/justice.jpg",
     "upright_keywords": ["Fairness", "Truth", "Law", "Cause and Effect"],
     "reversed_keywords": ["Unfairness", "Dishonesty", "Lack of Accountability"],
@@ -350,6 +362,7 @@
   {
     "id": 12,
     "name": "The Hanged Man",
+    "arcana": "major",
     "image": "img/the_hanged_man.jpg",
     "upright_keywords": ["Pause", "Surrender", "New Perspective", "Sacrifice"],
     "reversed_keywords": ["Stalling", "Resistance", "Apathy", "Indecision"],
@@ -379,6 +392,7 @@
   {
     "id": 13,
     "name": "Death",
+    "arcana": "major",
     "image": "img/death.jpg",
     "upright_keywords": ["Endings", "Change", "Transformation", "Transitions"],
     "reversed_keywords": ["Resistance to Change", "Stagnation", "Decay", "Personal Purge"],
@@ -408,6 +422,7 @@
   {
     "id": 14,
     "name": "Temperance",
+    "arcana": "major",
     "image": "img/temperance.jpg",
     "upright_keywords": ["Balance", "Moderation", "Patience", "Purpose"],
     "reversed_keywords": ["Imbalance", "Excess", "Lack of Vision", "Hastiness"],
@@ -437,6 +452,7 @@
   {
     "id": 15,
     "name": "The Devil",
+    "arcana": "major",
     "image": "img/the_devil.jpg",
     "upright_keywords": ["Shadow Self", "Attachment", "Addiction", "Restriction"],
     "reversed_keywords": ["Releasing Control", "Detachment", "Breaking Free", "Restoration"],
@@ -466,6 +482,7 @@
   {
     "id": 16,
     "name": "The Tower",
+    "arcana": "major",
     "image": "img/the_tower.jpg",
     "upright_keywords": ["Sudden Change", "Upheaval", "Chaos", "Revelation"],
     "reversed_keywords": ["Delaying Disaster", "Fear of Change", "Avoiding Ruin"],
@@ -495,6 +512,7 @@
   {
     "id": 17,
     "name": "The Star",
+    "arcana": "major",
     "image": "img/the_star.jpg",
     "upright_keywords": ["Hope", "Faith", "Purpose", "Renewal"],
     "reversed_keywords": ["Lack of Faith", "Despair", "Discouragement", "Disconnection"],
@@ -524,6 +542,7 @@
   {
     "id": 18,
     "name": "The Moon",
+    "arcana": "major",
     "image": "img/the_moon.jpg",
     "upright_keywords": ["Illusion", "Fear", "Anxiety", "Intuition"],
     "reversed_keywords": ["Release of Fear", "Clarity", "Truth Revealed", "Confusion"],
@@ -553,6 +572,7 @@
   {
     "id": 19,
     "name": "The Sun",
+    "arcana": "major",
     "image": "img/the_sun.jpg",
     "upright_keywords": ["Positivity", "Success", "Vitality", "Joy"],
     "reversed_keywords": ["Lack of Enthusiasm", "Vagueness", "Sadness", "Unrealistic Expectations"],
@@ -582,6 +602,7 @@
   {
     "id": 20,
     "name": "Judgement",
+    "arcana": "major",
     "image": "img/judgement.jpg",
     "upright_keywords": ["Awakening", "Rebirth", "Absolution", "Calling"],
     "reversed_keywords": ["Self-Doubt", "Refusal of Self-Examination", "Stagnation"],
@@ -611,6 +632,7 @@
   {
     "id": 21,
     "name": "The World",
+    "arcana": "major",
     "image": "img/the_world.jpg",
     "upright_keywords": ["Completion", "Integration", "Accomplishment", "Travel"],
     "reversed_keywords": ["Lack of Closure", "Shortcuts", "Incompletion"],
@@ -640,6 +662,7 @@
   {
     "id": 22,
     "name": "Ace of Cups",
+    "arcana": "cups",
     "image": "img/ace_of_cups.jpg",
     "upright_keywords": ["Love", "New Feelings", "Spirituality", "Intuition"],
     "reversed_keywords": ["Self-Love", "Repressed Emotions", "Emptiness"],
@@ -669,6 +692,7 @@
   {
     "id": 23,
     "name": "Two of Cups",
+    "arcana": "cups",
     "image": "img/two_of_cups.jpg",
     "upright_keywords": ["Unified Love", "Partnership", "Mutual Attraction", "Connection"],
     "reversed_keywords": ["Self-Love", "Breakups", "Disharmony", "Distrust"],
@@ -698,6 +722,7 @@
   {
     "id": 24,
     "name": "Three of Cups",
+    "arcana": "cups",
     "image": "img/three_of_cups.jpg",
     "upright_keywords": ["Celebration", "Friendship", "Creativity", "Community"],
     "reversed_keywords": ["Overindulgence", "Gossip", "Isolation", "Third-Party"],
@@ -727,6 +752,7 @@
   {
     "id": 25,
     "name": "Four of Cups",
+    "arcana": "cups",
     "image": "img/four_of_cups.jpg",
     "upright_keywords": ["Apathy", "Contemplation", "Disconnectedness", "Boredom"],
     "reversed_keywords": ["Clarity", "Awareness", "Acceptance", "Choosing Joy"],
@@ -756,6 +782,7 @@
   {
     "id": 26,
     "name": "Five of Cups",
+    "arcana": "cups",
     "image": "img/five_of_cups.jpg",
     "upright_keywords": ["Loss", "Grief", "Disappointment", "Regret"],
     "reversed_keywords": ["Moving On", "Forgiveness", "Acceptance", "Hope"],
@@ -785,6 +812,7 @@
   {
     "id": 27,
     "name": "Six of Cups",
+    "arcana": "cups",
     "image": "img/six_of_cups.jpg",
     "upright_keywords": ["Nostalgia", "Childhood", "Innocence", "Revisiting"],
     "reversed_keywords": ["Living in the Past", "Forgiving the Past", "Moving Forward"],
@@ -814,6 +842,7 @@
   {
     "id": 28,
     "name": "Seven of Cups",
+    "arcana": "cups",
     "image": "img/seven_of_cups.jpg",
     "upright_keywords": ["Choices", "Illusion", "Fantasy", "Wishful Thinking"],
     "reversed_keywords": ["Decision", "Clarity", "Reality", "Overwhelmed"],
@@ -843,6 +872,7 @@
   {
     "id": 29,
     "name": "Eight of Cups",
+    "arcana": "cups",
     "image": "img/eight_of_cups.jpg",
     "upright_keywords": ["Abandonment", "Walking Away", "Disillusionment", "Seeking"],
     "reversed_keywords": ["Staying", "Fear of Change", "Hopelessness", "Drifting"],
@@ -872,6 +902,7 @@
   {
     "id": 30,
     "name": "Nine of Cups",
+    "arcana": "cups",
     "image": "img/nine_of_cups.jpg",
     "upright_keywords": ["Satisfaction", "Comfort", "Wishes", "Gratitude"],
     "reversed_keywords": ["Greed", "Self-Indulgence", "Unrealistic Expectations", "Dissatisfaction"],
@@ -901,6 +932,7 @@
   {
     "id": 31,
     "name": "Ten of Cups",
+    "arcana": "cups",
     "image": "img/ten_of_cups.jpg",
     "upright_keywords": ["Divine Love", "Bliss", "Family Harmony", "Alignment"],
     "reversed_keywords": ["Broken Home", "Misalignment", "Domestic Conflict"],
@@ -930,6 +962,7 @@
   {
     "id": 32,
     "name": "Page of Cups",
+    "arcana": "cups",
     "image": "img/page_of_cups.jpg",
     "upright_keywords": ["Creative Beginning", "Intuition", "Messages", "Possibility"],
     "reversed_keywords": ["Emotional Immaturity", "Creative Block", "Doubt"],
@@ -959,6 +992,7 @@
   {
     "id": 33,
     "name": "Knight of Cups",
+    "arcana": "cups",
     "image": "img/knight_of_cups.jpg",
     "upright_keywords": ["Romance", "Charm", "Imagination", "Proposal"],
     "reversed_keywords": ["Moodiness", "Unrealistic", "Ghosting", "Manipulation"],
@@ -988,6 +1022,7 @@
   {
     "id": 34,
     "name": "Queen of Cups",
+    "arcana": "cups",
     "image": "img/queen_of_cups.jpg",
     "upright_keywords": ["Compassion", "Calm", "Intuition", "Healing"],
     "reversed_keywords": ["Emotional Insecurity", "Codependency", "Martyrdom"],
@@ -1017,6 +1052,7 @@
   {
     "id": 35,
     "name": "King of Cups",
+    "arcana": "cups",
     "image": "img/king_of_cups.jpg",
     "upright_keywords": ["Emotional Balance", "Control", "Generosity", "Wisdom"],
     "reversed_keywords": ["Emotional Manipulation", "Volatile", "Coldness"],
@@ -1046,6 +1082,7 @@
   {
     "id": 36,
     "name": "Ace of Swords",
+    "arcana": "swords",
     "image": "img/ace_of_swords.jpg",
     "upright_keywords": ["Clarity", "Breakthrough", "Intellect", "Truth"],
     "reversed_keywords": ["Confusion", "Chaos", "Miscommunication", "Lack of Ideas"],
@@ -1075,6 +1112,7 @@
   {
     "id": 37,
     "name": "Two of Swords",
+    "arcana": "swords",
     "image": "img/two_of_swords.jpg",
     "upright_keywords": ["Indecision", "Stalemate", "Blocked Emotions", "Truce"],
     "reversed_keywords": ["Indecision", "Confusion", "Information Overload"],
@@ -1104,6 +1142,7 @@
   {
     "id": 38,
     "name": "Three of Swords",
+    "arcana": "swords",
     "image": "img/three_of_swords.jpg",
     "upright_keywords": ["Heartbreak", "Sorrow", "Grief", "Separation"],
     "reversed_keywords": ["Healing", "Forgiveness", "Releasing Pain"],
@@ -1133,6 +1172,7 @@
   {
     "id": 39,
     "name": "Four of Swords",
+    "arcana": "swords",
     "image": "img/four_of_swords.jpg",
     "upright_keywords": ["Rest", "Recovery", "Meditation", "Contemplation"],
     "reversed_keywords": ["Restlessness", "Burnout", "Lack of Rest"],
@@ -1162,6 +1202,7 @@
   {
     "id": 40,
     "name": "Five of Swords",
+    "arcana": "swords",
     "image": "img/five_of_swords.jpg",
     "upright_keywords": ["Conflict", "Winning at all Costs", "Defeat", "Betrayal"],
     "reversed_keywords": ["Resentment", "Moving on from Conflict", "Reconciliation"],
@@ -1191,6 +1232,7 @@
   {
     "id": 41,
     "name": "Six of Swords",
+    "arcana": "swords",
     "image": "img/six_of_swords.jpg",
     "upright_keywords": ["Transition", "Moving On", "Departure", "Relief"],
     "reversed_keywords": ["Emotional Baggage", "Stuck in the Past", "Resistance"],
@@ -1220,6 +1262,7 @@
   {
     "id": 42,
     "name": "Seven of Swords",
+    "arcana": "swords",
     "image": "img/seven_of_swords.jpg",
     "upright_keywords": ["Deception", "Strategy", "Sneakiness", "Independence"],
     "reversed_keywords": ["Confession", "Coming Clean", "Caught Out", "Regret"],
@@ -1249,6 +1292,7 @@
   {
     "id": 43,
     "name": "Eight of Swords",
+    "arcana": "swords",
     "image": "img/eight_of_swords.jpg",
     "upright_keywords": ["Imprisonment", "Entrapment", "Victim Mentality", "Blindfold"],
     "reversed_keywords": ["Release", "Freedom", "New Perspective", "Empowerment"],
@@ -1278,6 +1322,7 @@
   {
     "id": 44,
     "name": "Nine of Swords",
+    "arcana": "swords",
     "image": "img/nine_of_swords.jpg",
     "upright_keywords": ["Anxiety", "Nightmares", "Worry", "Anguish"],
     "reversed_keywords": ["Hope", "Release of Stress", "Facing Fears", "Recovery"],
@@ -1307,6 +1352,7 @@
   {
     "id": 45,
     "name": "Ten of Swords",
+    "arcana": "swords",
     "image": "img/ten_of_swords.jpg",
     "upright_keywords": ["Betrayal", "Hitting Rock Bottom", "Endings", "Victimhood"],
     "reversed_keywords": ["Recovery", "Resurrection", "Inevitable End", "Lessons"],
@@ -1336,6 +1382,7 @@
   {
     "id": 46,
     "name": "Page of Swords",
+    "arcana": "swords",
     "image": "img/page_of_swords.jpg",
     "upright_keywords": ["Curiosity", "Mental Energy", "Communication", "Alertness"],
     "reversed_keywords": ["All Talk No Action", "Gossip", "Deception", "Hasty"],
@@ -1365,6 +1412,7 @@
   {
     "id": 47,
     "name": "Knight of Swords",
+    "arcana": "swords",
     "image": "img/knight_of_swords.jpg",
     "upright_keywords": ["Ambitious", "Action-oriented", "Direct", "Quick-witted"],
     "reversed_keywords": ["Aggressive", "Restless", "Impulsive", "Burnout"],
@@ -1394,6 +1442,7 @@
   {
     "id": 48,
     "name": "Queen of Swords",
+    "arcana": "swords",
     "image": "img/queen_of_swords.jpg",
     "upright_keywords": ["Independent", "Unbiased", "Clear Communication", "Direct"],
     "reversed_keywords": ["Cold-hearted", "Cruel", "Bitter", "Overly Critical"],
@@ -1423,6 +1472,7 @@
   {
     "id": 49,
     "name": "King of Swords",
+    "arcana": "swords",
     "image": "img/king_of_swords.jpg",
     "upright_keywords": ["Authority", "Logical", "Truth", "Intellectual Power"],
     "reversed_keywords": ["Manipulative", "Tyrannical", "Abusive", "Cold"],
@@ -1452,6 +1502,7 @@
   {
     "id": 50,
     "name": "Ace of Wands",
+    "arcana": "wands",
     "image": "img/ace_of_wands.jpg",
     "upright_keywords": ["Inspiration", "New Opportunity", "Growth", "Potential"],
     "reversed_keywords": ["Emerging Idea", "Lack of Direction", "Distractions"],
@@ -1481,6 +1532,7 @@
   {
     "id": 51,
     "name": "Two of Wands",
+    "arcana": "wands",
     "image": "img/two_of_wands.jpg",
     "upright_keywords": ["Planning", "Decision Making", "Discovery", "Future"],
     "reversed_keywords": ["Fear of the Unknown", "Lack of Planning", "Playing it Safe"],
@@ -1510,6 +1562,7 @@
   {
     "id": 52,
     "name": "Three of Wands",
+    "arcana": "wands",
     "image": "img/three_of_wands.jpg",
     "upright_keywords": ["Expansion", "Foresight", "Overseas", "Progress"],
     "reversed_keywords": ["Delays", "Lack of Progress", "Frustration"],
@@ -1539,6 +1592,7 @@
   {
     "id": 53,
     "name": "Four of Wands",
+    "arcana": "wands",
     "image": "img/four_of_wands.jpg",
     "upright_keywords": ["Celebration", "Home", "Harmony", "Relaxation"],
     "reversed_keywords": ["Lack of Support", "Home Tension", "Transition"],
@@ -1568,6 +1622,7 @@
   {
     "id": 54,
     "name": "Five of Wands",
+    "arcana": "wands",
     "image": "img/five_of_wands.jpg",
     "upright_keywords": ["Competition", "Conflict", "Rivalry", "Disagreement"],
     "reversed_keywords": ["Avoidance of Conflict", "Resolution", "Burnout"],
@@ -1597,6 +1652,7 @@
   {
     "id": 55,
     "name": "Six of Wands",
+    "arcana": "wands",
     "image": "img/six_of_wands.jpg",
     "upright_keywords": ["Victory", "Success", "Public Recognition", "Confidence"],
     "reversed_keywords": ["Fall from Grace", "Ego", "Lack of Recognition"],
@@ -1626,6 +1682,7 @@
   {
     "id": 56,
     "name": "Seven of Wands",
+    "arcana": "wands",
     "image": "img/seven_of_wands.jpg",
     "upright_keywords": ["Defense", "Perseverance", "Challenge", "Protection"],
     "reversed_keywords": ["Giving Up", "Overwhelmed", "Indecision"],
@@ -1655,6 +1712,7 @@
   {
     "id": 57,
     "name": "Eight of Wands",
+    "arcana": "wands",
     "image": "img/eight_of_wands.jpg",
     "upright_keywords": ["Speed", "Action", "Movement", "Quick Communication"],
     "reversed_keywords": ["Delays", "Chaotic Movement", "Impulsive"],
@@ -1684,6 +1742,7 @@
   {
     "id": 58,
     "name": "Nine of Wands",
+    "arcana": "wands",
     "image": "img/nine_of_wands.jpg",
     "upright_keywords": ["Resilience", "Grit", "Last Stand", "Persistence"],
     "reversed_keywords": ["Exhaustion", "Defensive", "Paranoia", "Giving Up"],
@@ -1713,6 +1772,7 @@
   {
     "id": 59,
     "name": "Ten of Wands",
+    "arcana": "wands",
     "image": "img/ten_of_wands.jpg",
     "upright_keywords": ["Burden", "Responsibility", "Hard Work", "Stress"],
     "reversed_keywords": ["Relief", "Offloading", "Collapse", "Burnout"],
@@ -1742,6 +1802,7 @@
   {
     "id": 60,
     "name": "Page of Wands",
+    "arcana": "wands",
     "image": "img/page_of_wands.jpg",
     "upright_keywords": ["Inspiration", "Discovery", "Enthusiasm", "Free Spirit"],
     "reversed_keywords": ["Lack of Ideas", "Procrastination", "Pessimism"],
@@ -1771,6 +1832,7 @@
   {
     "id": 61,
     "name": "Knight of Wands",
+    "arcana": "wands",
     "image": "img/knight_of_wands.jpg",
     "upright_keywords": ["Action", "Adventure", "Fearless", "Impulsive"],
     "reversed_keywords": ["Aggressive", "Restless", "Hasty", "Frustrated"],
@@ -1800,6 +1862,7 @@
   {
     "id": 62,
     "name": "Queen of Wands",
+    "arcana": "wands",
     "image": "img/queen_of_wands.jpg",
     "upright_keywords": ["Confidence", "Social", "Courageous", "Determined"],
     "reversed_keywords": ["Demanding", "Self-Centered", "Jealous", "Insecure"],
@@ -1829,6 +1892,7 @@
   {
     "id": 63,
     "name": "King of Wands",
+    "arcana": "wands",
     "image": "img/king_of_wands.jpg",
     "upright_keywords": ["Visionary", "Natural Leader", "Entrepreneur", "Honor"],
     "reversed_keywords": ["Impulsive", "Overbearing", "Ruthless", "High Expectations"],
@@ -1858,6 +1922,7 @@
   {
     "id": 64,
     "name": "Ace of Pentacles",
+    "arcana": "pentacles",
     "image": "img/ace_of_pentacles.jpg",
     "upright_keywords": ["Abundance", "Financial Opportunity", "Manifestation", "Prosperity"],
     "reversed_keywords": ["Lost Opportunity", "Lack of Planning", "Greed", "Financial Instability"],
@@ -1887,6 +1952,7 @@
   {
     "id": 65,
     "name": "Two of Pentacles",
+    "arcana": "pentacles",
     "image": "img/two_of_pentacles.jpg",
     "upright_keywords": ["Balance", "Multitasking", "Adaptability", "Prioritization"],
     "reversed_keywords": ["Imbalance", "Disorganization", "Overwhelmed", "Financial Mess"],
@@ -1916,6 +1982,7 @@
   {
     "id": 66,
     "name": "Three of Pentacles",
+    "arcana": "pentacles",
     "image": "img/three_of_pentacles.jpg",
     "upright_keywords": ["Teamwork", "Collaboration", "Learning", "Craftsmanship"],
     "reversed_keywords": ["Lack of Teamwork", "Poor Quality", "Conflict at Work", "No Growth"],
@@ -1945,6 +2012,7 @@
   {
     "id": 67,
     "name": "Four of Pentacles",
+    "arcana": "pentacles",
     "image": "img/four_of_pentacles.jpg",
     "upright_keywords": ["Conservation", "Security", "Frugality", "Control"],
     "reversed_keywords": ["Greed", "Possessiveness", "Risk-taking", "Letting Go"],
@@ -1974,6 +2042,7 @@
   {
     "id": 68,
     "name": "Five of Pentacles",
+    "arcana": "pentacles",
     "image": "img/five_of_pentacles.jpg",
     "upright_keywords": ["Financial Loss", "Hardship", "Isolation", "Poverty"],
     "reversed_keywords": ["Recovery", "Financial Improvement", "Help is Near", "Hope"],
@@ -2003,6 +2072,7 @@
   {
     "id": 69,
     "name": "Six of Pentacles",
+    "arcana": "pentacles",
     "image": "img/six_of_pentacles.jpg",
     "upright_keywords": ["Generosity", "Charity", "Giving and Receiving", "Sharing"],
     "reversed_keywords": ["Selfishness", "Debt", "Power Struggles", "Strings Attached"],
@@ -2032,6 +2102,7 @@
   {
     "id": 70,
     "name": "Seven of Pentacles",
+    "arcana": "pentacles",
     "image": "img/seven_of_pentacles.jpg",
     "upright_keywords": ["Patience", "Investment", "Sustainable Results", "Long-term View"],
     "reversed_keywords": ["Lack of Vision", "Limited Success", "Frustration", "Impatience"],
@@ -2061,6 +2132,7 @@
   {
     "id": 71,
     "name": "Eight of Pentacles",
+    "arcana": "pentacles",
     "image": "img/eight_of_pentacles.jpg",
     "upright_keywords": ["Apprenticeship", "Diligence", "Skill Development", "Craftsmanship"],
     "reversed_keywords": ["Lack of Focus", "Perfectionism", "Misdirected Activity", "Boredom"],
@@ -2090,6 +2162,7 @@
   {
     "id": 72,
     "name": "Nine of Pentacles",
+    "arcana": "pentacles",
     "image": "img/nine_of_pentacles.jpg",
     "upright_keywords": ["Abundance", "Luxury", "Self-Sufficiency", "Financial Independence"],
     "reversed_keywords": ["Overspending", "Financial Dependence", "Isolation", "Superficiality"],
@@ -2119,6 +2192,7 @@
   {
     "id": 73,
     "name": "Ten of Pentacles",
+    "arcana": "pentacles",
     "image": "img/ten_of_pentacles.jpg",
     "upright_keywords": ["Legacy", "Inheritance", "Family", "Long-term Wealth"],
     "reversed_keywords": ["Financial Loss", "Family Conflict", "Short-term View", "Instability"],
@@ -2148,6 +2222,7 @@
   {
     "id": 74,
     "name": "Page of Pentacles",
+    "arcana": "pentacles",
     "image": "img/page_of_pentacles.jpg",
     "upright_keywords": ["New Financial Opportunity", "Manifestation", "Learning", "Practicality"],
     "reversed_keywords": ["Lack of Progress", "Procrastination", "Daydreaming", "Financial Loss"],
@@ -2177,6 +2252,7 @@
   {
     "id": 75,
     "name": "Knight of Pentacles",
+    "arcana": "pentacles",
     "image": "img/knight_of_pentacles.jpg",
     "upright_keywords": ["Hard Work", "Productivity", "Routine", "Conservatism"],
     "reversed_keywords": ["Boredom", "Stagnation", "Perfectionism", "Laziness"],
@@ -2206,6 +2282,7 @@
   {
     "id": 76,
     "name": "Queen of Pentacles",
+    "arcana": "pentacles",
     "image": "img/queen_of_pentacles.jpg",
     "upright_keywords": ["Nurturing", "Practical", "Providing", "Financial Security"],
     "reversed_keywords": ["Work-Life Imbalance", "Smothering", "Insecure", "Selfish"],
@@ -2235,6 +2312,7 @@
   {
     "id": 77,
     "name": "King of Pentacles",
+    "arcana": "pentacles",
     "image": "img/king_of_pentacles.jpg",
     "upright_keywords": ["Abundance", "Power", "Security", "Success"],
     "reversed_keywords": ["Greed", "Indulgence", "Sensuality", "Control"],

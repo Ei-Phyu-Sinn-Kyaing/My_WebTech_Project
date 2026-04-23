@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Animation</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+        .grid {
+            width: 1170px;
+            margin: 0 auto;
+            text-align: center; /* ခလုတ်တွေကို အလယ်ပို့ဖို့ */
+        }
+
+        .list {
+            height: 652px;
+            position: relative;
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+
+        .card {
+            transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            perspective: 1000px;
+            float: left;
+            width: 222px;
+            height: 311px;
+            background-color: #3498db; /* အရောင်လေး ထည့်လိုက်ပါတယ် */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: 30px 0 15px 15px;
+        }
+
+        /* SCSS nested style ကို Standard CSS ပြောင်းထားတာပါ */
+        .card:nth-child(5n) {
+            margin-right: 0;
+        }
+
+        /* Animation Positions */
+        .card.ani0 { right: 948px; bottom: 326px; }
+        .card.ani1 { right: 711px; bottom: 326px; }
+        .card.ani2 { right: 474px; bottom: 326px; }
+        .card.ani3 { right: 237px; bottom: 326px; }
+        .card.ani4 { right: 0;     bottom: 326px; }
+        .card.ani5 { right: 948px; bottom: 0; }
+        .card.ani6 { right: 711px; bottom: 0; }
+        .card.ani7 { right: 474px; bottom: 0; }
+        .card.ani8 { right: 237px; bottom: 0; }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="grid">
+    <ul class="list">
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+    </ul>
+    
+    <button class="stack">Stack</button>
+    <button class="spread">Spread</button>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('.stack').click(function() {
+            $(".card").each(function(e) {
+                setTimeout(function() {
+                    $(".card").eq(e).attr("class", "card");
+                }, e * 150);
+            });
+        });
+
+        $('.spread').click(function() {
+            $(".card").each(function(e) {
+                setTimeout(function() {
+                    $(".card").eq(e).attr("class", "card ani" + e);
+                }, e * 150);
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

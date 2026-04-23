@@ -29,6 +29,7 @@ function getMoonPhaseFallback() {
     return "Waning Crescent";
 }
 
+
 async function submitOracleForm(){
     const name = document.getElementById('userName').value;
     const zodiac = document.getElementById('userZodiac').value;
@@ -38,6 +39,10 @@ async function submitOracleForm(){
         alert("Your name cannot be nulled! Enter you name.");
         return;
     }
+
+    // loading display
+    // document.getElementById('loadingScreen').style.display = 'flex';
+    showLoading();
 
     //js object build
     const userData ={
@@ -54,7 +59,7 @@ async function submitOracleForm(){
     try {
         //wait the api for only 3 secs
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 10000);
+        const timeoutId = setTimeout(() => controller.abort(), 3000);
         const response = await fetch(`https://api.weatherapi.com/v1/astronomy.json?key=${apiKey}&q=${city}`, { signal: controller.signal });
         const data = await response.json();
 

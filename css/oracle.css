@@ -6,6 +6,7 @@
     color: white;
 }
 
+
 /* Stars */
 .stars-container {
     position: fixed;
@@ -15,37 +16,6 @@
     pointer-events: none;
 }
 
-/* Nav */
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 3rem;
-    background: rgba(10,14,39,0.7);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-
-.logo {
-    font-size: 1.6rem;
-    font-weight: bold;
-    text-shadow: 0 0 10px rgba(255,255,255,0.7);
-}
-
-.nav-links {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-}
-
-.nav-links a {
-    color: #e6e6e6;
-    text-decoration: none;
-}
-
-.nav-links a:hover {
-    color: white;
-    text-shadow: 0 0 10px white;
-}
 
 /*Form  Section */
 .oracle-form-section {
@@ -109,6 +79,11 @@ select option {
 
 .oracleBtn:hover {
     box-shadow: 0 0 30px rgba(255,255,255,0.8);
+}
+
+.oracleBtn:active {
+    transform: scale(0.95); 
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
 }
 
 /*Footer */

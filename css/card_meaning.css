@@ -63,7 +63,7 @@ body {
     border: 1px solid rgba(255,255,255,0.3);
     border-radius: 8px;
     padding: 1rem;
-    max-width: 300px;
+    max-width: 270px;
     display: flex;
     justify-content: center;
     backdrop-filter: blur(6px);
@@ -98,7 +98,7 @@ body {
 }
 
 /* Card meaning paragraph */
-.card-meaning {
+/* .card-meaning {
     max-width: 900px;
     margin: 2rem auto;
     background: rgba(255,255,255,0.05);
@@ -107,8 +107,31 @@ body {
     padding: 1.5rem;
     line-height: 1.7;
     backdrop-filter: blur(6px);
+} */
+
+.all-meaning-section{
+    max-width: 1000px;
+    margin: 0 auto 5rem auto;
+    padding: 0 3rem;
 }
 
+.detail-block {
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.detail-block h3 {
+    color: #ffd700; /* Gold color for headers */
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.detail-block p {
+    color: #e6e6e6;
+    text-align: justify;
+}
 
 /* Responsive for smaller screens */
 @media (max-width: 800px) {

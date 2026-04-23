@@ -1,84 +1,64 @@
-// const music = document.getElementById("bg-music");
-// const muteBtn = document.getElementById("mute-btn");
-// const volumeSlider = document.getElementById("volume-slider");
+let bgAudio = new Audio();
+bgAudio.loop = true;
+bgAudio.volume = 0.3;
 
-// // 🎵 Define music per page
-// const pageMusic = {
-//     "index.html": "sounds/theme.mp3",
-//     "tarot.html": "sounds/tarot.mp3",
-//     "about.html": "sounds/intro.mp3"
-// };
+const pageAudioMap = {
+    "index.html": "sounds/theme.mp3",
+    "oracle.html": "sounds/theme.mp3",
+    "the_deck.html": "sounds/theme.mp3",
+    "synthesis.html": "sounds/theme.mp3",
+    "saved_readings.html": "sounds/theme.mp3",
+    "saved_reading_detail.html": "sounds/theme.mp3",
+    "tarot_library.html": "sounds/theme.mp3",
+    "card_meaning.html": "sounds/theme.mp3",
+    "about.html": "sounds/theme.mp3",
+};
 
-// // Detect current page
-// let currentPage = window.location.pathname.split("/").pop();
-// if (currentPage === "") currentPage = "index.html";
+document.addEventListener('DOMContentLoaded', () => {
+    const overlay = document.getElementById('music-overlay');
+    const readyBtn = document.getElementById('ready-btn');
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
-// // Set music source
-// if (pageMusic[currentPage]) {
-//     music.src = pageMusic[currentPage];
-// }
+    // ၁။ Music status ကို စစ်မယ်
+    const audioStatus = localStorage.getItem('audioEnabled');
 
-// // Load saved settings
-// let savedVolume = localStorage.getItem("musicVolume");
-// let savedMuted = localStorage.getItem("musicMuted");
+    if (currentPage === "index.html" && !audioStatus) {
+        // ပထမဆုံးအကြိမ်ဆိုရင် overlay ပြမယ်
+        overlay.classList.remove('hidden');
+    } else {
+        // တခြား page တွေမှာဆိုရင် overlay ဖျောက်ထားမယ်
+        if(overlay) overlay.classList.add('hidden');
+        if(audioStatus === 'true') startMusic();
+    }
 
-// if (savedVolume !== null) {
-//     music.volume = savedVolume;
-//     volumeSlider.value = savedVolume;
-// } else {
-//     music.volume = 0.2;
-//     volumeSlider.value = 0.2;
-// }
+    // ၂။ Ready Button နှိပ်တဲ့အခါ
+    if (readyBtn) {
+        readyBtn.addEventListener('click', () => {
+            localStorage.setItem('audioEnabled', 'true');
 
-// if (savedMuted === "true") {
-//     music.muted = true;
-//     muteBtn.textContent = "🔇";
-// }
+            //animation fadeout class
+            overlay.classList.add('fade-out');
 
-// // Start music on first interaction
-// function startMusic() {
-//     if (!music.muted) {
-//         music.play().then(() => fadeIn());
-//     }
-//     document.removeEventListener("click", startMusic);
-// }
-// document.addEventListener("click", startMusic);
+            //absolute remove after animation
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 800);
 
-// // Fade in
-// function fadeIn() {
-//     let vol = 0;
-//     music.volume = 0;
-//     let fade = setInterval(() => {
-//         if (vol < volumeSlider.value) {
-//             vol += 0.01;
-//             music.volume = vol;
-//         } else {
-//             clearInterval(fade);
-//         }
-//     }, 100);
-// }
+            startMusic();
+        });
+    }
+});
 
-// // Fade out before leaving page
-// window.addEventListener("beforeunload", () => {
-//     music.volume = 0;
-// });
-
-// // Mute toggle
-// muteBtn.addEventListener("click", () => {
-//     music.muted = !music.muted;
-
-//     if (music.muted) {
-//         muteBtn.textContent = "🔇";
-//         localStorage.setItem("musicMuted", "true");
-//     } else {
-//         muteBtn.textContent = "🔊";
-//         localStorage.setItem("musicMuted", "false");
-//         music.play();
-//     }
-// });
-
-// // Volume control
-// volumeSlider.addEventListener("input", () => {
-//     music.volume = volumeSlider.value;
-//     localStorage.setItem("musicVolume", volumeSlider.value);
-// });
+function startMusic() {
+    const isEnabled = localStorage.getItem('audioEnabled');
+    if (isEnabled === 'true') {
+        const currentPage = window.location.pathname.split("/").pop() || "index.html";
+        const newSrc = pageAudioMap[currentPage] || "audio/ambient_home.mp3";
+        
+        if (bgAudio.src !== window.location.origin + "/" + newSrc) {
+            bgAudio.src = newSrc;
+        }
+        
+        bgAudio.play().catch(err => console.log("Waiting for user interaction..."));
+    }
+}

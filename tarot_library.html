@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tarot Library — Celestial Tarot</title>
 <link rel="stylesheet" href="css/tarot_library.css">
+<script src="js/loading.js"></script>
 </head>
 <body>
 
@@ -14,22 +15,29 @@
 <!-- Navbar -->
 <div id="navbar"></div>
 
-<!-- Filter Select -->
 <div class="filter-container">
-    <label for="filter">Filter Cards:</label>
-    <select id="filter">
-        <option value="all">All</option>
-        <option value="major">Major Arcana</option>
-        <option value="minor">Minor Arcana</option>
-        <option value="love">Love</option>
-        <option value="career">Career</option>
-    </select>
+    <label>Filter Cards:</label>
+    <div class="dropdown-container">
+        <button class="dropdownbtn">All <i class="down-arrow"></i></button>
+        <ul class="dropdown-content">
+            <li><a href="#" data-value="all">All</a></li>
+            <li><a href="#" data-value="major">Major Arcana</a></li>
+            <li class="submenu-container">
+                <a href="#" data-value="minor">Minor Arcana <span>&raquo;</span></a>
+                <ul class="submenu">
+                    <li><a href="#" data-value="wands">Wands</a></li>
+                    <li><a href="#" data-value="cups">Cups</a></li>
+                    <li><a href="#" data-value="swords">Swords</a></li>
+                    <li><a href="#" data-value="pentacles">Pentacles</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </div>
 
 <!-- Tarot Library Grid -->
-<section class="library-section">
+<!-- <section class="library-section" id="library-grid">
 
-    <!-- First row: 4 cards -->
     <div class="card-row">
         <div class="card-slot">
             <a href="card_meaning.html">
@@ -43,7 +51,6 @@
         <div class="card-slot"><img src="img/tarot_img1.jpg" alt="Tarot Card"></div>
     </div>
 
-    <!-- Next rows: 3 rows example -->
     <div class="card-row">
         <div class="card-slot"><img src="img/tarot_img1.jpg" alt="Tarot Card"></div>
         <div class="card-slot"><img src="img/tarot_img1.jpg" alt="Tarot Card"></div>
@@ -65,14 +72,17 @@
         <div class="card-slot"><img src="img/tarot_img1.jpg" alt="Tarot Card"></div>
     </div>
 
-</section>
+</section> -->
 
+<section class="library-section" id="library-grid"></section>
 </main>
 
 <!-- Footer -->
 <div id="footer"></div>
 
 <script src="js/navfooter.js"></script>
+<script src="js/library-meaning-logic.js"></script>
+<script src="js/sound-manager.js"></script>
 
 </body>
 </html> 

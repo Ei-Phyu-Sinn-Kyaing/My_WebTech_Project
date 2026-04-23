@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Card Meaning — Celestial Tarot</title>
 <link rel="stylesheet" href="css/card_meaning.css">
+<script src="js/loading.js"></script>
 </head>
 <body>
 
@@ -20,64 +21,80 @@
 </div>
 
 <!-- Card Title -->
-<!-- <h1 class="card-title">The Empress</h1> -->
- <h1 class="card-title" id="cardName"></h1>
+ <h1 class="card-title" id="cardName">Loading...</h1>
 
 <!-- Card Detail Row -->
 <section class="card-detail-section">
     <div class="card-image">
-        <!-- <img src="img/tarot_img1.jpg" alt="The Empress"> -->
-         <img src="" alt="" id="cardImage">
+        <img src="img/tarot_img1.jpg" id="cardImage" alt="Tarot Card">
     </div>
 
     <div class="card-keywords">
-        <div class="upright">
+        <p style="font-style: italic; color: #ffd700;">Arcana Type: <span id="arcanaType"></span></p>
+
+        <div class="keyword-group">
             <h3>Upright Keywords:</h3>
-            <!-- <p>Abundance, Creativity, Nurturing, Fertility, Growth</p> -->
             <p id="uprightKeywords"></p>
         </div>
-        <div class="reversed">
+        <div class="keyword-group">
             <h3>Reversed Keywords:</h3>
-            <!-- <p>Dependence, Neglect, Blocked Creativity, Lack of Growth</p> -->
             <p id="reversedKeywords"></p>
         </div>
     </div>
 </section>
 
-<!-- Card Meaning Paragraph -->
-<section class="card-meaning">
-    <!-- <p>
-        The Empress signifies nurturing, abundance, and the creation of life, ideas, or projects.
-        Upright, she encourages growth, creativity, and emotional support. Reversed, she warns
-        against neglect, dependence, or stagnation in personal and professional spheres.
-        This card invites reflection on how you care for yourself and others and how you manifest
-        your creative energy.
-        The Empress signifies nurturing, abundance, and the creation of life, ideas, or projects.
-        Upright, she encourages growth, creativity, and emotional support. Reversed, she warns
-        against neglect, dependence, or stagnation in personal and professional spheres.
-        This card invites reflection on how you care for yourself and others and how you manifest
-        your creative energy.
-        The Empress signifies nurturing, abundance, and the creation of life, ideas, or projects.
-        Upright, she encourages growth, creativity, and emotional support. Reversed, she warns
-        against neglect, dependence, or stagnation in personal and professional spheres.
-        This card invites reflection on how you care for yourself and others and how you manifest
-        your creative energy.
-            The Empress signifies nurturing, abundance, and the creation of life, ideas, or projects.
-        Upright, she encourages growth, creativity, and emotional support. Reversed, she warns
-        against neglect, dependence, or stagnation in personal and professional spheres.
-        This card invites reflection on how you care for yourself and others and how you manifest
-        your creative energy.
-        The Empress signifies nurturing, abundance, and the creation of life, ideas, or projects.
-        Upright, she encourages growth, creativity, and emotional support. Reversed, she warns
-        against neglect, dependence, or stagnation in personal and professional spheres.
-        This card invites reflection on how you care for yourself and others and how you manifest
-        your creative energy.The Empress signifies nurturing, abundance, and the creation of life, ideas, or projects.
-        Upright, she encourages growth, creativity, and emotional support. Reversed, she warns
-        against neglect, dependence, or stagnation in personal and professional spheres.
-        This card invites reflection on how you care for yourself and others and how you manifest
-        your creative energy.
-    </p> -->
-    <p id="fullDescription"></p>
+<!-- Card Meaning -->
+<section class="all-meaning-section">
+    <div class="detail-block">
+        <h3>Full Description</h3>
+        <p id="fullDescription"></p>
+    </div>
+
+    <div class="detail-block">
+        <h3>Upright Meaning</h3>
+        <p id="uprightShort"></p>
+    </div>
+
+    <div class="detail-block">
+        <h3>Reversed Meaning</h3>
+        <p id="reversedShort"></p>
+    </div>
+
+    <div class="detail-block">
+        <h3>Love Upright Meaning</h3>
+        <p id="loveUpright"></p>
+    </div>
+    <div class="detail-block">
+        <h3>Love Reversed Meaning</h3>
+        <p id="loveReversed"></p>
+    </div>
+
+    <div class="detail-block">
+        <h3>Career Upright Meaning</h3>
+        <p id="careerUpright"></p>
+    </div>
+    <div class="detail-block">
+        <h3>Career Reversed Meaning</h3>
+        <p id="careerReversed"></p>
+    </div>
+
+    <div class="detail-block">
+        <h3>Financial Upright Meaning</h3>
+        <p id="financialUpright"></p>
+    </div>
+    <div class="detail-block">
+        <h3>Financial Reversed Meaning</h3>
+        <p id="financialReversed"></p>
+    </div>
+
+    <div class="detail-block">
+        <h3>Wellbeing Upright Meaning</h3>
+        <p id="wellbeingUpright"></p>
+    </div>
+    <div class="detail-block">
+        <h3>Wellbeing Reversed Meaning</h3>
+        <p id="wellbeingReversed"></p>
+    </div>
 </section>
 
 </main>
@@ -85,6 +102,8 @@
 <div id="footer"></div>
 
 <script src="js/navfooter.js"></script>
-<script src="js/card_meaning.js"></script>
+<!-- <script src="js/card_meaning.js"></script> -->
+ <script src="js/library-meaning-logic.js"></script>
+ <script src="js/sound-manager.js"></script>
 </body>
 </html>

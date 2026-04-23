@@ -18,6 +18,7 @@ nav {
     font-weight: bold;
     text-shadow: 0 0 10px rgba(255,255,255,0.7);
     color: white;
+    cursor: pointer;
 }
 
 .nav-links {
@@ -26,25 +27,27 @@ nav {
     list-style: none;
 }
 
-.nav-links a {
+.nav-links div {
     color: #e6e6e6;
     text-decoration: none;
 }
 
-.nav-links a:hover {
+.nav-links div:hover {
     color: white;
     text-shadow: 0 0 10px white;
+    cursor: pointer;
 }
 </style>
 
 
 <nav>
-    <div class="logo" onclick="location.href='index.html'">✦ Celestial Tarot</div>
+    <div class="logo" onclick="navigateWithDelay('index.html', 0.5)">✦ Celestial Tarot</div>
     <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="oracle.html">Oracle</a></li>
-        <li><a href="saved_readings.html">Saved Readings</a></li>
-        <li><a href="tarot_library.html">Tarot Library</a></li>
-        <li><a href="about.html">About</a></li>
+        <div onclick="navigateWithDelay('index.html', 0.5)">Home</div>
+        <div onclick="navigateWithDelay('oracle.html', 0.5)">Oracle</div>
+        <div onclick="navigateWithDelay('saved_readings.html', 0.5)">Saved Readings</div>
+        <div onclick="navigateWithDelay('tarot_library.html', 0.5)">Tarot Library</div>
+        <div onclick="navigateWithDelay('about.html', 0.5)">About</div>
     </ul>
 </nav>
+

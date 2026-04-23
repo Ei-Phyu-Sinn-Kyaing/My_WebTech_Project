@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Celestial Tarot — Oracle</title>
 <link rel="stylesheet" href="css/deck.css">
+<script src="js/loading.js"></script>
 
 </head>
 
@@ -34,15 +35,21 @@
 
         <button class="circle-btn" id="shufflebutton">Shuffle</button>
 
-        <div class="card-Container" id="cardContainer">
-            <!-- <div class="tarot-placeholder"><img src="img/tarot_img1.jpg" alt="Tarot card" /></div>
-            <div class="tarot-placeholder"><img src="img/tarot_img1.jpg" alt="Tarot card" /></div>
-            <div class="tarot-placeholder"><img src="img/tarot_img1.jpg" alt="Tarot card" /></div> -->
-        </div>
+        <div class="card-Container" id="cardContainer"></div>
 
-        <button class="primary-btn" onclick="location.href='synthesis.html'">Synthesize Reading</button>
+        <button class="primary-btn" onclick="checkBeforeNavigate()">Synthesize Reading</button>
     </div>
 
+    <!-- Fetched MoonPhase -->
+    <div class="moon-card">
+        <h4>Current Moon</h4>
+        <div class="moon-img-wrapper">
+            <img src="img/loading.png" id="moonImg" alt="Moon Phase">
+        </div>
+        <p id="moonPhaseText">Loading Alignment...</p>
+    </div>
+
+    
 </section>
 
 </main>
@@ -52,8 +59,8 @@
 <script src="js/navfooter.js"></script>
 
 <script src="js/shuffle_logic.js"></script>
-<script src="js/display.js"></script>
-<script src="js/reading_logic.js"></script>
+<script src="js/the_deck_logic.js"></script>
+<script src="js/sound-manager.js"></script>
 
 </body>
 </html>

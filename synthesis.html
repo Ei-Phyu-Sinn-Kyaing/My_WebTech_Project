@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Celestial Tarot — Synthesis</title>
 <link rel="stylesheet" href="css/synthesis.css">
+<script src="js/loading.js"></script>
 </head>
 
 <body>
@@ -32,8 +33,8 @@
 
 
 <div class="action-buttons">
-    <button class="primary-btn" onclick="location.href='index.html'">Return Home</button>
-    <button class="primary-btn" onclick="location.href='oracle.html'">Start New Reading</button>
+    <button class="primary-btn" onclick="navigateWithDelay('index.html', 0.5)">Return Home</button>
+    <button class="primary-btn" onclick="navigateWithDelay('oracle.html', 0.5)">Start New Reading</button>
     <button class="primary-btn" onclick="saveReading()">Save Reading</button>
 </div>
 
@@ -45,6 +46,7 @@
 <script src="js/navfooter.js"></script>
 <script src="js/synthesize_logic.js"></script>
 <script src="js/save_reading_logic.js"></script>
+<script src="js/sound-manager.js"></script>
 
 </body>
 </html>

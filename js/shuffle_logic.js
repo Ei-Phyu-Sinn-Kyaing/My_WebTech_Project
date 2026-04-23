@@ -1,4 +1,4 @@
-function shuffleTheDeck (deck) {
+function shuffleTheDeck (deck) {     //this uses Fisher yates algorithm
     let n = deck.length;
 
     for (let i = n-1; i>0; i--)

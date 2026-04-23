@@ -7,9 +7,27 @@
 
  <!-- External CSS -->
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/loading.js"></script>
 </head>
 
 <body>
+
+<div id="music-overlay" class="music-overlay">
+    <div class="ready-card">
+        <h2>Are you ready to align with the stars?</h2>
+        <button id="ready-btn">Begin Journey</button>
+    </div>
+</div>
+
+<script>
+    (function() {
+        const audioEnabled = localStorage.getItem('audioEnabled');
+        // overlay will be shown if a user has never clicked the button
+        if (!audioEnabled) {
+            document.getElementById('music-overlay').style.display = 'flex';
+        }
+    })();
+</script>
 
 <div class="stars" id="stars"></div>
 
@@ -20,41 +38,81 @@
 
 <main>
 <section class="upper-container">
-    <h1>Discover Your Cosmic Destiny</h1>
-    <button class="cta-main" onclick="location.href='oracle.html'">Start Your Reading</button>
+    <!-- <h1>Discover Your Cosmic Destiny</h1> -->
+     <h1>
+        <span>D</span>
+        <span>i</span>
+        <span>s</span>
+        <span>c</span>
+        <span>o</span>
+        <span>v</span>
+        <span>e</span>
+        <span>r</span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span>Y</span>
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span>C</span>
+        <span>o</span>
+        <span>s</span>
+        <span>m</span>
+        <span>i</span>
+        <span>c</span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span>D</span>
+        <span>e</span>
+        <span>s</span>
+        <span>t</span>
+        <span>i</span>
+        <span>n</span>
+        <span>y</span>
+     </h1>
+     
+     
+     <button class="cta-main" onclick="navigateWithDelay('oracle.html', 0.5)">Start Your Reading</button>
 </section>
-
 
 <!-- CATEGORY GRID -->
 <section class="category-container">
 <div class="categories">
 
     <div class="category">
-        <a href="oracle.html?category=love">
-        <img src="img/tarot_img1.jpg">
-        <button>Love</button>
-        </a>
+        <div onclick="navigateWithDelay('oracle.html?category=love', 1)" style="cursor: pointer;">
+            <img src="img/tarot_img1.jpg">
+            <button>Love</button>
+        </div>
     </div>
 
     <div class="category">
-        <a href="oracle.html?category=career">
-        <img src="img/tarot_img2.jpg">
-        <button>Career</button>
-        </a>
+        <div onclick="navigateWithDelay('oracle.html?category=career', 1)" style="cursor: pointer;">
+            <img src="img/tarot_img2.jpg">
+            <button>Career</button>
+        </div>
     </div>
 
     <div class="category">
-        <a href="oracle.html?category=financial">
-        <img src="img/tarot_img1.jpg">
-        <button>Financial</button>
-        </a>
+        <div onclick="navigateWithDelay('oracle.html?category=financial', 1)" style="cursor: pointer;">
+            <img src="img/tarot_img1.jpg">
+            <button>Financial</button>
+        </div>
     </div>
 
     <div class="category">
-        <a href="oracle.html?category=wellbeing">
-        <img src="img/tarot_img2.jpg">
-        <button>Wellbeing</button>
-        </a>
+        <div onclick="navigateWithDelay('oracle.html?category=wellbeing', 1)" style="cursor: pointer;">
+            <img src="img/tarot_img2.jpg">
+            <button>Wellbeing</button>
+        </div>
     </div>
 
 </div>
@@ -92,20 +150,22 @@
 <div id="footer"></div>
 
 <script src="js/navfooter.js"></script>
+<script src="js/sound-manager.js"></script>
+
 
 <script>
-/* STAR GENERATOR (optimized) */
+/* STAR on the background */
 const starContainer = document.getElementById("stars");
 
 function createStars(count=120){
     starContainer.innerHTML="";
-    for(let i=0;i<count;i++){
-        const s=document.createElement("div");
-        s.className="star";
-        s.style.left=Math.random()*100+"%";
-        s.style.top=Math.random()*100+"%";
-        s.style.animationDelay=Math.random()*3+"s";
-        starContainer.appendChild(s);
+    for(let i=0; i<count; i++){
+        const star=document.createElement("div");
+        star.className="star";
+        star.style.left=Math.random()*100+"%";
+        star.style.top=Math.random()*100+"%";
+        star.style.animationDelay=Math.random()*3+"s";
+        starContainer.appendChild(star);
     }
 }
 
