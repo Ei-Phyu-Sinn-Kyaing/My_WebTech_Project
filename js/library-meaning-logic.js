@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterLinks = document.querySelectorAll('.dropdown-content a');
     const filterBtnText = document.querySelector('.dropdownbtn');
     
-    // showLoading();
+    showLoading();
 
     let allCards = []; // global variable for data storing
 
@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(cards => {
             allCards = cards;
             renderLibrary(allCards);  //firstly show all from fetching
-            // setTimeout(() => {
-            //     hideLoading();
-            // }, 500);
+            setTimeout(() => {
+                hideLoading();
+            }, 500);
         })
         .catch(error => console.error('Error loading cards:', error));
 
