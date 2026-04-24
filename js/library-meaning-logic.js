@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterLinks = document.querySelectorAll('.dropdown-content a');
     const filterBtnText = document.querySelector('.dropdownbtn');
     
-    showLoading();
+    // showLoading();
 
     let allCards = []; // global variable for data storing
 
@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(cards => {
             allCards = cards;
-            renderLibrary(allCards);  //firstly show all from fetching
-            setTimeout(() => {
-                hideLoading();
-            }, 500);
+            displayLibrary(allCards);  //firstly show all from fetching
+            // setTimeout(() => {
+            //     hideLoading();
+            // }, 500);
         })
         .catch(error => console.error('Error loading cards:', error));
 
@@ -40,13 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 // show specific minor arcana
                 filteredCards = allCards.filter(card => card.arcana === filterValue);
             }
-            renderLibrary(filteredCards); 
+            displayLibrary(filteredCards); 
         });
     });
 
 
     //creating cards on UI view
-    function renderLibrary(cards) {
+    function displayLibrary(cards) {
         libraryGrid.innerHTML = ''; //blank first
 
         if (cards.length === 0) {
@@ -60,8 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // to go card_meaning.html with selected ID
             cardSlot.onclick = () => {
-                localStorage.setItem('selectedLibraryCard', card.id);
-                window.location.href = 'card_meaning.html';
+                sessionStorage.setItem('selectedLibraryCard', card.id);
+                clickFlip.play();
+                navigateWithDelay('card_meaning.html', 0.5)
             };
 
             cardSlot.innerHTML = `
@@ -78,21 +79,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
 //card-meaning logic
 // document.addEventListener('DOMContentLoaded', () => {
 //     const selectedCardId = localStorage.getItem('selectedLibraryCard');
 
 //     if (selectedCardId === null) {
-//         window.location.href = 'tarot_library.html'; // ID မရှိရင် library ကို ပြန်လွှတ်မယ်
+//         window.location.href = 'tarot_library.html'; // auto goback library if ID isn't found
 //         return;
 //     }
 
 //     fetch('cards.json')
 //         .then(response => response.json())
 //         .then(cards => {
-//             // ID ချင်း တူတဲ့ကတ်ကို ရှာမယ်
+//             // finding card with same ID
 //             const card = cards.find(c => c.id == selectedCardId);
 
 //             if (card) {

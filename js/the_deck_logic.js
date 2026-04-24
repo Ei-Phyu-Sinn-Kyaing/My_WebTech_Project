@@ -6,7 +6,7 @@ let tempArray = [];
 
 
 function displayUserInfo(){
-    const userInfo = localStorage.getItem('onboardingFormData');
+    const userInfo = sessionStorage.getItem('onboardingFormData');
     if (userInfo){
         const user = JSON.parse(userInfo);
 
@@ -67,32 +67,11 @@ button.addEventListener('click', function()
 );
 
 
-//display cards
-// function displayCards(cardDisplay){
-//     const container = document.getElementById ('cardContainer');
-//     container.innerHTML = " ";     //old data removed by every refresh
-
-//     const displayByLimit = cardDisplay.slice(0,10);
-
-//     displayByLimit.forEach((card, index) => {
-//         const cardDiv = document.createElement ('div');
-//         cardDiv.className = 'tarot-placeholder';
-//         cardDiv.innerHTML = `<img src="img/tarot_img1.jpg" alt="Tarot Card" card-index="${index}">`;
-
-//         cardDiv.onclick = function() {
-//             selectCards (index, cardDiv);
-//         };
-
-//         container.appendChild(cardDiv);
-//     }
-//     );
-// }
-
 async function displayCards(cardDisplay){
     const container = document.getElementById ('cardContainer');
     container.innerHTML = " ";     //old data removed by every refresh
 
-    const displayByLimit = cardDisplay.slice(0,10);
+    const displayByLimit = cardDisplay.slice(0,17);
     displayByLimit.forEach((card, index) => {
         const cardDiv = document.createElement ('div');
         cardDiv.className = 'tarot-placeholder';
@@ -102,12 +81,13 @@ async function displayCards(cardDisplay){
             selectCards (index, cardDiv);
         };
 
+        shuffleSound.play();
         container.appendChild(cardDiv);
 
         //appear one card by card
         setTimeout(() => {
             cardDiv.classList.add('spread');
-        }, index * 120);
+        }, index * 125);
     }
     );
 }
@@ -115,7 +95,7 @@ async function displayCards(cardDisplay){
 
 //display moon phase
 function displayMoonPhase(){
-    const moonPhase = localStorage.getItem('moonPhase') || "New Moon";
+    const moonPhase = sessionStorage.getItem('moonPhase') || "New Moon";
     const moonImgCall = document.getElementById('moonImg');
     const moonTextCall = document.getElementById('moonPhaseText');
 
@@ -123,11 +103,11 @@ function displayMoonPhase(){
     const moonImages ={
         "New Moon": "img/moon-new.png",
         "Waxing Crescent": "img/moon-waxing-crescent.png",
-        "Waxing Quarter": "img/moon-waxing-quarter.png",
+        "First Quarter": "img/moon-waxing-quarter.png",
         "Waxing Gibbous": "img/moon-waxing-gibbous.png",
         "Full Moon": "img/moon-full.png",
         "Waning Gibbous": "img/moon-waning-gibbous.png",
-        "Waning Quarter": "img/moon-waning-quarter.png",
+        "Last Quarter": "img/moon-waning-quarter.png",
         "Waning Crescent": "img/moon-waning-crescent.png",
     };
 
@@ -143,13 +123,22 @@ function displayMoonPhase(){
     moonTextCall.innerText = moonPhase;
 }
 
+function showCosmicAlert(message) {
+    const alertOverlay = document.getElementById('cosmic-alert');
+    document.getElementById('alert-message').innerText = message;
+    alertOverlay.classList.add('show');
+}
 
+function closeCosmicAlert() {
+    document.getElementById('cosmic-alert').classList.remove('show');
+}
 
 //card select function
 function selectCards (index, element) {
     if (counter<3 && !element.classList.contains('selected')){
         counter++;     //counter logic to check select count
 
+    onclick = selectSound.play();
     tempArray.push(theDeck[index]);    //pushing the selected card into the tempArray
 
     element.classList.add('selected'); //adding class to show the selected card
@@ -157,7 +146,7 @@ function selectCards (index, element) {
     
         if (counter === 3){
             console.log ("All 3 cards are selected!", tempArray);
-            localStorage.setItem('userReading', JSON.stringify(tempArray));
+            sessionStorage.setItem('userReading', JSON.stringify(tempArray));
 
             //flip animation call
             setTimeout(() => {
@@ -168,11 +157,11 @@ function selectCards (index, element) {
     }
     else if (element.classList.contains('selected')){
         console.log ("This card is already selected!");
-        alert ("This card is already selected!");
+        showCosmicAlert('This card is already selected!');
     }
     else if (counter>= 3){
         console.log("You can't select more than 3 cards!")
-        alert("Your maximum limit reached!")
+        showCosmicAlert('Your maximum limit reached!');
     }
 }
 
@@ -199,22 +188,23 @@ function revealCards(){
         const frontImg = document.createElement('img');
         frontImg.src = cardData.image;
         frontImg.className = 'card-front-face';
+        revealSound.play();
         card.appendChild(frontImg);
 
         setTimeout(()=>{
             card.classList.add('flipped');
         }, 
-        i*1200
+        i*1100
         );
     });
 }
 
 function checkBeforeNavigate(){
     if(counter<3){
-        alert("Please select 3 cards fist!");
+        showCosmicAlert('The stars need 3 cards to speak.');
     }
     else{
-        navigateWithDelay('synthesis.html', 2);
+        navigateWithDelay('synthesis.html', 0.5);
     }
 }
 
@@ -223,12 +213,6 @@ function checkBeforeNavigate(){
 document.addEventListener('DOMContentLoaded', ()=>{
     displayUserInfo();
     displayMoonPhase();
-
-    //to remove selected cards data when the page is reloaded again
-    localStorage.removeItem('userReading');
-    tempArray = [];
-    counter = 0;
-    console.log ("Previous Reading data is successfully cleared!");
 });
 
 

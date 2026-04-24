@@ -29,6 +29,15 @@ function getMoonPhaseFallback() {
     return "Waning Crescent";
 }
 
+function showCosmicAlert(message) {
+    const alertOverlay = document.getElementById('cosmic-alert');
+    document.getElementById('alert-message').innerText = message;
+    alertOverlay.classList.add('show');
+}
+
+function closeCosmicAlert() {
+    document.getElementById('cosmic-alert').classList.remove('show');
+}
 
 async function submitOracleForm(){
     const name = document.getElementById('userName').value;
@@ -36,7 +45,7 @@ async function submitOracleForm(){
     const category = document.getElementById('userCategory').value;
 
     if (name.trim() === ""){
-        alert("Your name cannot be nulled! Enter you name.");
+        showCosmicAlert("Please share your name with the stars before proceeding.");
         return;
     }
 
@@ -50,8 +59,8 @@ async function submitOracleForm(){
         zodiac: zodiac,
         category: category
     };
-    //localstorage storing
-    localStorage.setItem('onboardingFormData', JSON.stringify(userData));
+    //sessionstorage storing
+    sessionStorage.setItem('onboardingFormData', JSON.stringify(userData));
 
     const apiKey = "40be0e119a3341678d7140357262004"; 
     const city = "Yangon"; // give Location
@@ -65,7 +74,7 @@ async function submitOracleForm(){
 
         if (data.astronomy && data.astronomy.astro) {
             // if success, store the phase fetched from api
-            localStorage.setItem('moonPhase', data.astronomy.astro.moon_phase);
+            sessionStorage.setItem('moonPhase', data.astronomy.astro.moon_phase);
             console.log("Moon phase fetched from API:", data.astronomy.astro.moon_phase);
         } else {
             throw new Error("Invalid API Data");
@@ -74,7 +83,7 @@ async function submitOracleForm(){
     } catch (error) {
         // use below fallback plan if api error or vpn is not used
         const fallbackValue = getMoonPhaseFallback();
-        localStorage.setItem('moonPhase', fallbackValue);
+        sessionStorage.setItem('moonPhase', fallbackValue);
         console.warn("Using Fallback Logic:", fallbackValue);
     }
     

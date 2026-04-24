@@ -2,12 +2,12 @@ const loadingStyle = document.createElement('style');
 loadingStyle.innerHTML = `
     .loading-class {
         position: fixed;
-        top: 50%; left:50%;
+        top: 40%; left:50%;
         transform: translate(-50%, -50%);
-        width: 300px;
-        height: 200px;
-        background: rgba(10, 10, 15, 0.91);
-        border: 1px solid black;
+        width: 100px;
+        height: 100px;
+        background: rgba(46, 46, 77, 0.91);
+        border: 1px solid white;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
@@ -25,7 +25,6 @@ loadingStyle.innerHTML = `
         border-top: 10px solid #5d89db; 
         border-radius: 50%;
         animation: spin 1s linear infinite;
-        margin-bottom: 20px;
     }
     @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -44,6 +43,11 @@ loadingStyle.innerHTML = `
 `;
 document.head.appendChild(loadingStyle);
 
+
+// background: rgba(10, 10, 15, 0.91);
+//<p>Aligning with the stars...</p>
+
+
 //function for creating loading div
 function createLoading() {
     if (!document.getElementById('loadingScreen')) {
@@ -52,7 +56,6 @@ function createLoading() {
         loadingDiv.className = 'loading-class';
         loadingDiv.innerHTML = `
             <div class="spinner"></div>
-            <p>Aligning with the stars...</p>
         `;
         document.body.appendChild(loadingDiv);
     }

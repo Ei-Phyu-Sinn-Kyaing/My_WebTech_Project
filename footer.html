@@ -2,13 +2,18 @@
 
 
 <style>
-    /* 🌙 Footer */
 
 footer {
-    margin-top: 5rem;
+    margin-top: 0;
     padding: 3rem;
     border-top: 1px solid rgba(255,255,255,0.2);
     background: rgba(10,14,39,0.9);
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    background-color: #0a0e27;
+    backdrop-filter: blur(5px);
+    
 }
 
 .footer-content {
@@ -20,8 +25,9 @@ footer {
 .footer-links {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;   /* 👈 spacing between each link */
+    gap: 0.8rem;   
     color: white;
+    /* align-items: center; */
 }
 
 .footer-links h4 {
@@ -43,11 +49,27 @@ footer {
 }
 
 /* Github Box */
-.github-box {
-    width: 80px;
-    height: 60px;
+/* .github-box {
+    width: 100px;
+    height: 100px;
     border: 1px solid white;
     margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center;
+} */
+
+.footer-links img{
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: float 3s ease-in-out infinite;
+    text-shadow: 0 0 15px rgba(255,255,255,0.6);
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
 }
 
 .copyright {
@@ -57,7 +79,7 @@ footer {
 }
 </style>
 
-<!-- 🌙 Footer -->
+<!-- Footer -->
 <footer>
     <div class="footer-content">
         <div class="footer-links">
@@ -71,8 +93,10 @@ footer {
 
         <div class="footer-links">
             <h4>Github Link</h4>
-            <div class="github-box"></div>
-            <p>View Source Code</p>
+            <a href="">
+                <img src="img/github.png" alt="">
+            </a>
+            <p>Click Icon to View Source Code</p>
         </div>
     </div>
 
@@ -80,7 +104,6 @@ footer {
         © 2026 Celestial Tarot Oracle. Guided by the stars, rooted in ancient wisdom.
     </p>
 </footer>
-
 
 
 

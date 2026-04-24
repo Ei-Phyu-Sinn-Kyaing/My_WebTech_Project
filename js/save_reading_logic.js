@@ -1,7 +1,17 @@
+function showCosmicAlert(message) {
+    const alertOverlay = document.getElementById('cosmic-alert');
+    document.getElementById('alert-message').innerText = message;
+    alertOverlay.classList.add('show');
+}
+
+function closeCosmicAlert() {
+    document.getElementById('cosmic-alert').classList.remove('show');
+}
+
 function saveReading() {
-    const userData = JSON.parse(localStorage.getItem('onboardingFormData'));
-    const moonPhase = localStorage.getItem('moonPhase');
-    const selectedCards = JSON.parse(localStorage.getItem('userReading'));
+    const userData = JSON.parse(sessionStorage.getItem('onboardingFormData'));
+    const moonPhase = sessionStorage.getItem('moonPhase');
+    const selectedCards = JSON.parse(sessionStorage.getItem('userReading'));
     const synthesisReading = document.getElementById('final-synthesis-text').innerText;
 
     if (!userData || !selectedCards) {
@@ -25,7 +35,7 @@ function saveReading() {
     //store savedReadings as allSavedReadings in localStorage
     localStorage.setItem('allSavedReadings', JSON.stringify(savedReadings));
 
-    alert("Reading saved successfully!");
+    showCosmicAlert('Reading saved successfully!');
 }
 
 // function updateSaveButton(){
@@ -58,8 +68,8 @@ function displaySavedReadings() {
                 <td>${reading.userInfo.category}</td>
                 <td>${reading.date}</td>
                 <td>
-                    <button class="action-btn view-btn" onclick="viewDetail(${reading.id})">View Detail</button>
-                    <button class="action-btn delete-btn" onclick="deleteReading(${reading.id})">Delete</button>
+                    <button class="action-btn view-btn" onclick="clickClick.play(); viewDetail(${reading.id})">View Detail</button>
+                    <button class="action-btn delete-btn" onclick="clickClick.play(); deleteReading(${reading.id})">Delete</button>
                 </td>
             </tr>
         `;
@@ -68,8 +78,9 @@ function displaySavedReadings() {
 }
 
 function viewDetail(id) {
-    localStorage.setItem('currentViewDetailId', id);
-    location.href = 'saved_reading_detail.html';
+    sessionStorage.setItem('currentViewDetailId', id);
+    // location.href = 'saved_reading_detail.html';
+    navigateWithDelay('saved_reading_detail.html', 0.5)
 }
 
 function deleteReading(id) {
@@ -90,7 +101,7 @@ function displayReadingDetail() {
         return;
     }
 
-    const viewId = localStorage.getItem('currentViewDetailId');
+    const viewId = sessionStorage.getItem('currentViewDetailId');
     const savedReadings = JSON.parse(localStorage.getItem('allSavedReadings')) || [];
     const reading = savedReadings.find(r => r.id == viewId);
     const positions = ["Past", "Present", "Future"];
@@ -106,11 +117,11 @@ function displayReadingDetail() {
         const moonImages ={
         "New Moon": "img/moon-new.png",
         "Waxing Crescent": "img/moon-waxing-crescent.png",
-        "Waxing Quarter": "img/moon-waxing-quarter.png",
+        "First Quarter": "img/moon-waxing-quarter.png",
         "Waxing Gibbous": "img/moon-waxing-gibbous.png",
         "Full Moon": "img/moon-full.png",
         "Waning Gibbous": "img/moon-waning-gibbous.png",
-        "Waning Quarter": "img/moon-waning-quarter.png",
+        "Last Quarter": "img/moon-waning-quarter.png",
         "Waning Crescent": "img/moon-waning-crescent.png",
     };
 

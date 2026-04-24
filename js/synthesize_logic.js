@@ -28,12 +28,34 @@ const moonMeanings = {
 };
 
 
-function generateSynthesizedReading() {
-    //data extracting from localStorage, unpacking and formatting
-    const userData = JSON.parse(localStorage.getItem('onboardingFormData'));
-    const selectedCards = JSON.parse(localStorage.getItem('userReading'));
+function typeWriter(element, text, speed = 25) {
+    const typingSound = new Audio('sounds/typing.mp3');
+    typingSound.volume = 0.5;
+    
+    return new Promise((resolve) => {
+        let i = 0;
+        element.innerHTML = "";
+        
+        function type() {
+            if (i < text.length) {
+                element.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(type, speed);
+            } else {
+                resolve(); // signal to jump the next sentence after typing finished
+            }
+            typingSound.play();
+        }
+        type();
+    });
+}
 
-    const currentMoon = localStorage.getItem('moonPhase') || "Mystical Alignment";
+async function generateSynthesizedReading() {
+    //data extracting from localStorage, unpacking and formatting
+    const userData = JSON.parse(sessionStorage.getItem('onboardingFormData'));
+    const selectedCards = JSON.parse(sessionStorage.getItem('userReading'));
+
+    const currentMoon = sessionStorage.getItem('moonPhase') || "Mystical Alignment";
     const moonDescription = moonMeanings[currentMoon] || moonMeanings["Mystical Alignment"];
     
     if (!userData || !selectedCards){
@@ -45,53 +67,54 @@ function generateSynthesizedReading() {
     const trait = zodiacTraits[zodiac] || "your unique celestial path";
     const userCategory = category.toLowerCase();    //formatting
 
-    //variables for UI view
-    let cardRowsHTML = "";
+    const resultsContainer = document.getElementById('card-results-container');
+    const finalNarrativeElement = document.getElementById('final-synthesis-text');
+    
+    resultsContainer.innerHTML = ''; 
+    finalNarrativeElement.innerHTML = '';
+
     let narrativeParts = [];
 
-    
-    //nested objects and Multi-layered mapping logic
-    selectedCards.forEach((card, index) =>{
-        const position = positions[index];
+    // Multilayer mapping with Nested Acess and connection logic, 
+    //  Typing card by card using await (data manipulation)
+    for (let i = 0; i < selectedCards.length; i++) {
+        const card = selectedCards[i];
+        const position = positions[i];
         const orientation = card.isReversed ? "reversed" : "upright";
+        const specificMeaning = card.meanings[userCategory][orientation];
 
-        const specificMeaning = card.meanings[userCategory][orientation]  //nested objects extracting
-
-        //HTML for individual card section
-        cardRowsHTML += `
-        <div class="reading-row">
+        // creating row and put it into UI
+        const row = document.createElement('div');
+        row.className = 'reading-row';
+        row.innerHTML = `
             <div class="card-slot">
                 <img src="${card.image}" class="${card.isReversed ? 'reversed' : ''}">
             </div>
             <div class="reading-text">
-                <h3>${position}: ${card.name} (${orientation.toUpperCase()})</h3>
-                <p>${specificMeaning}</p>
+                <h3 id="title-${i}"></h3>
+                <p id="text-${i}"></p>
             </div>
-        </div>
         `;
+        resultsContainer.appendChild(row);
 
-        //collecting parts for narrtive 
-        narrativeParts.push(`the influence of ${card.name} in your ${position.toLowerCase()}`);
-    });
+        // typing code
+        await typeWriter(document.getElementById(`title-${i}`), `${position}: ${card.name} (${orientation.toUpperCase()})`, 25);
+        await typeWriter(document.getElementById(`text-${i}`), specificMeaning, 30);
+        
+        narrativeParts.push(`the influence of '${card.name}' in your ${position.toLowerCase()}`);
+    }
 
-    //Creating narrative by using Template Literals
-    const finalNarrative = `
-    Hello, ${name}. As a **${zodiac}**, guided by ${trait}, 
-    your ${category} journey is unfolding in a significant way. 
+    //  generating Narrative Synthesis by using Template Literals
+    const finalNarrative = `Hello, ${name}. As a '${zodiac}', guided by ${trait}, 
+                            your '${category}' journey is unfolding in a significant way. 
+                            Currently, the world is under the '${currentMoon}', 
+                            which signifies ${moonDescription}. 
+                            Your reading suggests a transition from ${narrativeParts[0]}, 
+                            moving through ${narrativeParts[1]}, 
+                            and finally manifesting into ${narrativeParts[2]}. 
+                            Trust these signs as they align with your cosmic blueprint.`;
 
-    Currently, the world is under the *${currentMoon}*, which signifies ${moonDescription}. 
-    Combined with this lunar energy, your reading suggests a transition from ${narrativeParts[0]}, 
-    moving through ${narrativeParts[1]}, 
-    and finally manifesting into ${narrativeParts[2]}. 
-    
-    Trust these signs as they align with your cosmic blueprint.`;
-
-    //transmitting data to th UI
-    document.getElementById('card-results-container').innerHTML = cardRowsHTML;
-    document.getElementById('final-synthesis-text').innerHTML = finalNarrative;
-
+    await typeWriter(finalNarrativeElement, finalNarrative, 13);
 }
 
-    // logic is activated once the page is loaded
-    document.addEventListener('DOMContentLoaded', generateSynthesizedReading);
-   
+    document.addEventListener('DOMContentLoaded',generateSynthesizedReading());

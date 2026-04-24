@@ -80,7 +80,7 @@
      </h1>
      
      
-     <button class="cta-main" onclick="navigateWithDelay('oracle.html', 0.5)">Start Your Reading</button>
+     <button class="cta-main" onclick="indexClick.play(); navigateWithDelay('oracle.html', 1.5)">Start Your Reading</button>
 </section>
 
 <!-- CATEGORY GRID -->
@@ -88,28 +88,28 @@
 <div class="categories">
 
     <div class="category">
-        <div onclick="navigateWithDelay('oracle.html?category=love', 1)" style="cursor: pointer;">
+        <div onclick="clickClick.play(); navigateWithDelay('oracle.html?category=love', 1)" style="cursor: pointer;">
             <img src="img/tarot_img1.jpg">
             <button>Love</button>
         </div>
     </div>
 
     <div class="category">
-        <div onclick="navigateWithDelay('oracle.html?category=career', 1)" style="cursor: pointer;">
+        <div onclick="clickClick.play(); navigateWithDelay('oracle.html?category=career', 1)" style="cursor: pointer;">
             <img src="img/tarot_img2.jpg">
             <button>Career</button>
         </div>
     </div>
 
     <div class="category">
-        <div onclick="navigateWithDelay('oracle.html?category=financial', 1)" style="cursor: pointer;">
+        <div onclick="clickClick.play(); navigateWithDelay('oracle.html?category=financial', 1)" style="cursor: pointer;">
             <img src="img/tarot_img1.jpg">
             <button>Financial</button>
         </div>
     </div>
 
     <div class="category">
-        <div onclick="navigateWithDelay('oracle.html?category=wellbeing', 1)" style="cursor: pointer;">
+        <div onclick="clickClick.play(); navigateWithDelay('oracle.html?category=wellbeing', 1)" style="cursor: pointer;">
             <img src="img/tarot_img2.jpg">
             <button>Wellbeing</button>
         </div>
@@ -134,7 +134,8 @@
 
 <div class="step">
 <div class="step-number">3</div>
-<div>Receive cosmic guidance from the cards.</div>
+<div>The reading will give you past, present and future narrative readings.
+Receive cosmic guidance from the cards.</div>
 </div>
 
 <div class="step">
@@ -157,7 +158,7 @@
 /* STAR on the background */
 const starContainer = document.getElementById("stars");
 
-function createStars(count=120){
+function createStars(count=100){
     starContainer.innerHTML="";
     for(let i=0; i<count; i++){
         const star=document.createElement("div");
@@ -171,6 +172,59 @@ function createStars(count=120){
 
 createStars();
 window.addEventListener("resize",()=>createStars());
+</script>
+
+<script>
+    function createShootingStar() {
+    const star = document.createElement("div");
+    star.className = "shooting-star";
+    
+    //random width
+    const starWidth = Math.random() * (150 - 80) + 80;
+    star.style.width = `${starWidth}px`;
+    
+    const startX = Math.random() * (window.innerWidth + 200); // top right corner start
+    const startY = Math.random() * (window.innerHeight / 2);
+    
+    star.style.left = `${startX}px`;
+    star.style.top = `${startY}px`;
+    
+    starContainer.appendChild(star);
+    
+    setTimeout(() => {
+        star.classList.add("active");
+    }, 10);
+    
+    setTimeout(() => {
+        star.remove();
+    }, 1500);
+}
+
+function startShootingStars() {
+    const delay = Math.random() * (2000 - 800) + 800; 
+    setTimeout(() => {
+        createShootingStar();
+        startShootingStars();
+    }, delay);
+}
+
+startShootingStars();
+</script>
+
+<script>
+    // Background scroll movement (Parallax)
+    window.addEventListener('scroll', () => {
+    const scrollValue = window.scrollY;
+
+    // ၁။ Background Gradient ကို ရွေ့စေမယ်
+    // scroll လုပ်တဲ့အခါ background position ကို ပြောင်းလဲပေးတာပါ
+    document.body.style.backgroundPosition = `center ${scrollValue * 0.5}px`;
+
+    // ၂။ ကြယ်လေးတွေကို အနည်းငယ် ရွေ့စေမယ် (Parallax Effect)
+    // ကြယ်လေးတွေက scroll ထက် ပိုနှေးနှေးလေး ရွေ့နေသလို ခံစားရအောင် 0.2 နဲ့ မြှောက်ထားတယ်
+    const starsContainer = document.getElementById("stars");
+    starsContainer.style.transform = `translateY(${scrollValue * 0.2}px)`;
+});
 </script>
 
 </body>

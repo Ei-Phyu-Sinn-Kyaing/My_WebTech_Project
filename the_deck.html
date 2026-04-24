@@ -37,7 +37,7 @@
 
         <div class="card-Container" id="cardContainer"></div>
 
-        <button class="primary-btn" onclick="checkBeforeNavigate()">Synthesize Reading</button>
+        <button class="primary-btn" onclick="clickClick.play(); checkBeforeNavigate()">Synthesize Reading</button>
     </div>
 
     <!-- Fetched MoonPhase -->
@@ -53,6 +53,20 @@
 </section>
 
 </main>
+
+
+<div id="cosmic-alert" class="alert-overlay">
+    <div class="alert-card">
+        <div class="alert-icon">
+            <img src="img/halfmoon.svg" alt="" width="60" height="60">
+        </div>
+        <h3 id="alert-title">Cosmic Whisper</h3>
+        <p id="alert-message"></p>
+        <button class="alert-btn" onclick="closeCosmicAlert()">Understood</button>
+    </div>
+</div>
+
+
 <!-- Footer -->
 <div id="footer"></div>
 
