@@ -198,6 +198,38 @@ function revealCards(){
     });
 }
 
+function revealCards(){
+    const selectedCards = document.querySelectorAll('.tarot-placeholder.selected');
+
+    //reveal bg sound during revealing
+    revealSound.play();
+
+    selectedCards.forEach((card, i) => {
+
+        //space define for selected card presentation
+        let offset = (i === 0) ? -200 : (i === 1) ? 0 : 200;
+        // CSS variable define
+        card.style.setProperty('--offset', offset + 'px');
+
+        const cardData = tempArray[i];
+
+        //adding reversed class when the selected card is reversed
+        if(cardData.isReversed){
+            card.classList.add('reversed');
+        }
+
+        setTimeout(()=>{
+
+            // one flip one play
+            clickFlip.currentTime = 0; 
+            clickFlip.play();
+
+            card.classList.add('flipped');
+        }, 
+        i*1100);
+    });
+}
+
 function checkBeforeNavigate(){
     if(counter<3){
         showCosmicAlert('The stars need 3 cards to speak.');
