@@ -75,7 +75,13 @@ async function displayCards(cardDisplay){
     displayByLimit.forEach((card, index) => {
         const cardDiv = document.createElement ('div');
         cardDiv.className = 'tarot-placeholder';
-        cardDiv.innerHTML = `<img src="img/tarot_img1.jpg" alt="Tarot Card" card-index="${index}">`;
+        // cardDiv.innerHTML = `<img src="img/tarot_img1.jpg" alt="Tarot Card" card-index="${index}">`;
+        cardDiv.innerHTML = `
+            <div class="card-inner">
+                <img src="img/tarot_img1.jpg" class="card-back-face" alt="Back Side">
+                <img src="${card.image}" class="card-front-face" alt="Front Side">
+            </div>
+        `;
 
         cardDiv.onclick = function() {
             selectCards (index, cardDiv);
@@ -88,8 +94,7 @@ async function displayCards(cardDisplay){
         setTimeout(() => {
             cardDiv.classList.add('spread');
         }, index * 125);
-    }
-    );
+    });
 }
 
 
@@ -177,7 +182,6 @@ function revealCards(){
         // CSS variable define
         card.style.setProperty('--offset', offset + 'px');
 
-
         const cardData = tempArray[i];
 
         //adding reversed class when the selected card is reversed
@@ -185,17 +189,12 @@ function revealCards(){
             card.classList.add('reversed');
         }
 
-        const frontImg = document.createElement('img');
-        frontImg.src = cardData.image;
-        frontImg.className = 'card-front-face';
         revealSound.play();
-        card.appendChild(frontImg);
 
         setTimeout(()=>{
             card.classList.add('flipped');
         }, 
-        i*1100
-        );
+        i*1100);
     });
 }
 

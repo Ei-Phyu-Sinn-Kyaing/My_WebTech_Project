@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (readyBtn) {
         readyBtn.addEventListener('click', () => {
             sessionStorage.setItem('sessionActive', 'true');
-            localStorage.setItem('isMuted', 'false');
+            sessionStorage.setItem('isMuted', 'false');
 
             overlay.classList.add('fade-out');
             setTimeout(() => { overlay.style.display = 'none'; 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // inserting volumn UI using js
 function setupAudioUI() {
-    const isMuted = localStorage.getItem('isMuted') === 'true';
+    const isMuted =sessionStorage.getItem('isMuted') === 'true';
     const icon = isMuted ? muteIcon : unmuteIcon;
 
     const uiHtml = `
@@ -74,7 +74,7 @@ function setupAudioUI() {
             </button>
             <div id="volume-ctrl-container" style="height:0; overflow:hidden; transition:0.3s; background:rgba(10,14,39,0.8); border-radius:10px; padding:0 5px; backdrop-filter:blur(5px);">
                 <input type="range" id="volume-slider" min="0" max="100" value="${bgAudio.volume * 100}" 
-                    style="writing-mode: bt-lr; -webkit-appearance: slider-vertical; width:10px; height:100px; cursor:pointer;">
+                    style="writing-mode: vertical-lr; direction: rtl; width:15px; height:100px; cursor:pointer; appearance: auto;">
             </div>
         </div>
     `;
@@ -146,11 +146,6 @@ function startMusic() {
         bgAudio.play().catch(err => console.log("User interaction needed"));
     }
 }
-
-
-
-
-
 
 
 //object creating for button clicks

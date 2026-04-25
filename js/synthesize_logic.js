@@ -112,7 +112,8 @@ async function generateSynthesizedReading() {
                             Your reading suggests a transition from ${narrativeParts[0]}, 
                             moving through ${narrativeParts[1]}, 
                             and finally manifesting into ${narrativeParts[2]}. 
-                            Trust these signs as they align with your cosmic blueprint.`;
+                            Trust these signs as they align with your cosmic blueprint.
+                            Whatever happens, always remember the universe try to bless your beautiful soul.`;
 
     await typeWriter(finalNarrativeElement, finalNarrative, 13);
 }

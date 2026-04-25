@@ -36,18 +36,20 @@ function saveReading() {
     localStorage.setItem('allSavedReadings', JSON.stringify(savedReadings));
 
     showCosmicAlert('Reading saved successfully!');
+    updateSaveButton();
 }
 
-// function updateSaveButton(){
-//     const saveBtn = document.querySelector('button[onclick="saveReading()"]');
-//     if(saveBtn){
-//         saveBtn.innerText = "Saved!";
-//         saveBtn.computedStyleMap.opacity = "0.5";
-//         saveBtn.computedStyleMap.cursor = "not-allowed";
-//         //close attribute for more safe
-//         saveBtn.disabled = true;
-//     }
-// }
+function updateSaveButton(){
+    const saveBtn = document.querySelector('button[onclick*="saveReading()"]');
+    if(saveBtn){
+        saveBtn.innerText = "Saved!";
+        saveBtn.style.opacity = "0.5";
+        saveBtn.style.cursor = "not-allowed";
+        // //close attribute for more safe
+        saveBtn.disabled = true;
+        saveBtn.removeAttribute("onclick");
+    }
+}
 
 
 
@@ -69,7 +71,7 @@ function displaySavedReadings() {
                 <td>${reading.date}</td>
                 <td>
                     <button class="action-btn view-btn" onclick="clickClick.play(); viewDetail(${reading.id})">View Detail</button>
-                    <button class="action-btn delete-btn" onclick="clickClick.play(); deleteReading(${reading.id})">Delete</button>
+                    <button class="action-btn delete-btn" onclick="clickClick.play(); deleteReading(${reading.id})"><img src="img/trash.png" alt=""></button>
                 </td>
             </tr>
         `;
@@ -83,13 +85,52 @@ function viewDetail(id) {
     navigateWithDelay('saved_reading_detail.html', 0.5)
 }
 
+let confirmCallback = null;
+
+function showConfirmAlert(message, options = { isConfirm: false, onConfirm: null }) {
+    const alertOverlay = document.getElementById('cosmic-alert');
+    const cancelBtn = document.getElementById('alert-cancel-btn');
+    const confirmBtn = document.getElementById('alert-confirm-btn');
+    
+    document.getElementById('alert-message').innerText = message;
+    
+    if (options.isConfirm) {
+        cancelBtn.classList.remove('hidden');
+        confirmCallback = options.onConfirm; 
+    } else {
+        cancelBtn.classList.add('hidden');
+        confirmCallback = null;
+    }
+    
+    alertOverlay.classList.add('show');
+}
+//when confirm button is clicked
+const confirmBtn = document.getElementById('alert-confirm-btn');
+
+    if (confirmCallback) {
+        confirmBtn.onclick = function() {
+        confirmCallback();
+    }
+    closeCosmicAlert();
+};
+
+// if (confirmCallback) {
+//         document.getElementById('alert-confirm-btn').onclick = function() {
+//         confirmCallback();
+//     }
+//     closeCosmicAlert();
+// };
+
 function deleteReading(id) {
-    if (confirm("Are you sure you want to delete this reading?")) {
+    showConfirmAlert("Are you sure you want to delete this reading?", {
+        isConfirm: true,
+        onConfirm: () => {
         let savedReadings = JSON.parse(localStorage.getItem('allSavedReadings')) || [];
         savedReadings = savedReadings.filter(r => r.id !== id);
         localStorage.setItem('allSavedReadings', JSON.stringify(savedReadings));
         displaySavedReadings();  //refresh table
-    }
+        }
+    });
 }
 
 

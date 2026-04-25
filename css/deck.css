@@ -73,11 +73,6 @@
 .circle-btn:active {
     transform: scale(0.92); 
     box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
-
-.rotate {
-    transform: rotate(360deg) scale(1.1); 
-}
-   
 }
 
 
@@ -89,13 +84,13 @@
     margin-bottom: 2rem;
 }
 
-.shuffling-card {
+/* .shuffling-card {
     position: absolute !important;
     left: 50% !important;
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     animation: washingEffect 0.8s ease-in-out infinite;
-}
+} */
 
 .tarot-placeholder {
     width: 55px;
@@ -104,13 +99,21 @@
     border-radius: 6px;
     margin-left: -25px;
     position: relative;
-    perspective: 1000px; /*for 3D effect*/
-    /* transform: rotate(-10deg);
-    transition: transform 0.3s ease; */
+    cursor: pointer;
     opacity: 0;
-    transform: scale(0.5) translateY(100px); 
+    transform: scale(0.5) translateY(100px); /*intro animation*/
     transition: all 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
     background: rgba(255,255,255,0.03);
+}
+
+.tarot-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    border-radius: 6px; 
+    position: absolute;   
+    top: 0;
+    left: 0;
 }
 
 /* visual spread */
@@ -124,19 +127,27 @@
    transform: rotate(-5deg) translateY(-10px);
 }
 
-
-
-.tarot-placeholder img {
+.card-inner {
+    position: relative;
     width: 100%;
     height: 100%;
-    object-fit: cover;   /* keeps nice proportions */
-    border-radius: 6px; /* optional mystical softness */
- /*below is for 3D flip*/
-    position: absolute;   
-    top: 0;
-    left: 0;
-    /* backface-visibility: hidden;
-    -webkit-backface-visibility: hidden; */
+    text-align: center;
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+}
+
+.card-inner img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.card-back-face {
+    z-index: 2;
 }
 
 .card-front-face {
@@ -144,34 +155,38 @@
 }
 
 .tarot-placeholder.selected{
-    /* transform: translateY(-50px) scale(2.2) rotateY(0deg) !important; */
     z-index: 100;
     border: 1px solid gold;
     box-shadow: 0 0 20px gold;
 }
 
-/* .tarot-placeholder.flipped{
-    transform: translateY(-50px) scale(2.2) rotateY(180deg) !important;
-} */
 
 .tarot-placeholder.flipped {
-    position: fixed !important;
-    top: 50% !important;
-    left: 50% !important;
-    z-index: 1000 !important;
-    margin: 0 !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    margin: 0;
     box-shadow: 0 0 40px rgba(44, 37, 5, 0.893);
-    /* box-shadow: 0 0 20px gold; */
-    transition: all 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
-    transform: translate(calc(-50% + var(--offset)), -50%) scale(2.2) rotateY(180deg) !important;
+    box-shadow: 0 0 20px gold;
+    transition: all 2.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transform: translate(calc(-50% + var(--offset)), -50%) scale(2.2);
     transform-style: preserve-3d;
+}
+
+.tarot-placeholder.flipped .card-inner {
+    transform: rotateY(180deg);
 }
 
 /* for reversed class condition*/
 .tarot-placeholder.flipped.reversed {
-    transition: all 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
-    transform: translate(calc(-50% + var(--offset)), -50%) scale(2.2) rotateY(180deg) rotateZ(180deg) !important;
+    transition: all 2.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transform: translate(calc(-50% + var(--offset)), -50%) scale(2.2) rotateZ(180deg);
     transform-style: preserve-3d;
+}
+
+.tarot-placeholder.flipped.reversed .card-inner{
+    transform: rotateY('180deg') rotateZ('180deg');
 }
 
 .moon-card {
@@ -269,6 +284,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     margin-top: -10px;
     padding: 2.5rem;
+    margin-top: -8rem;
     border-radius: 15px;
     text-align: center;
     width: 350px;

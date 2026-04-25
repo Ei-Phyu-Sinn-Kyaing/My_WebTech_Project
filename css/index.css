@@ -49,6 +49,7 @@ body{
     text-align: center;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     max-width: 400px;
+    margin-top: -10rem;
     animation: pulseBounce 3s ease-in-out infinite;  /* Pulsing bounce animation */
 }
 
@@ -110,8 +111,18 @@ body{
     margin:auto;
 }
 
-/* ========== STARS ========== */
-.stars{
+/* ========== STAR Canvas ========== */
+#starCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Background မှာပဲ နေအောင် */
+    pointer-events: none;
+}
+
+/* .stars{
     position:fixed;
     inset:0;
     z-index:0;
@@ -137,8 +148,6 @@ body{
     50%{opacity:1}
 }
 
-
-/* shooting star styling */
 .shooting-star {
     position: absolute;
     height: 3px; 
@@ -170,17 +179,17 @@ body{
     }
     20% {
         opacity: 1;
-        transform: translateX(-100px) translateY(100px) rotate(-45deg) scale(1.2); /* လက်ခနဲ စပွင့်မယ် */
+        transform: translateX(-100px) translateY(100px) rotate(-45deg) scale(1.2);
     }
     100% {
-        transform: translateX(-800px) translateY(800px) rotate(-45deg) scale(0.5); /* ကျဉ်းသွားပြီး ပျောက်မယ် */
+        transform: translateX(-800px) translateY(800px) rotate(-45deg) scale(0.5); 
         opacity: 0;
     }
 }
 
 .shooting-star.active {
     animation: shoot 1.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
+} */
 
 
 

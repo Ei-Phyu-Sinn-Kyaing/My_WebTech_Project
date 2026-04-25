@@ -15,7 +15,7 @@
 <div id="music-overlay" class="music-overlay">
     <div class="ready-card">
         <h2>Are you ready to align with the stars?</h2>
-        <button id="ready-btn">Begin Journey</button>
+        <button id="ready-btn" onclick="indexClick.play()">Begin Journey</button>
     </div>
 </div>
 
@@ -29,7 +29,7 @@
     })();
 </script>
 
-<div class="stars" id="stars"></div>
+<canvas id="starCanvas"></canvas>
 
 <!-- navbar section -->
  <header>
@@ -154,7 +154,7 @@ Receive cosmic guidance from the cards.</div>
 <script src="js/sound-manager.js"></script>
 
 
-<script>
+<!-- <script>
 /* STAR on the background */
 const starContainer = document.getElementById("stars");
 
@@ -216,15 +216,110 @@ startShootingStars();
     window.addEventListener('scroll', () => {
     const scrollValue = window.scrollY;
 
-    // ၁။ Background Gradient ကို ရွေ့စေမယ်
-    // scroll လုပ်တဲ့အခါ background position ကို ပြောင်းလဲပေးတာပါ
+    //making background position and gradiant dynamic when scrolling
     document.body.style.backgroundPosition = `center ${scrollValue * 0.5}px`;
 
-    // ၂။ ကြယ်လေးတွေကို အနည်းငယ် ရွေ့စေမယ် (Parallax Effect)
-    // ကြယ်လေးတွေက scroll ထက် ပိုနှေးနှေးလေး ရွေ့နေသလို ခံစားရအောင် 0.2 နဲ့ မြှောက်ထားတယ်
+   //parallax effect for stars when scrolling
     const starsContainer = document.getElementById("stars");
     starsContainer.style.transform = `translateY(${scrollValue * 0.2}px)`;
 });
+</script> -->
+
+<script>
+const canvas = document.getElementById('starCanvas');
+const ctx = canvas.getContext('2d');
+
+let stars = [];
+let shootingStars = [];
+let scrollOffset = 0;
+
+function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    initStars();
+}
+
+// star creating
+function initStars() {
+    stars = [];
+    for (let i = 0; i < 150; i++) {
+        stars.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            size: Math.random() * 2,
+            opacity: Math.random(),
+            speed: Math.random() * 0.05 + 0.01 // Twinkle speed
+        });
+    }
+}
+
+// creating shooting stars
+function createShootingStar() {
+    shootingStars.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * (canvas.height / 2),
+        len: Math.random() * 80 + 50,
+        speed: Math.random() * 10 + 5,
+        opacity: 1
+    });
+    
+    // random delay for next star
+    setTimeout(createShootingStar, Math.random() * 3000 + 1000);
+}
+
+// canvas and animation loop
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    //star styling with twinkle and parallax effects
+    stars.forEach(s => {
+        s.opacity += s.speed;
+        if (s.opacity > 1 || s.opacity < 0.3) s.speed = -s.speed;
+        
+        ctx.beginPath();
+        ctx.arc(s.x, (s.y + scrollOffset * 0.2) % canvas.height, s.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(255, 255, 255, ${s.opacity})`;
+        ctx.fill();
+    });
+
+    // shooting stars styling
+    shootingStars.forEach((ss, index) => {
+        ctx.beginPath();
+        ctx.lineWidth = 2;
+        ctx.lineCap = 'round';
+        let gradient = ctx.createLinearGradient(ss.x, ss.y, ss.x + ss.len, ss.y - ss.len);
+        gradient.addColorStop(0, `rgba(255, 255, 255, ${ss.opacity})`);
+        gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
+        
+        ctx.strokeStyle = gradient;
+        ctx.moveTo(ss.x, ss.y);
+        ctx.lineTo(ss.x - ss.len, ss.y + ss.len);
+        ctx.stroke();
+
+        // movement logic
+        ss.x -= ss.speed;
+        ss.y += ss.speed;
+        ss.opacity -= 0.01;
+
+        if (ss.opacity <= 0) shootingStars.splice(index, 1);
+    });
+
+    requestAnimationFrame(animate);
+}
+
+// for scroll parallax
+window.addEventListener('scroll', () => {
+    scrollOffset = window.scrollY;
+    // Background gradient movement
+    document.body.style.backgroundPosition = `center ${scrollOffset * 0.5}px`;
+});
+
+window.addEventListener('resize', resizeCanvas);
+
+// function call
+resizeCanvas();
+createShootingStar();
+animate();
 </script>
 
 </body>
