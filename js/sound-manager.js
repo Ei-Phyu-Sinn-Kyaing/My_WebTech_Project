@@ -161,6 +161,9 @@ clickClick.volume = 0.5;
 const shuffleSound = new Audio('sounds/shuffle.mp3');
 shuffleSound.volume = 0.5;
 
+const spreadSound = new Audio('sounds/spread.mp3');
+spreadSound.volume = 0.5;
+
 const selectSound = new Audio('sounds/cardselect.mp3');
 selectSound.volume = 0.5;
 

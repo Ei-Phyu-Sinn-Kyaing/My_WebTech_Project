@@ -76,12 +76,25 @@
 }
 
 
-/* card Container */
+@keyframes shuffleFly {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(var(--x), var(--y)) rotate(var(--r)); }
+    50% { transform: translate(0, 0) rotate(360deg); }
+    75% { transform: translate(var(--x2), var(--y2)) rotate(var(--r2)); }
+    100% { transform: translate(0, 0) rotate(720deg); }
+}
+
+.shuffling-card {
+    animation: shuffleFly 0.8s ease-in-out infinite;
+    z-index: 100;
+}
+
 .card-Container {
     display: flex;
     justify-content: center;
     gap: -20px;
     margin-bottom: 2rem;
+    perspective: 1000px;
 }
 
 /* .shuffling-card {
@@ -163,7 +176,7 @@
 
 .tarot-placeholder.flipped {
     position: fixed;
-    top: 50%;
+    top: 12%;
     left: 50%;
     z-index: 1000;
     margin: 0;

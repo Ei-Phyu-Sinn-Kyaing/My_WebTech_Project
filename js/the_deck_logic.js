@@ -31,73 +31,6 @@ function displayUserInfo(){
     }
 }
 
-
-//for shuffling process
-const button = document.getElementById('shufflebutton');
-
-//data fetch
-fetch ('cards.json')
-    .then (response => response.json())
-    .then (
-        data => {
-        theDeck = shuffleTheDeck(data);  //auto shuffle on page laod
-        console.log ("Automatically shuffled on load: ",theDeck.map(c => c.name));
-        displayCards(theDeck);
-    }
-    )
-    .catch(error => console.error('Error in loading Deck:',error));
-
-
-//event handling for button shuffle manually
-button.addEventListener('click', function()
-{
-    button.classList.toggle('rotate');
-    setTimeout(() => button.classList.remove('rotate'), 1000); // rotation will stop later
-
-    if (theDeck.length>0)
-    {
-        counter = 0;
-        tempArray = [];
-        console.log ("Selected cards reseted due to reshuffle!")
-        theDeck = shuffleTheDeck(theDeck);  //overwrite by shuffling previous theDeck
-        console.log ('Reshuffled by using button: ', theDeck.map(c => c.name));
-        displayCards(theDeck);
-    }
-}
-);
-
-
-async function displayCards(cardDisplay){
-    const container = document.getElementById ('cardContainer');
-    container.innerHTML = " ";     //old data removed by every refresh
-
-    const displayByLimit = cardDisplay.slice(0,17);
-    displayByLimit.forEach((card, index) => {
-        const cardDiv = document.createElement ('div');
-        cardDiv.className = 'tarot-placeholder';
-        // cardDiv.innerHTML = `<img src="img/tarot_img1.jpg" alt="Tarot Card" card-index="${index}">`;
-        cardDiv.innerHTML = `
-            <div class="card-inner">
-                <img src="img/tarot_img1.jpg" class="card-back-face" alt="Back Side">
-                <img src="${card.image}" class="card-front-face" alt="Front Side">
-            </div>
-        `;
-
-        cardDiv.onclick = function() {
-            selectCards (index, cardDiv);
-        };
-
-        shuffleSound.play();
-        container.appendChild(cardDiv);
-
-        //appear one card by card
-        setTimeout(() => {
-            cardDiv.classList.add('spread');
-        }, index * 125);
-    });
-}
-
-
 //display moon phase
 function displayMoonPhase(){
     const moonPhase = sessionStorage.getItem('moonPhase') || "New Moon";
@@ -128,14 +61,96 @@ function displayMoonPhase(){
     moonTextCall.innerText = moonPhase;
 }
 
-function showCosmicAlert(message) {
-    const alertOverlay = document.getElementById('cosmic-alert');
-    document.getElementById('alert-message').innerText = message;
-    alertOverlay.classList.add('show');
-}
+//for shuffling process
+const button = document.getElementById('shufflebutton');
 
-function closeCosmicAlert() {
-    document.getElementById('cosmic-alert').classList.remove('show');
+//data fetch
+fetch ('cards.json')
+    .then (response => response.json())
+    .then (
+        data => {
+        theDeck = shuffleTheDeck(data);  //auto shuffle on page laod
+        console.log ("Automatically shuffled on load: ",theDeck.map(c => c.name));
+        displayCards(theDeck);
+    }
+    )
+    .catch(error => console.error('Error in loading Deck:',error));
+
+
+//event handling for button shuffle manually
+button.addEventListener('click', function()
+{
+    button.disabled = true; //to prevent button click during shuffling
+    button.classList.toggle('rotate');
+    const allCards = document.querySelectorAll('.tarot-placeholder');
+
+    shuffleSound.play();
+    allCards.forEach(card => {
+        // define random flying routes 
+        const rx1 = (Math.random() - 0.5) * 600 + 'px';
+        const ry1 = (Math.random() - 0.5) * 400 + 'px';
+        const rr1 = (Math.random() * 720) + 'deg';
+        
+        const rx2 = (Math.random() - 0.5) * 600 + 'px';
+        const ry2 = (Math.random() - 0.5) * 400 + 'px';
+        const rr2 = (Math.random() * 720) + 'deg';
+
+        card.style.setProperty('--x', rx1);
+        card.style.setProperty('--y', ry1);
+        card.style.setProperty('--r', rr1);
+        card.style.setProperty('--x2', rx2);
+        card.style.setProperty('--y2', ry2);
+        card.style.setProperty('--r2', rr2);
+
+        card.classList.add('shuffling-card');
+        card.style.pointerEvents = 'none'; //to prevent select during shuffling
+    });
+
+    setTimeout(() => {
+        if (theDeck.length>0)
+        {
+            button.classList.remove('rotate');
+            counter = 0;
+            tempArray = [];
+            theDeck = shuffleTheDeck(theDeck);
+            console.log ('Successfully Reshuffled by using button: ', theDeck.map(c => c.name));
+            displayCards(theDeck);
+
+            //UI unlock
+            button.classList.remove('rotate');
+            button.disabled = false;
+        }
+    }, 4400);
+});
+
+
+async function displayCards(cardDisplay){
+    const container = document.getElementById ('cardContainer');
+    container.innerHTML = " ";     //old data removed by every refresh
+
+    const displayByLimit = cardDisplay.slice(0,17);
+    displayByLimit.forEach((card, index) => {
+        const cardDiv = document.createElement ('div');
+        cardDiv.className = 'tarot-placeholder';
+        cardDiv.innerHTML = `
+            <div class="card-inner">
+                <img src="img/tarot_img1.jpg" class="card-back-face" alt="Back Side">
+                <img src="${card.image}" class="card-front-face" alt="Front Side">
+            </div>
+        `;
+
+        cardDiv.onclick = function() {
+            selectCards (index, cardDiv);
+        };
+
+        spreadSound.play();
+        container.appendChild(cardDiv);
+
+        //appear one card by card
+        setTimeout(() => {
+            cardDiv.classList.add('spread');
+        }, index * 125);
+    });
 }
 
 //card select function
@@ -175,32 +190,6 @@ function selectCards (index, element) {
 function revealCards(){
     const selectedCards = document.querySelectorAll('.tarot-placeholder.selected');
 
-    selectedCards.forEach((card, i) => {
-
-        //space define for selected card presentation
-        let offset = (i === 0) ? -200 : (i === 1) ? 0 : 200;
-        // CSS variable define
-        card.style.setProperty('--offset', offset + 'px');
-
-        const cardData = tempArray[i];
-
-        //adding reversed class when the selected card is reversed
-        if(cardData.isReversed){
-            card.classList.add('reversed');
-        }
-
-        revealSound.play();
-
-        setTimeout(()=>{
-            card.classList.add('flipped');
-        }, 
-        i*1100);
-    });
-}
-
-function revealCards(){
-    const selectedCards = document.querySelectorAll('.tarot-placeholder.selected');
-
     //reveal bg sound during revealing
     revealSound.play();
 
@@ -228,6 +217,17 @@ function revealCards(){
         }, 
         i*1100);
     });
+}
+
+
+function showCosmicAlert(message) {
+    const alertOverlay = document.getElementById('cosmic-alert');
+    document.getElementById('alert-message').innerText = message;
+    alertOverlay.classList.add('show');
+}
+
+function closeCosmicAlert() {
+    document.getElementById('cosmic-alert').classList.remove('show');
 }
 
 function checkBeforeNavigate(){
