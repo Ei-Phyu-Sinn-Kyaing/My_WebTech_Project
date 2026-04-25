@@ -127,19 +127,18 @@ function startMusic() {
     if (!isMuted) {
         const currentPage = window.location.pathname.split("/").pop() || "index.html";
         const newSrc = pageAudioMap[currentPage] || "sounds/theme.mp3";
-        const absoluteNewSrc = window.location.origin + "/" + newSrc;
 
         const lastSrc = sessionStorage.getItem('audioLastSrc');
         const lastTime = sessionStorage.getItem('audioLastTime');
         
-        if (bgAudio.src === absoluteNewSrc) {
+        if (bgAudio.src.endsWith(newSrc)) {
             if (bgAudio.paused) bgAudio.play();
             return;
         }
 
         bgAudio.src = newSrc;
 
-        if (lastSrc === absoluteNewSrc && lastTime) {
+        if (lastSrc && lastSrc.endsWith(newSrc) && lastTime) {
             bgAudio.currentTime = parseFloat(lastTime);
         }
 
