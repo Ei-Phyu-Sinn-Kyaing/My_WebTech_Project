@@ -29,13 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const sessionActive = sessionStorage.getItem('sessionActive');
     
     if (currentPage === "index.html" && !sessionActive) {
-        localStorage.setItem('isMuted', 'false');
+        sessionStorage.setItem('isMuted', 'false');
         if (overlay) overlay.style.display = 'flex';
     } else {
         if (overlay) overlay.style.display = 'none';
 
         // checking mute status when website is being used
-        const isMuted = localStorage.getItem('isMuted') === 'true';
+        const isMuted = sessionStorage.getItem('isMuted') === 'true';
         if (!isMuted) startMusic();
     }
 
@@ -90,9 +90,9 @@ function setupAudioUI() {
     wrapper.onmouseleave = () => { volContainer.style.height = "0"; volContainer.style.padding = "0 5px"; };
 
     speakerBtn.addEventListener('click', () => {
-        const currentlyMuted = localStorage.getItem('isMuted') === 'true';
+        const currentlyMuted = sessionStorage.getItem('isMuted') === 'true';
         const newState = !currentlyMuted;
-        localStorage.setItem('isMuted', newState);
+        sessionStorage.setItem('isMuted', newState);
         
         if (newState) {
             bgAudio.pause();
@@ -107,7 +107,7 @@ function setupAudioUI() {
         const val = e.target.value / 100;
         bgAudio.volume = val;
         if (val > 0) {
-            localStorage.setItem('isMuted', 'false');
+            sessionStorage.setItem('isMuted', 'false');
             speakerBtn.innerHTML= unmuteIcon;
             if (bgAudio.paused) bgAudio.play();
         }
@@ -123,16 +123,21 @@ function updateMuteButtonUI(isMuted) {
 }
 
 function startMusic() {
-    const isMuted = localStorage.getItem('isMuted') === 'true';
+    const isMuted = sessionStorage.getItem('isMuted') === 'true';
     if (!isMuted) {
-        const currentPage = window.location.pathname.split("/").pop() || "index.html";
+        // const currentPage = window.location.pathname.split("/").pop() || "index.html";
         const newSrc = pageAudioMap[currentPage] || "sounds/theme.mp3";
-        const absoluteNewSrc = window.location.origin + "/" + newSrc;
+        // const absoluteNewSrc = window.location.origin + "/" + newSrc;
 
         const lastSrc = sessionStorage.getItem('audioLastSrc');
         const lastTime = sessionStorage.getItem('audioLastTime');
         
-        if (bgAudio.src === absoluteNewSrc) {
+        // if (bgAudio.src === absoluteNewSrc) {
+        //     if (bgAudio.paused) bgAudio.play();
+        //     return;
+        // }
+
+        if (bgAudio.src.src.endsWith(newSrc)) {
             if (bgAudio.paused) bgAudio.play();
             return;
         }
