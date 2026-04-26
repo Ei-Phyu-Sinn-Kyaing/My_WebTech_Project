@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
         const categoryDropdown = document.getElementById('userCategory');
         if(categoryDropdown){
             categoryDropdown.value = selectedCategory;
-            console.log("Auto-selecteed category:", )
+            console.log("Auto-selecteed category:");
         }
     }
 });
