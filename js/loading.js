@@ -76,14 +76,17 @@ function navigateWithDelay(url, delayInSeconds = 2) {
     }, delayInSeconds * 1000);
 }
 
+window.addEventListener('pageshow', function (event) {
+    // if page is opened by cache (like browser default back button), 
+    // remove loading
+    if (event.persisted) {
+        hideLoading();
+    }
+});
+
 function hideLoading() {
     const loader = document.getElementById('loadingScreen');
     if (loader) {
         loader.style.display = 'none';
     }
 }
-
-// auto loading on page chaging (this is just optional)
-// window.onbeforeunload = function() {
-//     showLoading();
-// };

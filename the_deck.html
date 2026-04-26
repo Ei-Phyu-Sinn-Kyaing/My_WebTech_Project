@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Celestial Tarot — Oracle</title>
+<title>Celestial Tarot -Oracle-</title>
 <link rel="stylesheet" href="css/deck.css">
 <script src="js/loading.js"></script>
 
@@ -12,9 +12,6 @@
 <body>
 
 <main>
-<!-- Stars Background -->
-<div class="stars-container"></div>
-
 <!-- Navigation -->
 <div id="navbar"></div>
 
@@ -78,38 +75,3 @@
 
 </body>
 </html>
-
-
-
-
-<!-- <script>
-    const button = document.getElementById('shufflebutton');
-    
-    let tarotDeck = []; // JSON ကလာမယ့် data ကို သိမ်းဖို့ variable
-
-// ၁။ အစပိုင်းမှာ JSON data ကို အရင် Fetch လုပ်ထားမယ်
-fetch('cards.json')
-    .then(response => response.json())
-    .then(data => {
-        tarotDeck = data;
-        console.log("Deck Loaded and Ready!");
-    });
-
-// ၂။ Button နှိပ်တဲ့အခါ Animation ရော Shuffle ရော လုပ်မယ်
-    button.addEventListener('click', function() {
-    // Animation အတွက် class ထည့်မယ်
-    button.classList.toggle('rotate');
-
-    // Shuffle Algorithm ကို ခေါ်မယ်
-    if (tarotDeck.length > 0) {
-        const shuffledResult = shuffleTarotDeck(tarotDeck);
-        
-        // အလုပ်လုပ်မလုပ် Console မှာ စစ်ကြည့်မယ်
-        console.log("Button Clicked - New Shuffled Order:", shuffledResult.map(c => c.name));
-        
-        // ဒီနေရာမှာ နောက်ပိုင်းကျရင် UI ကို update လုပ်မယ့် function ထည့်လို့ရတယ်
-        // updateUI(shuffledResult); 
-    }
-});
-</script> -->
-

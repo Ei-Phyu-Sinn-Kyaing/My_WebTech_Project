@@ -6,15 +6,6 @@ body {
     color: white;
 }
 
-/* Stars */
-.stars-container {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    pointer-events: none;
-}
-
 
 .filter-container {
     margin: 1.5rem 3rem;
@@ -23,8 +14,6 @@ body {
     gap: 1rem;
 }
 
-
-/* Container တွေကို relative ထားပေးပါ */
 .dropdown-container {
     position: relative;
     display: inline-block;
@@ -61,7 +50,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: rgba(20, 20, 20, 0.95); /* နည်းနည်းမှောင်မှ စာဖတ်ရတာ ကြည်မှာပါ */
+    background: rgba(20, 20, 20, 0.95);
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
     z-index: 1;
@@ -92,7 +81,7 @@ body {
 .submenu {
     display: none;
     position: absolute;
-    left: 100%; /* ဘေးတိုက်ကပ်ထွက်လာဖို့ */
+    left: 100%;
     top: 0;
     background: rgba(30, 30, 30, 0.98);
     min-width: 140px;
@@ -101,12 +90,10 @@ body {
     border-radius: 4px;
 }
 
-/* Minor Arcana ကို hover လုပ်ရင် submenu ပေါ်စေတာ */
 .submenu-container:hover .submenu {
     display: block;
 }
 
-/* မြှားလေး ဘေးကို တွန်းပေးဖို့ */
 .submenu-container a span {
     float: right;
     margin-left: 10px;
@@ -172,13 +159,13 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
-    opacity: 0; /* ပုံမှန်ဆို ဖျောက်ထားမယ် */
+    opacity: 0;
     transition: opacity 0.4s ease;
     width: 90%;
     text-shadow: 0 0 10px rgba(0,0,0,0.8);
-    pointer-events: none; /* စာသားကြောင့် click လို့မရတာမျိုး မဖြစ်အောင် */
+    pointer-events: none;
 }
 
 .card-slot:hover .card-name-overlay {
-    opacity: 1; /* Hover လုပ်မှ ပြမယ် */
+    opacity: 1;
 }

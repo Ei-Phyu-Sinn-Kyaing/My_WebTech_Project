@@ -1,1 +1,0 @@
-This is just the basic html, css structure code for the proposed website and any advanced features and js logics are unlocked. So, wait for the report 2 for more advanced and comprehensive verion.

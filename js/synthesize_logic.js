@@ -31,10 +31,13 @@ const moonMeanings = {
 function typeWriter(element, text, speed = 25) {
     const typingSound = new Audio('sounds/typing.mp3');
     typingSound.volume = 0.5;
+    typingSound.loop = true;
     
     return new Promise((resolve) => {
         let i = 0;
         element.innerHTML = "";
+
+        typingSound.play();
         
         function type() {
             if (i < text.length) {
@@ -42,13 +45,15 @@ function typeWriter(element, text, speed = 25) {
                 i++;
                 setTimeout(type, speed);
             } else {
+                typingSound.pause();
+                typingSound.currentTime = 0;
                 resolve(); // signal to jump the next sentence after typing finished
             }
-            typingSound.play();
+            
         }
         type();
     });
-}
+}4
 
 async function generateSynthesizedReading() {
     //data extracting from localStorage, unpacking and formatting
@@ -113,7 +118,7 @@ async function generateSynthesizedReading() {
                             moving through ${narrativeParts[1]}, 
                             and finally manifesting into ${narrativeParts[2]}. 
                             Trust these signs as they align with your cosmic blueprint.
-                            Whatever happens, always remember the universe try to bless your beautiful soul.`;
+                            Whatever happens, always remember the universe tries to bless your beautiful soul.`;
 
     await typeWriter(finalNarrativeElement, finalNarrative, 13);
 }

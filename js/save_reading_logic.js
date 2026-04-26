@@ -96,30 +96,20 @@ function showConfirmAlert(message, options = { isConfirm: false, onConfirm: null
     
     if (options.isConfirm) {
         cancelBtn.classList.remove('hidden');
-        confirmCallback = options.onConfirm; 
-    } else {
-        cancelBtn.classList.add('hidden');
-        confirmCallback = null;
-    }
-    
-    alertOverlay.classList.add('show');
-}
-//when confirm button is clicked
-const confirmBtn = document.getElementById('alert-confirm-btn');
-
-    if (confirmCallback) {
+        confirmCallback = options.onConfirm;
         confirmBtn.onclick = function() {
-        confirmCallback();
-    }
-    closeCosmicAlert();
-};
-
-// if (confirmCallback) {
-//         document.getElementById('alert-confirm-btn').onclick = function() {
-//         confirmCallback();
-//     }
-//     closeCosmicAlert();
-// };
+            if (confirmCallback) {
+            confirmCallback();
+            }
+            closeCosmicAlert();
+        };
+        } else {
+            cancelBtn.classList.add('hidden');
+            confirmCallback = null;
+        }
+        
+        alertOverlay.classList.add('show');
+}
 
 function deleteReading(id) {
     showConfirmAlert("Are you sure you want to delete this reading?", {
@@ -208,11 +198,6 @@ function displayReadingDetail() {
 
 // running relevant function on Page load 
 document.addEventListener('DOMContentLoaded', () => {
-    //save button decision on page load
-    // const isSaved = localStorage.getItem('readingSavedStatus');
-    // if (isSaved === 'true') {
-    //     updateSaveButton();
-    // }
 
     //display functions
     displaySavedReadings();

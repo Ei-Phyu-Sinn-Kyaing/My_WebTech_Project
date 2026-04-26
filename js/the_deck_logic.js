@@ -239,8 +239,6 @@ function checkBeforeNavigate(){
     }
 }
 
-
-
 document.addEventListener('DOMContentLoaded', ()=>{
     displayUserInfo();
     displayMoonPhase();

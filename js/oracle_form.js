@@ -91,22 +91,3 @@ async function submitOracleForm(){
     window.location.href = 'the_deck.html';
 
 }
-
-
-
-
-
-// try{
-//         const timestamp = Math.floor(Date.now() / 1000);
-
-//         const response = await fetch(`https://api.farmsense.net/v1/moonphase/?d=${timestamp}`);
-//         const data = await response.json();
-
-//         const moonPhaseName = data[0].Phase;
-//         localStorage.setItem('moonPhase', moonPhaseName);
-//         console.log("MoonPhase is successfully fetched!")
-//     }
-//     catch(error){
-//         console.error("Moon Phase Fetch Error", error);
-//         localStorage.setItem('moonPhase', "Mystical Alignment");
-//     }

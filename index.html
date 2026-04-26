@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Celestial Tarot Oracle</title>
+<title>Celestial Tarot</title>
 
  <!-- External CSS -->
     <link rel="stylesheet" href="css/index.css">
@@ -21,11 +21,21 @@
 
 <script>
     (function() {
-        const audioEnabled = localStorage.getItem('audioEnabled');
+        const overlay = document.getElementById('music-overlay');
+        const audioEnabled = sessionStorage.getItem('audioEnabled');
         // overlay will be shown if a user has never clicked the button
         if (!audioEnabled) {
             document.getElementById('music-overlay').style.display = 'flex';
         }
+
+        document.getElementById('ready-btn').addEventListener('click', function() {
+            sessionStorage.setItem('audioEnabled', 'true');
+
+            overlay.classList.add('fade-out');
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 800);
+        });
     })();
 </script>
 
@@ -38,47 +48,8 @@
 
 <main>
 <section class="upper-container">
+    <h1 id="bouncing-text">Discover Your Cosmic Destiny</h1>
     <!-- <h1>Discover Your Cosmic Destiny</h1> -->
-     <h1>
-        <span>D</span>
-        <span>i</span>
-        <span>s</span>
-        <span>c</span>
-        <span>o</span>
-        <span>v</span>
-        <span>e</span>
-        <span>r</span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span>Y</span>
-        <span>o</span>
-        <span>u</span>
-        <span>r</span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span>C</span>
-        <span>o</span>
-        <span>s</span>
-        <span>m</span>
-        <span>i</span>
-        <span>c</span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span>D</span>
-        <span>e</span>
-        <span>s</span>
-        <span>t</span>
-        <span>i</span>
-        <span>n</span>
-        <span>y</span>
-     </h1>
-     
      
      <button class="cta-main" onclick="indexClick.play(); navigateWithDelay('oracle.html', 1.5)">Start Your Reading</button>
 </section>
@@ -153,7 +124,7 @@ Receive cosmic guidance from the cards.</div>
 <script src="js/navfooter.js"></script>
 <script src="js/sound-manager.js"></script>
 
-
+<!-- star and shootinstar creating (old version) -->
 <!-- <script>
 /* STAR on the background */
 const starContainer = document.getElementById("stars");
@@ -225,6 +196,8 @@ startShootingStars();
 });
 </script> -->
 
+
+<!-- star and shooting-star drawing with canvas -->
 <script>
 const canvas = document.getElementById('starCanvas');
 const ctx = canvas.getContext('2d');
@@ -321,6 +294,23 @@ resizeCanvas();
 createShootingStar();
 animate();
 </script>
+
+
+<!-- text bounce manipulation -->
+<script>
+    const textElement = document.getElementById('bouncing-text');
+    const text = textElement.innerText;
+    textElement.innerHTML = '';
+
+    [...text].forEach((char, index) => {
+    const span = document.createElement('span');
+    //for space handling
+    span.innerText = char === ' ' ? '\u00A0' : char; 
+    span.style.setProperty('--i', index); //define CSS variable
+    textElement.appendChild(span);
+});
+</script>
+
 
 </body>
 </html>

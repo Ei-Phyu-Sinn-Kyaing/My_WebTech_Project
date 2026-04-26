@@ -6,16 +6,6 @@ body {
     color: white;
 }
 
-/* Stars */
-.stars-container {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    pointer-events: none;
-}
-
-
 /* Back Button */
 .back-btn-container {
     margin: 1rem 3rem;
@@ -65,14 +55,6 @@ body {
     line-height: 1.7;
     backdrop-filter: blur(6px);
 }
-
-/* Reason cards row */
-/* .reason-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1rem;
-} */
 
 /* Features Section */
 .features {
