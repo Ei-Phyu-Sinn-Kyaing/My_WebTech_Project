@@ -1,3 +1,10 @@
+// Configuration values for API fetch
+const API_CONFIG = {
+    KEY: "40be0e119a3341678d7140357262004",
+    CITY: "Yangon",
+    BASE_URL: "https://api.weatherapi.com/v1/astronomy.json"
+};
+
 document.addEventListener('DOMContentLoaded', function(){
     const urlParameters = new URLSearchParams(window.location.search);
     const selectedCategory = urlParameters.get('category');
@@ -62,14 +69,15 @@ async function submitOracleForm(){
     //sessionstorage storing
     sessionStorage.setItem('onboardingFormData', JSON.stringify(userData));
 
-    const apiKey = "40be0e119a3341678d7140357262004"; 
-    const city = "Yangon"; // give Location
-
     try {
         //wait the api for only 3 secs
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 3000);
-        const response = await fetch(`https://api.weatherapi.com/v1/astronomy.json?key=${apiKey}&q=${city}`, { signal: controller.signal });
+
+        // creating URL using Template literals
+        const apiUrl = `${API_CONFIG.BASE_URL}?key=${API_CONFIG.KEY}&q=${API_CONFIG.CITY}`;
+
+        const response = await fetch(apiUrl, {signal: controller.signal});
         const data = await response.json();
 
         if (data.astronomy && data.astronomy.astro) {
