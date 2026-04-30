@@ -1,3 +1,8 @@
+/** * Algorithm: Fisher-Yates (Knuth) Shuffle
+ * Purpose: To ensure a mathematically fair and random distribution of cards
+ * Reference: https://bost.ocks.org/mike/shuffle/ 
+ */
+
 function shuffleTheDeck (deck) {     //this uses Fisher yates algorithm
     let n = deck.length;
 

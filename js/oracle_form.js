@@ -1,3 +1,7 @@
+// Using Fetch API with Async/Await for third-party API integration.
+// Reference: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+
 // Configuration values for API fetch
 const API_CONFIG = {
     KEY: "40be0e119a3341678d7140357262004",
@@ -5,6 +9,7 @@ const API_CONFIG = {
     BASE_URL: "https://api.weatherapi.com/v1/astronomy.json"
 };
 
+// Reference: https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
 document.addEventListener('DOMContentLoaded', function(){
     const urlParameters = new URLSearchParams(window.location.search);
     const selectedCategory = urlParameters.get('category');

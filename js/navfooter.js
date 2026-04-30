@@ -1,3 +1,5 @@
+// Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
 async function loadHTML(id, filename)
 {
     try{

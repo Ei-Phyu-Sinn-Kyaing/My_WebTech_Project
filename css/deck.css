@@ -1,3 +1,6 @@
+/* 3D Card Flip Animation  */
+    /* Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style  */
+
 
     body {
     margin: 0;
@@ -119,7 +122,7 @@
 
 .tarot-placeholder:hover {
     box-shadow: 0 0 10px rgba(255,255,255,0.8);
-   transform: rotate(-5deg) translateY(-10px);
+    transform: rotate(-5deg) translateY(-10px);
 }
 
 .card-inner {
@@ -128,8 +131,9 @@
     height: 100%;
     text-align: center;
     transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-    transform-style: preserve-3d;
+    transform-style: preserve-3d;    
 }
+
 
 .card-inner img {
     position: absolute;

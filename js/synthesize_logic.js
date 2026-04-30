@@ -1,3 +1,6 @@
+// Managing application state using SessionStorage for temporary user sessions
+// Reference: https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage
+
 const zodiacTraits = {
     "Scorpio": "your intense intuition and transformative energy",
     "Aries": "your bold leadership and courageous spirit",
