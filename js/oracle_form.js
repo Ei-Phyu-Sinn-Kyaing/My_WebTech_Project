@@ -5,7 +5,7 @@
 // Configuration values for API fetch
 const API_CONFIG = {
     KEY: "40be0e119a3341678d7140357262004",
-    CITY: "Yangon",
+    CITY: "auto:ip",
     BASE_URL: "https://api.weatherapi.com/v1/astronomy.json"
 };
 
